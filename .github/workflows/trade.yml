@@ -1,0 +1,36 @@
+name: Daily Trading Robot
+
+on:
+  schedule:
+    # Runs at 16:45 UTC (17:45 CET) every Monday-Friday
+    - cron: '45 16 * * 1-5'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas yfinance vaderSentiment schedule plotly streamlit
+
+      - name: Run Trading Analysis
+        run: |
+          python stock_robot.py --now
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add portfolio.json data/equity_history.json data/robot.log
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Robot: Daily Analysis & Trade Update [skip ci]" && git push)
