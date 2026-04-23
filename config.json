@@ -1,0 +1,23 @@
+{
+    "auto_run": true,
+    "run_time": "17:15",
+    "starting_capital": 5000,
+    "commission_pct": 0.0025,
+    "commission_min": 1.0,
+    "active_strategies": [
+        "sma_trend",
+        "news_sentiment"
+    ],
+    "tickers": [
+        "VOLV-B.ST",
+        "INVE-B.ST",
+        "SEB-A.ST",
+        "AZN.ST",
+        "HM-B.ST",
+        "ERIC-B.ST",
+        "NDA-SE.ST",
+        "TELIA.ST",
+        "ABB.ST",
+        "SKF-B.ST"
+    ]
+}
