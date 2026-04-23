@@ -27,5 +27,9 @@
     "macd_momentum": {
         "cash": 5000.0,
         "positions": {}
+    },
+    "small_cap_volatility": {
+        "cash": 5000.0,
+        "positions": {}
     }
 }

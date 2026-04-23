@@ -494,7 +494,8 @@ else:
             'news_sentiment': '#3B82F6',
             'rsi_reversion': '#F59E0B',
             'bollinger_reversion': '#EC4899',
-            'macd_momentum': '#8B5CF6'
+            'macd_momentum': '#8B5CF6',
+            'small_cap_volatility': '#EF4444'
         }
         for s_id in strategy_ids:
             s_history = history_df[history_df['strategy'] == s_id]

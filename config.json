@@ -9,23 +9,13 @@
         "news_sentiment",
         "rsi_reversion",
         "bollinger_reversion",
-        "macd_momentum"
+        "macd_momentum",
+        "small_cap_volatility"
     ],
     "tickers": [
-        "VOLV-B.ST",
-        "INVE-B.ST",
-        "SEB-A.ST",
-        "AZN.ST",
-        "HM-B.ST",
-        "ERIC-B.ST",
-        "NDA-SE.ST",
-        "TELIA.ST",
-        "ABB.ST",
-        "SKF-B.ST",
-        "ASSAB.ST",
-        "ALIV-SDB.ST",
-        "ATCO-A.ST",
-        "SAND.ST",
-        "SWED-A.ST"
+        "VOLV-B.ST", "INVE-B.ST", "SEB-A.ST", "AZN.ST", "HM-B.ST", "ERIC-B.ST", 
+        "NDA-SE.ST", "TELIA.ST", "ABB.ST", "SKF-B.ST", "ASSAB.ST", "ALIV-SDB.ST", 
+        "ATCO-A.ST", "SAND.ST", "SWED-A.ST", "SBB-B.ST", "SINCH.ST", "FING-B.ST", 
+        "VIAP-B.ST", "SAS.ST", "KIND-SDB.ST", "G5EN.ST", "BETCO.ST", "CAST.ST"
     ]
 }
