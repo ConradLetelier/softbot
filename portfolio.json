@@ -1,0 +1,19 @@
+{
+    "sma_trend": {
+        "cash": 3037.6746646118163,
+        "positions": {
+            "ERIC-B.ST": {
+                "shares": 9,
+                "buy_price": 108.55000305175781
+            },
+            "TELIA.ST": {
+                "shares": 20,
+                "buy_price": 47.7400016784668
+            }
+        }
+    },
+    "news_sentiment": {
+        "cash": 5000.0,
+        "positions": {}
+    }
+}
