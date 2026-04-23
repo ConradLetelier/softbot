@@ -7,11 +7,11 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 class NewsSentimentStrategy(Strategy):
     def __init__(self):
         self.analyzer = SentimentIntensityAnalyzer()
-        self.buy_threshold = 0.35
-        self.sell_threshold = 0.0
-        self.stop_loss_pct = 0.03  # 3% Hard Stop Loss
-        self.trailing_stop_pct = 0.02  # 2% Trailing Stop Loss
-        self.eod_exit_time = dtime(17, 20)
+        self.buy_threshold = 0.15
+        self.sell_threshold = 0.05
+        self.stop_loss_pct = 0.05
+        self.trailing_stop_pct = 0.03
+        self.eod_exit_time = None # Disabled to allow overnight swings
 
     def generate_signal(
         self, 
@@ -27,11 +27,7 @@ class NewsSentimentStrategy(Strategy):
         current_price = float(data['Close'].iloc[-1])
         now_time = current_time or datetime.now().time()
 
-        # 1. End-of-Day Exit (Sell everything before market close)
-        if current_position and now_time >= self.eod_exit_time:
-            return 'SELL', current_price
-
-        # 2. Check for Stops if we have a position
+        # 1. Check for Stops if we have a position
         if current_position:
             buy_price = current_position.get('buy_price')
             high_price = current_position.get('high_price', buy_price)

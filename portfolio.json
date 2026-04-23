@@ -15,5 +15,17 @@
     "news_sentiment": {
         "cash": 5000.0,
         "positions": {}
+    },
+    "rsi_reversion": {
+        "cash": 5000.0,
+        "positions": {}
+    },
+    "bollinger_reversion": {
+        "cash": 5000.0,
+        "positions": {}
+    },
+    "macd_momentum": {
+        "cash": 5000.0,
+        "positions": {}
     }
 }

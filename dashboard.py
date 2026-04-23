@@ -489,14 +489,20 @@ else:
         fig_bench = go.Figure()
         
         # Plot Strategies from History
-        colors = {'sma_trend': '#22C55E', 'news_sentiment': '#3B82F6'}
+        strategy_colors = {
+            'sma_trend': '#22C55E', 
+            'news_sentiment': '#3B82F6',
+            'rsi_reversion': '#F59E0B',
+            'bollinger_reversion': '#EC4899',
+            'macd_momentum': '#8B5CF6'
+        }
         for s_id in strategy_ids:
             s_history = history_df[history_df['strategy'] == s_id]
             if not s_history.empty:
                 fig_bench.add_trace(go.Scatter(
                     x=s_history['timestamp'], y=s_history['value'],
                     name=f"{s_id.replace('_', ' ').title()} (Actual)",
-                    line=dict(color=colors.get(s_id, '#FFFFFF'), width=3)
+                    line=dict(color=strategy_colors.get(s_id, '#FFFFFF'), width=3)
                 ))
 
         # Plot Indices

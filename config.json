@@ -6,7 +6,10 @@
     "commission_min": 1.0,
     "active_strategies": [
         "sma_trend",
-        "news_sentiment"
+        "news_sentiment",
+        "rsi_reversion",
+        "bollinger_reversion",
+        "macd_momentum"
     ],
     "tickers": [
         "VOLV-B.ST",
@@ -18,6 +21,11 @@
         "NDA-SE.ST",
         "TELIA.ST",
         "ABB.ST",
-        "SKF-B.ST"
+        "SKF-B.ST",
+        "ASSAB.ST",
+        "ALIV-SDB.ST",
+        "ATCO-A.ST",
+        "SAND.ST",
+        "SWED-A.ST"
     ]
 }
