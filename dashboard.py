@@ -10,6 +10,15 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # Initialize Sentiment Analyzer
 analyzer = SentimentIntensityAnalyzer()
 
+STRATEGY_INFO = {
+    "sma_trend": "Trend-following strategy that buys when the price is above its 50-day SMA, and the 50-day SMA is above the 200-day SMA. Exits when price drops below SMA 50.",
+    "news_sentiment": "Sentiment-based strategy that analyzes recent news headlines. Buys when average sentiment is positive (>0.15) and uses a trailing stop to lock in profits.",
+    "rsi_reversion": "Mean-reversion strategy using the Relative Strength Index (RSI). Buys when 'Oversold' (<30) and sells when 'Overbought' (>65).",
+    "bollinger_reversion": "Volatility-based strategy using Bollinger Bands. Buys at the Lower Band and sells when the price returns to the 20-day moving average.",
+    "macd_momentum": "Momentum strategy using MACD crossovers. Buys when the MACD line crosses above the Signal line, and sells on the reverse crossover.",
+    "small_cap_volatility": "High-risk breakout strategy for small caps. Buys on new 20-day highs with strong volume (>1.5x average). Uses tight 5% trailing stops."
+}
+
 # Page Configuration
 st.set_page_config(
     page_title="Stockholm Quant",
@@ -343,6 +352,7 @@ else:
         with tabs[i]:
             strat_name = strat_id.replace('_', ' ').title()
             st.subheader(f"{strat_name} Strategy")
+            st.info(STRATEGY_INFO.get(strat_id, "Quantitative trading strategy."))
             
             strat_portfolio = portfolio_data[strat_id]
             active_tickers = list(strat_portfolio['positions'].keys())
@@ -369,23 +379,6 @@ else:
             
             with col_left:
                 st.markdown("### 📈 Technical Analysis")
-                ticker_news = []
-                avg_sentiment = 0.0
-                if strat_id == 'news_sentiment':
-                    try:
-                        t_obj = yf.Ticker(st.session_state.selected_asset)
-                        ticker_news = t_obj.news
-                        if ticker_news:
-                            scores = []
-                            for item in ticker_news:
-                                content = item.get('content', item)
-                                title = content.get('title')
-                                if title:
-                                    scores.append(analyzer.polarity_scores(title)['compound'])
-                            if scores:
-                                avg_sentiment = sum(scores) / len(scores)
-                    except Exception:
-                        pass
                 
                 selected_index = 0
                 if st.session_state.selected_asset in ticker_list:
@@ -396,40 +389,116 @@ else:
                 )
                 st.session_state.selected_asset = selected_ticker
                 
-                if strat_id == 'news_sentiment':
-                    s_color = "#22C55E" if avg_sentiment >= 0.35 else "#EF4444" if avg_sentiment <= -0.1 else "#94A3B8"
-                    st.markdown(f"""
-                        <div style="background-color: var(--secondary); padding: 15px; border-radius: 10px; border-left: 5px solid {s_color}; margin-bottom: 20px;">
-                            <div style="font-size: 0.8rem; color: var(--muted); text-transform: uppercase;">Average News Sentiment</div>
-                            <div style="font-size: 1.8rem; font-weight: 700; color: {s_color};">{avg_sentiment:+.2f}</div>
-                            <div style="font-size: 0.75rem; color: var(--muted);">Based on {len(ticker_news)} recent articles</div>
-                        </div>
-                    """, unsafe_allow_html=True)
-                
                 try:
-                    data = yf.download(selected_ticker, period="2y", interval="1d")
+                    # Download data once for the selected ticker
+                    data = yf.download(selected_ticker, period="2y", interval="1d", progress=False)
                     if data is not None and not data.empty:
                         if isinstance(data.columns, pd.MultiIndex):
                             data.columns = data.columns.get_level_values(0)
                 except Exception:
                     data = pd.DataFrame()
 
-                if data is not None and not data.empty:
-                    data['SMA50'] = data['Close'].rolling(window=50).mean()
-                    data['SMA200'] = data['Close'].rolling(window=200).mean()
-                    plot_data = data.tail(252)
-                    
+                if not data.empty:
+                    plot_data = data.tail(150) # Last 6 months approx
                     fig = go.Figure()
+                    
+                    # Base Price Trace
                     fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['Close'], name="Price", line=dict(color='#F8FAFC', width=2)))
-                    fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA50'], name="SMA 50", line=dict(color='#22C55E', width=2)))
-                    fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA200'], name="SMA 200", line=dict(color='#EF4444', width=2)))
+
+                    # --- STRATEGY SPECIFIC OVERLAYS ---
+                    if strat_id == 'sma_trend':
+                        plot_data['SMA50'] = data['Close'].rolling(window=50).mean()
+                        plot_data['SMA200'] = data['Close'].rolling(window=200).mean()
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA50'], name="SMA 50", line=dict(color='#22C55E', width=1.5)))
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA200'], name="SMA 200", line=dict(color='#EF4444', width=1.5)))
+                    
+                    elif strat_id == 'bollinger_reversion':
+                        plot_data['MA20'] = data['Close'].rolling(window=20).mean()
+                        plot_data['STD20'] = data['Close'].rolling(window=20).std()
+                        plot_data['Upper'] = plot_data['MA20'] + (plot_data['STD20'] * 2)
+                        plot_data['Lower'] = plot_data['MA20'] - (plot_data['STD20'] * 2)
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['Upper'], name="Upper Band", line=dict(color='rgba(236, 72, 153, 0.3)', width=1, dash='dot')))
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['Lower'], name="Lower Band", line=dict(color='rgba(236, 72, 153, 0.3)', width=1, dash='dot'), fill='tonexty', fillcolor='rgba(236, 72, 153, 0.05)'))
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['MA20'], name="MA 20", line=dict(color='#EC4899', width=1)))
+
+                    elif strat_id == 'small_cap_volatility':
+                        plot_data['High20'] = data['High'].rolling(window=20).max().shift(1)
+                        fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['High20'], name="20D High", line=dict(color='#EF4444', width=1, dash='dash')))
+
+                    # Global Layout
                     last_price = float(plot_data['Close'].iloc[-1])
-                    fig.add_hline(y=last_price, line_dash="dot", line_color="#94A3B8", annotation_text=f"Last: {last_price:.2f}", annotation_position="bottom right")
-                    fig.update_layout(template=plotly_template, height=450, margin=dict(l=0, r=0, t=20, b=0),
+                    fig.add_hline(y=last_price, line_dash="dot", line_color="#94A3B8", annotation_text=f"Last: {last_price:.2f}")
+                    fig.update_layout(template=plotly_template, height=400, margin=dict(l=0, r=0, t=20, b=0),
                                     paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
                                     font=dict(family="Fira Code", color="#F8FAFC"), xaxis=dict(showgrid=True, gridcolor='#1E293B'),
                                     yaxis=dict(showgrid=True, gridcolor='#1E293B'), hovermode="x unified")
                     st.plotly_chart(fig, use_container_width=True, key=f"chart_{strat_id}")
+
+                    # --- STRATEGY SPECIFIC SECONDARY CHARTS ---
+                    if strat_id == 'rsi_reversion':
+                        # RSI Sub-chart
+                        delta = data['Close'].diff()
+                        gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+                        loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+                        data['RSI'] = 100 - (100 / (1 + (gain / loss)))
+                        rsi_plot = data['RSI'].tail(150)
+                        
+                        fig_rsi = go.Figure()
+                        fig_rsi.add_trace(go.Scatter(x=rsi_plot.index, y=rsi_plot, name="RSI", line=dict(color='#F59E0B', width=2)))
+                        fig_rsi.add_hline(y=70, line_color="#EF4444", line_dash="dash")
+                        fig_rsi.add_hline(y=30, line_color="#22C55E", line_dash="dash")
+                        fig_rsi.update_layout(template=plotly_template, height=200, margin=dict(l=0, r=0, t=10, b=0),
+                                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                                            yaxis=dict(range=[0, 100], gridcolor='#1E293B'), xaxis=dict(showgrid=True, gridcolor='#1E293B'))
+                        st.plotly_chart(fig_rsi, use_container_width=True, key=f"rsi_chart_{strat_id}")
+
+                    elif strat_id == 'macd_momentum':
+                        # MACD Sub-chart
+                        exp1 = data['Close'].ewm(span=12, adjust=False).mean()
+                        exp2 = data['Close'].ewm(span=26, adjust=False).mean()
+                        macd = exp1 - exp2
+                        signal = macd.ewm(span=9, adjust=False).mean()
+                        hist = macd - signal
+                        
+                        fig_macd = go.Figure()
+                        fig_macd.add_trace(go.Scatter(x=plot_data.index, y=macd.tail(150), name="MACD", line=dict(color='#8B5CF6', width=1.5)))
+                        fig_macd.add_trace(go.Scatter(x=plot_data.index, y=signal.tail(150), name="Signal", line=dict(color='#F8FAFC', width=1.5, dash='dot')))
+                        fig_macd.add_trace(go.Bar(x=plot_data.index, y=hist.tail(150), name="Histogram", marker_color='rgba(139, 92, 246, 0.3)'))
+                        fig_macd.update_layout(template=plotly_template, height=200, margin=dict(l=0, r=0, t=10, b=0),
+                                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                                            yaxis=dict(gridcolor='#1E293B'), xaxis=dict(showgrid=True, gridcolor='#1E293B'))
+                        st.plotly_chart(fig_macd, use_container_width=True, key=f"macd_chart_{strat_id}")
+
+                    elif strat_id == 'small_cap_volatility':
+                        # Volume Sub-chart
+                        fig_vol = go.Figure()
+                        fig_vol.add_trace(go.Bar(x=plot_data.index, y=plot_data['Volume'], name="Volume", marker_color='#475569'))
+                        fig_vol.update_layout(template=plotly_template, height=150, margin=dict(l=0, r=0, t=10, b=0),
+                                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                                            yaxis=dict(gridcolor='#1E293B'), xaxis=dict(showgrid=True, gridcolor='#1E293B'))
+                        st.plotly_chart(fig_vol, use_container_width=True, key=f"vol_chart_{strat_id}")
+
+                    elif strat_id == 'news_sentiment':
+                        # Sentiment Details
+                        t_obj = yf.Ticker(selected_ticker)
+                        ticker_news = t_obj.news[:10]
+                        if ticker_news:
+                            sentiments = []
+                            for n in ticker_news:
+                                title = n.get('content', n).get('title')
+                                if title:
+                                    s = analyzer.polarity_scores(title)['compound']
+                                    sentiments.append({"Title": title[:50]+"...", "Score": s})
+                            
+                            if sentiments:
+                                df_s = pd.DataFrame(sentiments)
+                                fig_sent = go.Figure(go.Bar(x=df_s['Score'], y=df_s['Title'], orientation='h', 
+                                                           marker_color=['#22C55E' if x > 0 else '#EF4444' if x < 0 else '#94A3B8' for x in df_s['Score']]))
+                                fig_sent.update_layout(template=plotly_template, height=300, margin=dict(l=0, r=0, t=10, b=0),
+                                                      paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                                                      xaxis=dict(title="Sentiment Score", range=[-1, 1], gridcolor='#1E293B'),
+                                                      yaxis=dict(showgrid=False))
+                                st.plotly_chart(fig_sent, use_container_width=True, key=f"news_chart_{strat_id}")
 
             with col_right:
                 st.markdown("### 📦 Active Positions")
