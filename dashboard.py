@@ -395,13 +395,11 @@ else:
                     if data is not None and not data.empty:
                         if isinstance(data.columns, pd.MultiIndex):
                             data.columns = data.columns.get_level_values(0)
-                    else:
-                        data = pd.DataFrame()
                 except Exception:
                     data = pd.DataFrame()
 
-                if data is not None and not data.empty:
-                    plot_data = data.tail(150).copy() # Last 6 months approx
+                if not data.empty:
+                    plot_data = data.tail(150) # Last 6 months approx
                     fig = go.Figure()
                     
                     # Base Price Trace
@@ -409,32 +407,22 @@ else:
 
                     # --- STRATEGY SPECIFIC OVERLAYS ---
                     if strat_id == 'sma_trend':
-                        # Use full data for rolling calculation to avoid NaNs at start of slice
-                        data_full = data.copy()
-                        data_full['SMA50'] = data_full['Close'].rolling(window=50).mean()
-                        data_full['SMA200'] = data_full['Close'].rolling(window=200).mean()
-                        plot_data['SMA50'] = data_full['SMA50'].tail(150)
-                        plot_data['SMA200'] = data_full['SMA200'].tail(150)
+                        plot_data['SMA50'] = data['Close'].rolling(window=50).mean()
+                        plot_data['SMA200'] = data['Close'].rolling(window=200).mean()
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA50'], name="SMA 50", line=dict(color='#22C55E', width=1.5)))
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['SMA200'], name="SMA 200", line=dict(color='#EF4444', width=1.5)))
                     
                     elif strat_id == 'bollinger_reversion':
-                        data_full = data.copy()
-                        data_full['MA20'] = data_full['Close'].rolling(window=20).mean()
-                        data_full['STD20'] = data_full['Close'].rolling(window=20).std()
-                        data_full['Upper'] = data_full['MA20'] + (data_full['STD20'] * 2)
-                        data_full['Lower'] = data_full['MA20'] - (data_full['STD20'] * 2)
-                        plot_data['Upper'] = data_full['Upper'].tail(150)
-                        plot_data['Lower'] = data_full['Lower'].tail(150)
-                        plot_data['MA20'] = data_full['MA20'].tail(150)
+                        plot_data['MA20'] = data['Close'].rolling(window=20).mean()
+                        plot_data['STD20'] = data['Close'].rolling(window=20).std()
+                        plot_data['Upper'] = plot_data['MA20'] + (plot_data['STD20'] * 2)
+                        plot_data['Lower'] = plot_data['MA20'] - (plot_data['STD20'] * 2)
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['Upper'], name="Upper Band", line=dict(color='rgba(236, 72, 153, 0.3)', width=1, dash='dot')))
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['Lower'], name="Lower Band", line=dict(color='rgba(236, 72, 153, 0.3)', width=1, dash='dot'), fill='tonexty', fillcolor='rgba(236, 72, 153, 0.05)'))
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['MA20'], name="MA 20", line=dict(color='#EC4899', width=1)))
 
                     elif strat_id == 'small_cap_volatility':
-                        data_full = data.copy()
-                        data_full['High20'] = data_full['High'].rolling(window=20).max().shift(1)
-                        plot_data['High20'] = data_full['High20'].tail(150)
+                        plot_data['High20'] = data['High'].rolling(window=20).max().shift(1)
                         fig.add_trace(go.Scatter(x=plot_data.index, y=plot_data['High20'], name="20D High", line=dict(color='#EF4444', width=1, dash='dash')))
 
                     # Global Layout
@@ -534,19 +522,11 @@ else:
     # Benchmarking Tab (Last)
     with tabs[-1]:
         st.subheader("Strategy Benchmarking")
+        st.markdown("Comparing active strategies against Swedish indices starting **March 15, 2026**.")
         
-        # 1. Determine Start Date from History
-        history_df = pd.DataFrame(equity_history)
-        if not history_df.empty:
-            history_df['timestamp'] = pd.to_datetime(history_df['timestamp'])
-            history_df = history_df.sort_values('timestamp')
-            min_date = history_df['timestamp'].min().strftime("%Y-%m-%d")
-        else:
-            min_date = "2026-03-15"
-
-        st.markdown(f"Comparing active strategies against Swedish indices starting **{min_date}**.")
+        start_date = "2026-03-15"
         
-        # 2. Fetch Real Index Data
+        # 1. Fetch Real Index Data
         @st.cache_data(ttl=3600)
         def get_index_data(start):
             indices = {"OMXS30": "^OMX", "OMXSPI": "^OMXSPI"}
@@ -555,6 +535,7 @@ else:
                 try:
                     df = yf.download(ticker, start=start, progress=False)
                     if df is not None and not df.empty:
+                        # Handle MultiIndex if present
                         if hasattr(df, 'columns') and isinstance(df.columns, pd.MultiIndex):
                             df.columns = df.columns.get_level_values(0)
                         
@@ -566,11 +547,17 @@ else:
                     continue
             return data
 
-        index_hist = get_index_data(min_date)
+        index_hist = get_index_data(start_date)
         
+        # 2. Process Equity History
+        history_df = pd.DataFrame(equity_history)
+        if not history_df.empty:
+            history_df['timestamp'] = pd.to_datetime(history_df['timestamp'])
+            history_df = history_df.sort_values('timestamp')
+            
         fig_bench = go.Figure()
         
-        # 3. Plot Strategies from History
+        # Plot Strategies from History
         strategy_colors = {
             'sma_trend': '#22C55E', 
             'news_sentiment': '#3B82F6',
@@ -579,18 +566,16 @@ else:
             'macd_momentum': '#8B5CF6',
             'small_cap_volatility': '#EF4444'
         }
-        
-        all_strat_ids = list(history_df['strategy'].unique()) if not history_df.empty else strategy_ids
-        for s_id in all_strat_ids:
+        for s_id in strategy_ids:
             s_history = history_df[history_df['strategy'] == s_id]
             if not s_history.empty:
                 fig_bench.add_trace(go.Scatter(
                     x=s_history['timestamp'], y=s_history['value'],
-                    name=f"{s_id.replace('_', ' ').title()}",
-                    line=dict(color=strategy_colors.get(s_id, '#FFFFFF'), width=2.5)
+                    name=f"{s_id.replace('_', ' ').title()} (Actual)",
+                    line=dict(color=strategy_colors.get(s_id, '#FFFFFF'), width=3)
                 ))
 
-        # 4. Plot Indices
+        # Plot Indices
         index_colors = {"OMXS30": "#94A3B8", "OMXSPI": "#64748B"}
         for name, df in index_hist.items():
             fig_bench.add_trace(go.Scatter(
@@ -608,17 +593,11 @@ else:
         )
         st.plotly_chart(fig_bench, use_container_width=True)
         
-        # 5. Performance Table
+        # Performance Table
         st.markdown("### 📊 Absolute Performance")
         rows = []
-        for s_id in all_strat_ids:
-            s_history = history_df[history_df['strategy'] == s_id]
-            if not s_history.empty:
-                val_start = s_history.iloc[0]['value']
-                val_end = s_history.iloc[-1]['value']
-                ret = ((val_end / val_start) - 1) * 100
-                rows.append({"Source": s_id.replace('_', ' ').title(), "Return": f"{ret:+.2f}%", "Status": "Live"})
-        
+        for s_id in strategy_ids:
+            rows.append({"Source": s_id.replace('_', ' ').title(), "Return": f"{perf_data.get(s_id, 0):+.2f}%", "Status": "Live"})
         for name, df in index_hist.items():
             ret = ((float(df['Close'].iloc[-1]) / float(df['Close'].iloc[0])) - 1) * 100
             rows.append({"Source": f"{name} Index", "Return": f"{ret:+.2f}%", "Status": "Benchmark"})
