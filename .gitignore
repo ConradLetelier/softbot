@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/robot.log
+data/equity_history.json
+portfolio.json
+.opencode/
+node_modules/
+.streamlit/
+config.json
