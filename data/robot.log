@@ -426,3 +426,12 @@
 2026-04-24 14:14:12,511 [INFO] [+] [sma_trend] BOUGHT 5 NDA-SE.ST
 2026-04-24 14:14:14,771 [INFO] [*] Daily analysis complete.
 2026-04-24 14:14:14,771 [INFO] [*] Checking for live news...
+2026-04-24 15:48:04,733 [INFO] [*] Loaded strategy: sma_trend
+2026-04-24 15:48:04,743 [INFO] [*] Loaded strategy: news_sentiment
+2026-04-24 15:48:04,744 [INFO] [*] Loaded strategy: rsi_reversion
+2026-04-24 15:48:04,745 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-04-24 15:48:04,746 [INFO] [*] Loaded strategy: macd_momentum
+2026-04-24 15:48:04,747 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-04-24 15:48:04,747 [INFO] [*] Starting daily technical analysis...
+2026-04-24 15:48:12,405 [INFO] [*] Daily analysis complete.
+2026-04-24 15:48:12,405 [INFO] [*] Checking for live news...
