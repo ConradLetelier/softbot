@@ -59,8 +59,15 @@
         }
     },
     "macd_momentum": {
-        "cash": 5000.0,
-        "positions": {}
+        "cash": 4013.339457168579,
+        "positions": {
+            "BETCO.ST": {
+                "shares": 7,
+                "buy_price": 140.60000610351562,
+                "high_price": 140.60000610351562,
+                "buy_time": "2026-04-27 14:34"
+            }
+        }
     },
     "small_cap_volatility": {
         "cash": 5000.0,
