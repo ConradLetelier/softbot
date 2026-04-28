@@ -509,3 +509,14 @@
 2026-04-27 18:03:02,756 [INFO] [*] Starting daily technical analysis...
 2026-04-27 18:03:08,627 [INFO] [*] Daily analysis complete.
 2026-04-27 18:03:08,628 [INFO] [*] Checking for live news...
+2026-04-28 10:15:14,642 [INFO] [*] Loaded strategy: sma_trend
+2026-04-28 10:15:14,651 [INFO] [*] Loaded strategy: news_sentiment
+2026-04-28 10:15:14,652 [INFO] [*] Loaded strategy: rsi_reversion
+2026-04-28 10:15:14,653 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-04-28 10:15:14,654 [INFO] [*] Loaded strategy: macd_momentum
+2026-04-28 10:15:14,655 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-04-28 10:15:14,655 [INFO] [*] Starting daily technical analysis...
+2026-04-28 10:15:16,325 [INFO] [+] [rsi_reversion] BOUGHT 9 ERIC-B.ST
+2026-04-28 10:15:18,308 [INFO] [-] [macd_momentum] SOLD BETCO.ST
+2026-04-28 10:15:18,487 [INFO] [*] Daily analysis complete.
+2026-04-28 10:15:18,488 [INFO] [*] Checking for live news...

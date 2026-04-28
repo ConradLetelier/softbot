@@ -37,13 +37,19 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 4000.407216155529,
+        "cash": 3065.6762299227717,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
                 "buy_price": 3.380000114440918,
                 "high_price": 3.380000114440918,
                 "buy_time": "2026-04-23 17:21"
+            },
+            "ERIC-B.ST": {
+                "shares": 9,
+                "buy_price": 103.5999984741211,
+                "high_price": 103.5999984741211,
+                "buy_time": "2026-04-28 10:15"
             }
         }
     },
@@ -65,15 +71,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 4013.339457168579,
-        "positions": {
-            "BETCO.ST": {
-                "shares": 7,
-                "buy_price": 140.60000610351562,
-                "high_price": 140.60000610351562,
-                "buy_time": "2026-04-27 14:34"
-            }
-        }
+        "cash": 4983.906957168579,
+        "positions": {}
     },
     "small_cap_volatility": {
         "cash": 5000.0,
