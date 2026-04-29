@@ -583,3 +583,13 @@
 2026-04-29 14:38:25,545 [INFO] [*] Starting daily technical analysis...
 2026-04-29 14:38:29,450 [INFO] [*] Daily analysis complete.
 2026-04-29 14:38:29,451 [INFO] [*] Checking for live news...
+2026-04-29 16:28:24,917 [INFO] [*] Loaded strategy: sma_trend
+2026-04-29 16:28:24,928 [INFO] [*] Loaded strategy: news_sentiment
+2026-04-29 16:28:24,929 [INFO] [*] Loaded strategy: rsi_reversion
+2026-04-29 16:28:24,930 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-04-29 16:28:24,930 [INFO] [*] Loaded strategy: macd_momentum
+2026-04-29 16:28:24,931 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-04-29 16:28:24,931 [INFO] [*] Starting daily technical analysis...
+2026-04-29 16:28:28,969 [INFO] [+] [macd_momentum] BOUGHT 6 BETCO.ST
+2026-04-29 16:28:29,214 [INFO] [*] Daily analysis complete.
+2026-04-29 16:28:29,214 [INFO] [*] Checking for live news...
