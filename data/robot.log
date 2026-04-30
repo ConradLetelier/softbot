@@ -621,3 +621,12 @@
 2026-04-30 10:07:59,266 [INFO] [+] [rsi_reversion] BOUGHT 6 HM-B.ST
 2026-04-30 10:08:02,670 [INFO] [*] Daily analysis complete.
 2026-04-30 10:08:02,670 [INFO] [*] Checking for live news...
+2026-04-30 11:59:08,092 [INFO] [*] Loaded strategy: sma_trend
+2026-04-30 11:59:08,102 [INFO] [*] Loaded strategy: news_sentiment
+2026-04-30 11:59:08,103 [INFO] [*] Loaded strategy: rsi_reversion
+2026-04-30 11:59:08,104 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-04-30 11:59:08,105 [INFO] [*] Loaded strategy: macd_momentum
+2026-04-30 11:59:08,106 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-04-30 11:59:08,106 [INFO] [*] Starting daily technical analysis...
+2026-04-30 11:59:13,197 [INFO] [*] Daily analysis complete.
+2026-04-30 11:59:13,197 [INFO] [*] Checking for live news...
