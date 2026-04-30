@@ -78,5 +78,10 @@
         "timestamp": "2026-04-29 16:28",
         "strategy": "macd_momentum",
         "value": 4981.76
+    },
+    {
+        "timestamp": "2026-04-30 10:07",
+        "strategy": "rsi_reversion",
+        "value": 5023.16
     }
 ]
