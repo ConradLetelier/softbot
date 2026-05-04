@@ -1,16 +1,10 @@
 {
     "sma_trend": {
-        "cash": 493.1997773742669,
+        "cash": 444.5998276710503,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
                 "buy_price": 47.7400016784668
-            },
-            "VOLV-B.ST": {
-                "shares": 3,
-                "buy_price": 318.20001220703125,
-                "high_price": 318.20001220703125,
-                "buy_time": "2026-04-23 17:21"
             },
             "INVE-B.ST": {
                 "shares": 2,
@@ -29,6 +23,12 @@
                 "buy_price": 170.5500030517578,
                 "high_price": 170.5500030517578,
                 "buy_time": "2026-04-24 14:14"
+            },
+            "ERIC-B.ST": {
+                "shares": 9,
+                "buy_price": 109.0999984741211,
+                "high_price": 109.0999984741211,
+                "buy_time": "2026-05-04 16:47"
             }
         }
     },
@@ -72,7 +72,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3153.2947161555294,
+        "cash": 2159.6568134403233,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
@@ -85,6 +85,12 @@
                 "buy_price": 169.0,
                 "high_price": 169.0,
                 "buy_time": "2026-04-27 16:27"
+            },
+            "FING-B.ST": {
+                "shares": 71,
+                "buy_price": 13.960000038146973,
+                "high_price": 13.960000038146973,
+                "buy_time": "2026-05-04 16:47"
             }
         }
     },

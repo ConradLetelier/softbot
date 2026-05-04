@@ -98,5 +98,20 @@
         "timestamp": "2026-05-04 10:15",
         "strategy": "rsi_reversion",
         "value": 4998.72
+    },
+    {
+        "timestamp": "2026-05-04 16:47",
+        "strategy": "sma_trend",
+        "value": 4857.75
+    },
+    {
+        "timestamp": "2026-05-04 16:47",
+        "strategy": "sma_trend",
+        "value": 4855.3
+    },
+    {
+        "timestamp": "2026-05-04 16:47",
+        "strategy": "bollinger_reversion",
+        "value": 4962.48
     }
 ]
