@@ -729,3 +729,15 @@
 2026-05-01 17:55:08,869 [INFO] [*] Starting daily technical analysis...
 2026-05-01 17:55:12,593 [INFO] [*] Daily analysis complete.
 2026-05-01 17:55:12,594 [INFO] [*] Checking for live news...
+2026-05-04 10:14:58,975 [INFO] [*] Loaded strategy: sma_trend
+2026-05-04 10:14:58,985 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-04 10:14:58,986 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-04 10:14:58,987 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-04 10:14:58,988 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-04 10:14:58,989 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-04 10:14:58,989 [INFO] [*] Starting daily technical analysis...
+2026-05-04 10:15:02,028 [INFO] [+] [rsi_reversion] BOUGHT 3 SWED-A.ST
+2026-05-04 10:15:02,330 [INFO] [+] [small_cap_volatility] BOUGHT 30 SINCH.ST
+2026-05-04 10:15:02,784 [INFO] [+] [rsi_reversion] BOUGHT 71 FING-B.ST
+2026-05-04 10:15:03,195 [INFO] [*] Daily analysis complete.
+2026-05-04 10:15:03,196 [INFO] [*] Checking for live news...
