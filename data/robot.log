@@ -741,3 +741,12 @@
 2026-05-04 10:15:02,784 [INFO] [+] [rsi_reversion] BOUGHT 71 FING-B.ST
 2026-05-04 10:15:03,195 [INFO] [*] Daily analysis complete.
 2026-05-04 10:15:03,196 [INFO] [*] Checking for live news...
+2026-05-04 12:10:31,950 [INFO] [*] Loaded strategy: sma_trend
+2026-05-04 12:10:31,960 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-04 12:10:31,961 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-04 12:10:31,962 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-04 12:10:31,963 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-04 12:10:31,964 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-04 12:10:31,964 [INFO] [*] Starting daily technical analysis...
+2026-05-04 12:10:36,186 [INFO] [*] Daily analysis complete.
+2026-05-04 12:10:36,186 [INFO] [*] Checking for live news...
