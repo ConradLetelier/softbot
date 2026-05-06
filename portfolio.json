@@ -72,7 +72,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2159.6568134403233,
+        "cash": 2231.766590456963,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
@@ -86,16 +86,16 @@
                 "high_price": 169.0,
                 "buy_time": "2026-04-27 16:27"
             },
-            "FING-B.ST": {
-                "shares": 71,
-                "buy_price": 13.960000038146973,
-                "high_price": 13.960000038146973,
-                "buy_time": "2026-05-04 16:47"
+            "G5EN.ST": {
+                "shares": 19,
+                "buy_price": 50.5,
+                "high_price": 50.5,
+                "buy_time": "2026-05-06 10:20"
             }
         }
     },
     "macd_momentum": {
-        "cash": 2259.713478584289,
+        "cash": 397.97070716857866,
         "positions": {
             "BETCO.ST": {
                 "shares": 6,
@@ -114,6 +114,18 @@
                 "buy_price": 48.689998626708984,
                 "high_price": 48.689998626708984,
                 "buy_time": "2026-05-05 10:04"
+            },
+            "VOLV-B.ST": {
+                "shares": 3,
+                "buy_price": 328.70001220703125,
+                "high_price": 328.70001220703125,
+                "buy_time": "2026-05-06 10:20"
+            },
+            "NDA-SE.ST": {
+                "shares": 5,
+                "buy_price": 174.1999969482422,
+                "high_price": 174.1999969482422,
+                "buy_time": "2026-05-06 10:20"
             }
         }
     },

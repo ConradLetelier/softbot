@@ -827,3 +827,16 @@
 2026-05-05 18:07:43,610 [INFO] [*] Starting daily technical analysis...
 2026-05-05 18:07:47,721 [INFO] [*] Daily analysis complete.
 2026-05-05 18:07:47,722 [INFO] [*] Checking for live news...
+2026-05-06 10:20:34,275 [INFO] [*] Loaded strategy: sma_trend
+2026-05-06 10:20:34,286 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-06 10:20:34,287 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-06 10:20:34,287 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-06 10:20:34,288 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-06 10:20:34,289 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-06 10:20:34,289 [INFO] [*] Starting daily technical analysis...
+2026-05-06 10:20:34,948 [INFO] [+] [macd_momentum] BOUGHT 3 VOLV-B.ST
+2026-05-06 10:20:36,469 [INFO] [+] [macd_momentum] BOUGHT 5 NDA-SE.ST
+2026-05-06 10:20:38,515 [INFO] [-] [bollinger_reversion] SOLD FING-B.ST
+2026-05-06 10:20:38,875 [INFO] [+] [bollinger_reversion] BOUGHT 19 G5EN.ST
+2026-05-06 10:20:39,170 [INFO] [*] Daily analysis complete.
+2026-05-06 10:20:39,171 [INFO] [*] Checking for live news...
