@@ -72,19 +72,13 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2231.766590456963,
+        "cash": 3078.3947154569632,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
                 "buy_price": 3.380000114440918,
                 "high_price": 3.380000114440918,
                 "buy_time": "2026-04-23 17:21"
-            },
-            "HM-B.ST": {
-                "shares": 5,
-                "buy_price": 169.0,
-                "high_price": 169.0,
-                "buy_time": "2026-04-27 16:27"
             },
             "G5EN.ST": {
                 "shares": 19,
