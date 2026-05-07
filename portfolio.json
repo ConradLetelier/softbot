@@ -89,14 +89,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 397.97070716857866,
+        "cash": 1219.1126889038082,
         "positions": {
-            "BETCO.ST": {
-                "shares": 6,
-                "buy_price": 142.8000030517578,
-                "high_price": 142.8000030517578,
-                "buy_time": "2026-04-29 16:28"
-            },
             "ERIC-B.ST": {
                 "shares": 8,
                 "buy_price": 110.8499984741211,
