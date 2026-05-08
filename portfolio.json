@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 444.5998276710503,
+        "cash": 319.33167222976624,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
@@ -18,17 +18,17 @@
                 "high_price": 180.4499969482422,
                 "buy_time": "2026-04-23 17:21"
             },
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 170.5500030517578,
-                "high_price": 170.5500030517578,
-                "buy_time": "2026-04-24 14:14"
-            },
             "ERIC-B.ST": {
                 "shares": 9,
                 "buy_price": 109.0999984741211,
                 "high_price": 109.0999984741211,
                 "buy_time": "2026-05-04 16:47"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 964.0,
+                "high_price": 964.0,
+                "buy_time": "2026-05-08 09:23"
             }
         }
     },
