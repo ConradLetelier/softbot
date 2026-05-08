@@ -168,5 +168,10 @@
         "timestamp": "2026-05-08 09:23",
         "strategy": "sma_trend",
         "value": 4865.73
+    },
+    {
+        "timestamp": "2026-05-08 10:53",
+        "strategy": "small_cap_volatility",
+        "value": 5143.5
     }
 ]
