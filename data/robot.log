@@ -945,3 +945,12 @@
 2026-05-08 10:53:36,619 [INFO] [-] [small_cap_volatility] SOLD SINCH.ST
 2026-05-08 10:53:37,281 [INFO] [*] Daily analysis complete.
 2026-05-08 10:53:37,281 [INFO] [*] Checking for live news...
+2026-05-08 12:09:04,322 [INFO] [*] Loaded strategy: sma_trend
+2026-05-08 12:09:04,332 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-08 12:09:04,333 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-08 12:09:04,334 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-08 12:09:04,335 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-08 12:09:04,335 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-08 12:09:04,336 [INFO] [*] Starting daily technical analysis...
+2026-05-08 12:09:08,052 [INFO] [*] Daily analysis complete.
+2026-05-08 12:09:08,052 [INFO] [*] Checking for live news...
