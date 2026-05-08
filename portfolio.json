@@ -72,7 +72,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3078.3947154569632,
+        "cash": 1351.8290776562699,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
@@ -85,6 +85,18 @@
                 "buy_price": 50.5,
                 "high_price": 50.5,
                 "buy_time": "2026-05-06 10:20"
+            },
+            "SAND.ST": {
+                "shares": 2,
+                "buy_price": 369.1000061035156,
+                "high_price": 369.1000061035156,
+                "buy_time": "2026-05-08 14:23"
+            },
+            "FING-B.ST": {
+                "shares": 71,
+                "buy_price": 13.859999656677246,
+                "high_price": 13.859999656677246,
+                "buy_time": "2026-05-08 14:23"
             }
         }
     },
@@ -124,7 +136,14 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 5143.500586986542,
-        "positions": {}
+        "cash": 4177.842492580414,
+        "positions": {
+            "SINCH.ST": {
+                "shares": 25,
+                "buy_price": 38.529998779296875,
+                "high_price": 38.529998779296875,
+                "buy_time": "2026-05-08 14:23"
+            }
+        }
     }
 }

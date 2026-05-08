@@ -954,3 +954,15 @@
 2026-05-08 12:09:04,336 [INFO] [*] Starting daily technical analysis...
 2026-05-08 12:09:08,052 [INFO] [*] Daily analysis complete.
 2026-05-08 12:09:08,052 [INFO] [*] Checking for live news...
+2026-05-08 14:23:23,088 [INFO] [*] Loaded strategy: sma_trend
+2026-05-08 14:23:23,098 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-08 14:23:23,099 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-08 14:23:23,100 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-08 14:23:23,101 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-08 14:23:23,102 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-08 14:23:23,102 [INFO] [*] Starting daily technical analysis...
+2026-05-08 14:23:26,677 [INFO] [+] [bollinger_reversion] BOUGHT 2 SAND.ST
+2026-05-08 14:23:27,300 [INFO] [+] [small_cap_volatility] BOUGHT 25 SINCH.ST
+2026-05-08 14:23:27,654 [INFO] [+] [bollinger_reversion] BOUGHT 71 FING-B.ST
+2026-05-08 14:23:28,198 [INFO] [*] Daily analysis complete.
+2026-05-08 14:23:28,198 [INFO] [*] Checking for live news...
