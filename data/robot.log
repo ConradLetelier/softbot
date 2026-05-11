@@ -1013,3 +1013,12 @@
 2026-05-11 14:03:50,146 [INFO] [+] [rsi_reversion] BOUGHT 19 G5EN.ST
 2026-05-11 14:03:50,597 [INFO] [*] Daily analysis complete.
 2026-05-11 14:03:50,597 [INFO] [*] Checking for live news...
+2026-05-11 17:08:55,973 [INFO] [*] Loaded strategy: sma_trend
+2026-05-11 17:08:55,981 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-11 17:08:55,982 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-11 17:08:55,983 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-11 17:08:55,984 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-11 17:08:55,984 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-11 17:08:55,984 [INFO] [*] Starting daily technical analysis...
+2026-05-11 17:09:00,699 [INFO] [*] Daily analysis complete.
+2026-05-11 17:09:00,699 [INFO] [*] Checking for live news...
