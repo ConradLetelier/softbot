@@ -188,5 +188,15 @@
         "timestamp": "2026-05-08 14:23",
         "strategy": "bollinger_reversion",
         "value": 5038.88
+    },
+    {
+        "timestamp": "2026-05-11 14:03",
+        "strategy": "rsi_reversion",
+        "value": 5051.81
+    },
+    {
+        "timestamp": "2026-05-11 14:03",
+        "strategy": "rsi_reversion",
+        "value": 5049.39
     }
 ]

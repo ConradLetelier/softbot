@@ -37,19 +37,13 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 110.48668405294427,
+        "cash": 162.05028165578835,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
                 "buy_price": 3.380000114440918,
                 "high_price": 3.380000114440918,
                 "buy_time": "2026-04-23 17:21"
-            },
-            "ERIC-B.ST": {
-                "shares": 9,
-                "buy_price": 103.5999984741211,
-                "high_price": 103.5999984741211,
-                "buy_time": "2026-04-28 10:15"
             },
             "HM-B.ST": {
                 "shares": 6,
@@ -68,6 +62,12 @@
                 "buy_price": 14.020000457763672,
                 "high_price": 14.020000457763672,
                 "buy_time": "2026-05-04 10:15"
+            },
+            "G5EN.ST": {
+                "shares": 19,
+                "buy_price": 51.0,
+                "high_price": 51.0,
+                "buy_time": "2026-05-11 14:03"
             }
         }
     },
