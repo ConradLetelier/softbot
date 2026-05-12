@@ -1044,3 +1044,12 @@
 2026-05-12 10:32:49,965 [INFO] [+] [macd_momentum] BOUGHT 8 CAST.ST
 2026-05-12 10:32:49,965 [INFO] [*] Daily analysis complete.
 2026-05-12 10:32:49,966 [INFO] [*] Checking for live news...
+2026-05-12 13:04:17,746 [INFO] [*] Loaded strategy: sma_trend
+2026-05-12 13:04:17,756 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-12 13:04:17,757 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-12 13:04:17,758 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-12 13:04:17,759 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-12 13:04:17,760 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-12 13:04:17,760 [INFO] [*] Starting daily technical analysis...
+2026-05-12 13:04:22,142 [INFO] [*] Daily analysis complete.
+2026-05-12 13:04:22,142 [INFO] [*] Checking for live news...
