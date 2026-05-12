@@ -1031,3 +1031,16 @@
 2026-05-11 18:54:35,893 [INFO] [*] Starting daily technical analysis...
 2026-05-11 18:54:40,235 [INFO] [*] Daily analysis complete.
 2026-05-11 18:54:40,235 [INFO] [*] Checking for live news...
+2026-05-12 10:32:45,087 [INFO] [*] Loaded strategy: sma_trend
+2026-05-12 10:32:45,097 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-12 10:32:45,098 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-12 10:32:45,099 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-12 10:32:45,100 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-12 10:32:45,101 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-12 10:32:45,101 [INFO] [*] Starting daily technical analysis...
+2026-05-12 10:32:45,780 [INFO] [-] [macd_momentum] SOLD VOLV-B.ST
+2026-05-12 10:32:49,083 [INFO] [-] [bollinger_reversion] SOLD FING-B.ST
+2026-05-12 10:32:49,488 [INFO] [+] [bollinger_reversion] BOUGHT 7 BETCO.ST
+2026-05-12 10:32:49,965 [INFO] [+] [macd_momentum] BOUGHT 8 CAST.ST
+2026-05-12 10:32:49,965 [INFO] [*] Daily analysis complete.
+2026-05-12 10:32:49,966 [INFO] [*] Checking for live news...
