@@ -1080,3 +1080,13 @@
 2026-05-12 18:53:35,443 [INFO] [*] Starting daily technical analysis...
 2026-05-12 18:53:39,606 [INFO] [*] Daily analysis complete.
 2026-05-12 18:53:39,607 [INFO] [*] Checking for live news...
+2026-05-13 10:28:55,865 [INFO] [*] Loaded strategy: sma_trend
+2026-05-13 10:28:55,875 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-13 10:28:55,875 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-13 10:28:55,876 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-13 10:28:55,877 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-13 10:28:55,878 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-13 10:28:55,878 [INFO] [*] Starting daily technical analysis...
+2026-05-13 10:28:58,623 [INFO] [+] [bollinger_reversion] BOUGHT 5 NDA-SE.ST
+2026-05-13 10:29:01,018 [INFO] [*] Daily analysis complete.
+2026-05-13 10:29:01,019 [INFO] [*] Checking for live news...
