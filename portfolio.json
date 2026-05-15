@@ -72,7 +72,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1689.4841669869434,
+        "cash": 690.5129559731495,
         "positions": {
             "SBB-B.ST": {
                 "shares": 295,
@@ -97,6 +97,12 @@
                 "buy_price": 167.5,
                 "high_price": 167.5,
                 "buy_time": "2026-05-13 10:28"
+            },
+            "FING-B.ST": {
+                "shares": 72,
+                "buy_price": 13.84000015258789,
+                "high_price": 13.84000015258789,
+                "buy_time": "2026-05-15 15:01"
             }
         }
     },
