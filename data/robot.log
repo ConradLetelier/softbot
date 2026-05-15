@@ -1171,3 +1171,13 @@
 2026-05-14 18:51:06,660 [INFO] [*] Starting daily technical analysis...
 2026-05-14 18:51:15,281 [INFO] [*] Daily analysis complete.
 2026-05-14 18:51:15,282 [INFO] [*] Checking for live news...
+2026-05-15 10:25:11,419 [INFO] [*] Loaded strategy: sma_trend
+2026-05-15 10:25:11,428 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-15 10:25:11,429 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-15 10:25:11,430 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-15 10:25:11,431 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-15 10:25:11,431 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-15 10:25:11,431 [INFO] [*] Starting daily technical analysis...
+2026-05-15 10:25:18,579 [INFO] [-] [bollinger_reversion] SOLD G5EN.ST
+2026-05-15 10:25:18,995 [INFO] [*] Daily analysis complete.
+2026-05-15 10:25:18,995 [INFO] [*] Checking for live news...
