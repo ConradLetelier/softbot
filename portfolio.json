@@ -72,14 +72,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 690.5129559731495,
+        "cash": 2606.6805428928146,
         "positions": {
-            "SBB-B.ST": {
-                "shares": 295,
-                "buy_price": 3.380000114440918,
-                "high_price": 3.380000114440918,
-                "buy_time": "2026-04-23 17:21"
-            },
             "SAND.ST": {
                 "shares": 2,
                 "buy_price": 369.1000061035156,
@@ -91,12 +85,6 @@
                 "buy_price": 133.39999389648438,
                 "high_price": 133.39999389648438,
                 "buy_time": "2026-05-12 10:32"
-            },
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 167.5,
-                "high_price": 167.5,
-                "buy_time": "2026-05-13 10:28"
             },
             "FING-B.ST": {
                 "shares": 72,
