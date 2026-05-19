@@ -118,13 +118,19 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 4177.842492580414,
+        "cash": 3180.350969725251,
         "positions": {
             "SINCH.ST": {
                 "shares": 25,
                 "buy_price": 38.529998779296875,
                 "high_price": 38.529998779296875,
                 "buy_time": "2026-05-08 14:23"
+            },
+            "SBB-B.ST": {
+                "shares": 249,
+                "buy_price": 3.996000051498413,
+                "high_price": 3.996000051498413,
+                "buy_time": "2026-05-19 17:25"
             }
         }
     }
