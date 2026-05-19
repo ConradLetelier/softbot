@@ -37,25 +37,13 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 162.05028165578835,
+        "cash": 2301.657808644175,
         "positions": {
-            "SBB-B.ST": {
-                "shares": 295,
-                "buy_price": 3.380000114440918,
-                "high_price": 3.380000114440918,
-                "buy_time": "2026-04-23 17:21"
-            },
             "HM-B.ST": {
                 "shares": 6,
                 "buy_price": 164.64999389648438,
                 "high_price": 164.64999389648438,
                 "buy_time": "2026-04-30 10:07"
-            },
-            "SWED-A.ST": {
-                "shares": 3,
-                "buy_price": 321.5,
-                "high_price": 321.5,
-                "buy_time": "2026-05-04 10:15"
             },
             "FING-B.ST": {
                 "shares": 71,
