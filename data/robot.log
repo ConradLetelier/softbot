@@ -1360,3 +1360,12 @@
 2026-05-21 17:14:05,477 [INFO] [-] [bollinger_reversion] SOLD SAND.ST
 2026-05-21 17:14:07,987 [INFO] [*] Daily analysis complete.
 2026-05-21 17:14:07,987 [INFO] [*] Checking for live news...
+2026-05-21 19:00:47,499 [INFO] [*] Loaded strategy: sma_trend
+2026-05-21 19:00:47,509 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-21 19:00:47,510 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-21 19:00:47,511 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-21 19:00:47,512 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-21 19:00:47,512 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-21 19:00:47,512 [INFO] [*] Starting daily technical analysis...
+2026-05-21 19:01:02,733 [INFO] [*] Daily analysis complete.
+2026-05-21 19:01:02,733 [INFO] [*] Checking for live news...
