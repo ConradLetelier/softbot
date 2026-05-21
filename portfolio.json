@@ -66,14 +66,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2606.6805428928146,
+        "cash": 3357.598530716301,
         "positions": {
-            "SAND.ST": {
-                "shares": 2,
-                "buy_price": 369.1000061035156,
-                "high_price": 369.1000061035156,
-                "buy_time": "2026-05-08 14:23"
-            },
             "BETCO.ST": {
                 "shares": 7,
                 "buy_price": 133.39999389648438,
