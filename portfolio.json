@@ -37,7 +37,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2301.657808644175,
+        "cash": 1396.4003086441749,
         "positions": {
             "HM-B.ST": {
                 "shares": 6,
@@ -56,6 +56,12 @@
                 "buy_price": 51.0,
                 "high_price": 51.0,
                 "buy_time": "2026-05-11 14:03"
+            },
+            "BETCO.ST": {
+                "shares": 7,
+                "buy_price": 129.0,
+                "high_price": 129.0,
+                "buy_time": "2026-05-21 11:27"
             }
         }
     },
