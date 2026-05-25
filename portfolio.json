@@ -37,7 +37,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 1396.4003086441749,
+        "cash": 2647.265308644175,
         "positions": {
             "HM-B.ST": {
                 "shares": 6,
@@ -50,12 +50,6 @@
                 "buy_price": 14.020000457763672,
                 "high_price": 14.020000457763672,
                 "buy_time": "2026-05-04 10:15"
-            },
-            "G5EN.ST": {
-                "shares": 19,
-                "buy_price": 51.0,
-                "high_price": 51.0,
-                "buy_time": "2026-05-11 14:03"
             },
             "BETCO.ST": {
                 "shares": 7,
