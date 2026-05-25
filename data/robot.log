@@ -1443,3 +1443,12 @@
 2026-05-25 17:07:23,461 [INFO] [+] [small_cap_volatility] BOUGHT 14 G5EN.ST
 2026-05-25 17:07:23,756 [INFO] [*] Daily analysis complete.
 2026-05-25 17:07:23,756 [INFO] [*] Checking for live news...
+2026-05-25 18:23:19,523 [INFO] [*] Loaded strategy: sma_trend
+2026-05-25 18:23:19,533 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-25 18:23:19,534 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-25 18:23:19,535 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-25 18:23:19,536 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-25 18:23:19,536 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-25 18:23:19,537 [INFO] [*] Starting daily technical analysis...
+2026-05-25 18:23:23,331 [INFO] [*] Daily analysis complete.
+2026-05-25 18:23:23,331 [INFO] [*] Checking for live news...
