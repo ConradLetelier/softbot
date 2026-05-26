@@ -1462,3 +1462,12 @@
 2026-05-26 14:14:37,200 [INFO] [-] [small_cap_volatility] SOLD SBB-B.ST
 2026-05-26 14:14:37,819 [INFO] [*] Daily analysis complete.
 2026-05-26 14:14:37,819 [INFO] [*] Checking for live news...
+2026-05-26 17:43:17,819 [INFO] [*] Loaded strategy: sma_trend
+2026-05-26 17:43:17,829 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-26 17:43:17,830 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-26 17:43:17,831 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-26 17:43:17,831 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-26 17:43:17,832 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-26 17:43:17,832 [INFO] [*] Starting daily technical analysis...
+2026-05-26 17:43:21,742 [INFO] [*] Daily analysis complete.
+2026-05-26 17:43:21,742 [INFO] [*] Checking for live news...
