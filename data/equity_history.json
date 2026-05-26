@@ -278,5 +278,10 @@
         "timestamp": "2026-05-25 17:07",
         "strategy": "small_cap_volatility",
         "value": 5113.3
+    },
+    {
+        "timestamp": "2026-05-26 14:14",
+        "strategy": "small_cap_volatility",
+        "value": 5081.46
     }
 ]
