@@ -1490,3 +1490,13 @@
 2026-05-27 15:44:24,742 [INFO] [-] [macd_momentum] SOLD TELIA.ST
 2026-05-27 15:44:28,995 [INFO] [*] Daily analysis complete.
 2026-05-27 15:44:28,995 [INFO] [*] Checking for live news...
+2026-05-27 18:27:11,716 [INFO] [*] Loaded strategy: sma_trend
+2026-05-27 18:27:11,726 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-27 18:27:11,727 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-27 18:27:11,728 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-27 18:27:11,729 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-27 18:27:11,730 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-27 18:27:11,730 [INFO] [*] Starting daily technical analysis...
+2026-05-27 18:27:13,539 [INFO] [+] [macd_momentum] BOUGHT 3 VOLV-B.ST
+2026-05-27 18:27:19,444 [INFO] [*] Daily analysis complete.
+2026-05-27 18:27:19,444 [INFO] [*] Checking for live news...
