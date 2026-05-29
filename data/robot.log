@@ -1566,3 +1566,13 @@
 2026-05-29 15:35:42,939 [INFO] [*] Starting daily technical analysis...
 2026-05-29 15:35:47,350 [INFO] [*] Daily analysis complete.
 2026-05-29 15:35:47,350 [INFO] [*] Checking for live news...
+2026-05-29 18:33:58,418 [INFO] [*] Loaded strategy: sma_trend
+2026-05-29 18:33:58,428 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-29 18:33:58,429 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-29 18:33:58,430 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-29 18:33:58,431 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-29 18:33:58,432 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-29 18:33:58,432 [INFO] [*] Starting daily technical analysis...
+2026-05-29 18:33:59,023 [ERROR] Failed to get ticker 'INVE-B.ST' reason: Expecting value: line 1 column 1 (char 0)
+2026-05-29 18:34:02,885 [INFO] [*] Daily analysis complete.
+2026-05-29 18:34:02,885 [INFO] [*] Checking for live news...
