@@ -1557,3 +1557,12 @@
 2026-05-29 11:30:57,486 [INFO] [-] [macd_momentum] SOLD CAST.ST
 2026-05-29 11:30:57,487 [INFO] [*] Daily analysis complete.
 2026-05-29 11:30:57,487 [INFO] [*] Checking for live news...
+2026-05-29 15:35:42,926 [INFO] [*] Loaded strategy: sma_trend
+2026-05-29 15:35:42,936 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-29 15:35:42,937 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-29 15:35:42,938 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-29 15:35:42,939 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-29 15:35:42,939 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-29 15:35:42,939 [INFO] [*] Starting daily technical analysis...
+2026-05-29 15:35:47,350 [INFO] [*] Daily analysis complete.
+2026-05-29 15:35:47,350 [INFO] [*] Checking for live news...
