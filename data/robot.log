@@ -1545,3 +1545,15 @@
 2026-05-28 19:33:47,685 [INFO] [*] Starting daily technical analysis...
 2026-05-28 19:33:54,918 [INFO] [*] Daily analysis complete.
 2026-05-28 19:33:54,918 [INFO] [*] Checking for live news...
+2026-05-29 11:30:50,075 [INFO] [*] Loaded strategy: sma_trend
+2026-05-29 11:30:50,085 [INFO] [*] Loaded strategy: news_sentiment
+2026-05-29 11:30:50,086 [INFO] [*] Loaded strategy: rsi_reversion
+2026-05-29 11:30:50,087 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-05-29 11:30:50,088 [INFO] [*] Loaded strategy: macd_momentum
+2026-05-29 11:30:50,089 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-05-29 11:30:50,089 [INFO] [*] Starting daily technical analysis...
+2026-05-29 11:30:52,934 [INFO] [-] [macd_momentum] SOLD ERIC-B.ST
+2026-05-29 11:30:54,988 [INFO] [-] [macd_momentum] SOLD ATCO-A.ST
+2026-05-29 11:30:57,486 [INFO] [-] [macd_momentum] SOLD CAST.ST
+2026-05-29 11:30:57,487 [INFO] [*] Daily analysis complete.
+2026-05-29 11:30:57,487 [INFO] [*] Checking for live news...

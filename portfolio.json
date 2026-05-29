@@ -77,31 +77,13 @@
         }
     },
     "macd_momentum": {
-        "cash": 260.43628025054886,
+        "cash": 3083.261524162292,
         "positions": {
-            "ERIC-B.ST": {
-                "shares": 8,
-                "buy_price": 110.8499984741211,
-                "high_price": 110.8499984741211,
-                "buy_time": "2026-05-05 10:04"
-            },
             "NDA-SE.ST": {
                 "shares": 5,
                 "buy_price": 174.1999969482422,
                 "high_price": 174.1999969482422,
                 "buy_time": "2026-05-06 10:20"
-            },
-            "ATCO-A.ST": {
-                "shares": 5,
-                "buy_price": 185.9499969482422,
-                "high_price": 185.9499969482422,
-                "buy_time": "2026-05-07 12:17"
-            },
-            "CAST.ST": {
-                "shares": 8,
-                "buy_price": 124.1500015258789,
-                "high_price": 124.1500015258789,
-                "buy_time": "2026-05-12 10:32"
             },
             "VOLV-B.ST": {
                 "shares": 3,
