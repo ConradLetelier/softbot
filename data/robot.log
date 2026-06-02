@@ -1622,3 +1622,14 @@
 2026-06-02 12:05:02,165 [INFO] [+] [macd_momentum] BOUGHT 23 SINCH.ST
 2026-06-02 12:05:02,743 [INFO] [*] Daily analysis complete.
 2026-06-02 12:05:02,743 [INFO] [*] Checking for live news...
+2026-06-02 17:02:23,628 [INFO] [*] Loaded strategy: sma_trend
+2026-06-02 17:02:23,638 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-02 17:02:23,639 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-02 17:02:23,640 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-02 17:02:23,641 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-02 17:02:23,642 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-02 17:02:23,642 [INFO] [*] Starting daily technical analysis...
+2026-06-02 17:02:25,327 [INFO] [+] [macd_momentum] BOUGHT 7 ERIC-B.ST
+2026-06-02 17:02:26,914 [INFO] [+] [macd_momentum] BOUGHT 5 ATCO-A.ST
+2026-06-02 17:02:28,301 [INFO] [*] Daily analysis complete.
+2026-06-02 17:02:28,302 [INFO] [*] Checking for live news...

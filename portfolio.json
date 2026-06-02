@@ -77,7 +77,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 2086.485809717178,
+        "cash": 280.5321954250336,
         "positions": {
             "NDA-SE.ST": {
                 "shares": 5,
@@ -96,6 +96,18 @@
                 "buy_price": 43.22999954223633,
                 "high_price": 43.22999954223633,
                 "buy_time": "2026-06-02 12:05"
+            },
+            "ERIC-B.ST": {
+                "shares": 7,
+                "buy_price": 127.3499984741211,
+                "high_price": 127.3499984741211,
+                "buy_time": "2026-06-02 17:02"
+            },
+            "ATCO-A.ST": {
+                "shares": 5,
+                "buy_price": 182.0,
+                "high_price": 182.0,
+                "buy_time": "2026-06-02 17:02"
             }
         }
     },
