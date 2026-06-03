@@ -323,5 +323,15 @@
         "timestamp": "2026-06-02 17:02",
         "strategy": "macd_momentum",
         "value": 4917.87
+    },
+    {
+        "timestamp": "2026-06-03 12:42",
+        "strategy": "rsi_reversion",
+        "value": 5301.24
+    },
+    {
+        "timestamp": "2026-06-03 12:42",
+        "strategy": "macd_momentum",
+        "value": 4907.88
     }
 ]

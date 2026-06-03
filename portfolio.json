@@ -37,14 +37,8 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2647.265308644175,
+        "cash": 3639.279058644175,
         "positions": {
-            "HM-B.ST": {
-                "shares": 6,
-                "buy_price": 164.64999389648438,
-                "high_price": 164.64999389648438,
-                "buy_time": "2026-04-30 10:07"
-            },
             "FING-B.ST": {
                 "shares": 71,
                 "buy_price": 14.020000457763672,
@@ -77,14 +71,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 280.5321954250336,
+        "cash": 1157.5841008663178,
         "positions": {
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 174.1999969482422,
-                "high_price": 174.1999969482422,
-                "buy_time": "2026-05-06 10:20"
-            },
             "VOLV-B.ST": {
                 "shares": 3,
                 "buy_price": 325.20001220703125,

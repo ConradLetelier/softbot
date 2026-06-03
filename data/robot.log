@@ -1642,3 +1642,14 @@
 2026-06-02 20:05:10,934 [INFO] [*] Starting daily technical analysis...
 2026-06-02 20:05:14,875 [INFO] [*] Daily analysis complete.
 2026-06-02 20:05:14,875 [INFO] [*] Checking for live news...
+2026-06-03 12:42:18,825 [INFO] [*] Loaded strategy: sma_trend
+2026-06-03 12:42:18,835 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-03 12:42:18,836 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-03 12:42:18,837 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-03 12:42:18,838 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-03 12:42:18,839 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-03 12:42:18,839 [INFO] [*] Starting daily technical analysis...
+2026-06-03 12:42:20,409 [INFO] [-] [rsi_reversion] SOLD HM-B.ST
+2026-06-03 12:42:21,057 [INFO] [-] [macd_momentum] SOLD NDA-SE.ST
+2026-06-03 12:42:23,058 [INFO] [*] Daily analysis complete.
+2026-06-03 12:42:23,058 [INFO] [*] Checking for live news...
