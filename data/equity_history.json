@@ -333,5 +333,10 @@
         "timestamp": "2026-06-03 12:42",
         "strategy": "macd_momentum",
         "value": 4907.88
+    },
+    {
+        "timestamp": "2026-06-03 18:00",
+        "strategy": "macd_momentum",
+        "value": 4881.71
     }
 ]
