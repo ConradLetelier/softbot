@@ -338,5 +338,30 @@
         "timestamp": "2026-06-03 18:00",
         "strategy": "macd_momentum",
         "value": 4881.71
+    },
+    {
+        "timestamp": "2026-06-04 11:16",
+        "strategy": "macd_momentum",
+        "value": 4852.0
+    },
+    {
+        "timestamp": "2026-06-04 11:16",
+        "strategy": "rsi_reversion",
+        "value": 5800.09
+    },
+    {
+        "timestamp": "2026-06-04 11:16",
+        "strategy": "bollinger_reversion",
+        "value": 5566.92
+    },
+    {
+        "timestamp": "2026-06-04 11:16",
+        "strategy": "macd_momentum",
+        "value": 4849.51
+    },
+    {
+        "timestamp": "2026-06-04 11:16",
+        "strategy": "small_cap_volatility",
+        "value": 5076.72
     }
 ]

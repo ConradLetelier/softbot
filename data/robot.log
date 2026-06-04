@@ -1672,3 +1672,17 @@
 2026-06-03 20:15:22,095 [INFO] [*] Starting daily technical analysis...
 2026-06-03 20:15:31,525 [INFO] [*] Daily analysis complete.
 2026-06-03 20:15:31,525 [INFO] [*] Checking for live news...
+2026-06-04 11:16:06,353 [INFO] [*] Loaded strategy: sma_trend
+2026-06-04 11:16:06,361 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-04 11:16:06,362 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-04 11:16:06,362 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-04 11:16:06,363 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-04 11:16:06,364 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-04 11:16:06,364 [INFO] [*] Starting daily technical analysis...
+2026-06-04 11:16:08,085 [INFO] [-] [macd_momentum] SOLD ERIC-B.ST
+2026-06-04 11:16:10,167 [INFO] [-] [rsi_reversion] SOLD FING-B.ST
+2026-06-04 11:16:10,266 [INFO] [-] [bollinger_reversion] SOLD FING-B.ST
+2026-06-04 11:16:10,467 [INFO] [+] [macd_momentum] BOUGHT 56 FING-B.ST
+2026-06-04 11:16:10,642 [INFO] [+] [small_cap_volatility] BOUGHT 56 FING-B.ST
+2026-06-04 11:16:11,098 [INFO] [*] Daily analysis complete.
+2026-06-04 11:16:11,098 [INFO] [*] Checking for live news...

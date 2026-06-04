@@ -37,14 +37,8 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 3639.279058644175,
+        "cash": 4897.086674854159,
         "positions": {
-            "FING-B.ST": {
-                "shares": 71,
-                "buy_price": 14.020000457763672,
-                "high_price": 14.020000457763672,
-                "buy_time": "2026-05-04 10:15"
-            },
             "BETCO.ST": {
                 "shares": 7,
                 "buy_price": 129.0,
@@ -54,24 +48,18 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3357.598530716301,
+        "cash": 4633.121747154594,
         "positions": {
             "BETCO.ST": {
                 "shares": 7,
                 "buy_price": 133.39999389648438,
                 "high_price": 133.39999389648438,
                 "buy_time": "2026-05-12 10:32"
-            },
-            "FING-B.ST": {
-                "shares": 72,
-                "buy_price": 13.84000015258789,
-                "high_price": 13.84000015258789,
-                "buy_time": "2026-05-15 15:01"
             }
         }
     },
     "macd_momentum": {
-        "cash": 2097.308879861832,
+        "cash": 1961.553831357956,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 3,
@@ -79,22 +67,22 @@
                 "high_price": 325.20001220703125,
                 "buy_time": "2026-05-27 18:27"
             },
-            "ERIC-B.ST": {
-                "shares": 7,
-                "buy_price": 127.3499984741211,
-                "high_price": 127.3499984741211,
-                "buy_time": "2026-06-02 17:02"
-            },
             "ATCO-A.ST": {
                 "shares": 5,
                 "buy_price": 182.0,
                 "high_price": 182.0,
                 "buy_time": "2026-06-02 17:02"
+            },
+            "FING-B.ST": {
+                "shares": 56,
+                "buy_price": 17.760000228881836,
+                "high_price": 17.760000228881836,
+                "buy_time": "2026-06-04 11:16"
             }
         }
     },
     "small_cap_volatility": {
-        "cash": 3150.459195690155,
+        "cash": 2153.4127828407286,
         "positions": {
             "SINCH.ST": {
                 "shares": 25,
@@ -107,6 +95,12 @@
                 "buy_price": 66.5999984741211,
                 "high_price": 66.5999984741211,
                 "buy_time": "2026-05-25 17:07"
+            },
+            "FING-B.ST": {
+                "shares": 56,
+                "buy_price": 17.760000228881836,
+                "high_price": 17.760000228881836,
+                "buy_time": "2026-06-04 11:16"
             }
         }
     }
