@@ -363,5 +363,20 @@
         "timestamp": "2026-06-04 11:16",
         "strategy": "small_cap_volatility",
         "value": 5076.72
+    },
+    {
+        "timestamp": "2026-06-04 14:13",
+        "strategy": "macd_momentum",
+        "value": 4755.57
+    },
+    {
+        "timestamp": "2026-06-04 14:13",
+        "strategy": "small_cap_volatility",
+        "value": 5005.53
+    },
+    {
+        "timestamp": "2026-06-04 14:13",
+        "strategy": "small_cap_volatility",
+        "value": 4903.34
     }
 ]

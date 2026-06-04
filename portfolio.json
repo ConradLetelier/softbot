@@ -59,7 +59,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 1961.553831357956,
+        "cash": 980.9183845043182,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 3,
@@ -78,29 +78,23 @@
                 "buy_price": 17.760000228881836,
                 "high_price": 17.760000228881836,
                 "buy_time": "2026-06-04 11:16"
+            },
+            "SINCH.ST": {
+                "shares": 23,
+                "buy_price": 42.529998779296875,
+                "high_price": 42.529998779296875,
+                "buy_time": "2026-06-04 14:13"
             }
         }
     },
     "small_cap_volatility": {
-        "cash": 2153.4127828407286,
+        "cash": 3940.094916934967,
         "positions": {
             "SINCH.ST": {
                 "shares": 25,
                 "buy_price": 38.529998779296875,
                 "high_price": 38.529998779296875,
                 "buy_time": "2026-05-08 14:23"
-            },
-            "G5EN.ST": {
-                "shares": 14,
-                "buy_price": 66.5999984741211,
-                "high_price": 66.5999984741211,
-                "buy_time": "2026-05-25 17:07"
-            },
-            "FING-B.ST": {
-                "shares": 56,
-                "buy_price": 17.760000228881836,
-                "high_price": 17.760000228881836,
-                "buy_time": "2026-06-04 11:16"
             }
         }
     }
