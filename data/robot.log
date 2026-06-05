@@ -1727,3 +1727,14 @@
 2026-06-05 11:29:48,367 [INFO] [-] [small_cap_volatility] SOLD FING-B.ST
 2026-06-05 11:29:48,801 [INFO] [*] Daily analysis complete.
 2026-06-05 11:29:48,801 [INFO] [*] Checking for live news...
+2026-06-05 14:08:12,979 [INFO] [*] Loaded strategy: sma_trend
+2026-06-05 14:08:12,989 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-05 14:08:12,990 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-05 14:08:12,991 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-05 14:08:12,992 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-05 14:08:12,993 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-05 14:08:12,993 [INFO] [*] Starting daily technical analysis...
+2026-06-05 14:08:15,339 [INFO] [-] [sma_trend] SOLD TELIA.ST
+2026-06-05 14:08:16,583 [INFO] [+] [sma_trend] BOUGHT 5 ATCO-A.ST
+2026-06-05 14:08:17,961 [INFO] [*] Daily analysis complete.
+2026-06-05 14:08:17,961 [INFO] [*] Checking for live news...

@@ -1,11 +1,7 @@
 {
     "sma_trend": {
-        "cash": 319.33167222976624,
+        "cash": 386.83001054763736,
         "positions": {
-            "TELIA.ST": {
-                "shares": 20,
-                "buy_price": 47.7400016784668
-            },
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 381.04998779296875,
@@ -29,6 +25,12 @@
                 "buy_price": 964.0,
                 "high_price": 964.0,
                 "buy_time": "2026-05-08 09:23"
+            },
+            "ATCO-A.ST": {
+                "shares": 5,
+                "buy_price": 178.85000610351562,
+                "high_price": 178.85000610351562,
+                "buy_time": "2026-06-05 14:08"
             }
         }
     },
