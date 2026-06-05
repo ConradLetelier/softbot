@@ -88,19 +88,13 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 2951.870526266098,
+        "cash": 3802.518548412323,
         "positions": {
             "SINCH.ST": {
                 "shares": 25,
                 "buy_price": 38.529998779296875,
                 "high_price": 38.529998779296875,
                 "buy_time": "2026-05-08 14:23"
-            },
-            "FING-B.ST": {
-                "shares": 61,
-                "buy_price": 16.15999984741211,
-                "high_price": 16.15999984741211,
-                "buy_time": "2026-06-04 17:29"
             }
         }
     }
