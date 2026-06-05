@@ -1748,3 +1748,12 @@
 2026-06-05 16:59:45,200 [INFO] [+] [macd_momentum] BOUGHT 8 BETCO.ST
 2026-06-05 16:59:45,424 [INFO] [*] Daily analysis complete.
 2026-06-05 16:59:45,425 [INFO] [*] Checking for live news...
+2026-06-05 18:56:32,130 [INFO] [*] Loaded strategy: sma_trend
+2026-06-05 18:56:32,140 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-05 18:56:32,141 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-05 18:56:32,142 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-05 18:56:32,143 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-05 18:56:32,143 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-05 18:56:32,144 [INFO] [*] Starting daily technical analysis...
+2026-06-05 18:56:37,644 [INFO] [*] Daily analysis complete.
+2026-06-05 18:56:37,644 [INFO] [*] Checking for live news...
