@@ -1817,3 +1817,12 @@
 2026-06-09 16:36:18,888 [INFO] [-] [macd_momentum] SOLD VOLV-B.ST
 2026-06-09 16:36:23,388 [INFO] [*] Daily analysis complete.
 2026-06-09 16:36:23,388 [INFO] [*] Checking for live news...
+2026-06-09 19:10:28,342 [INFO] [*] Loaded strategy: sma_trend
+2026-06-09 19:10:28,352 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-09 19:10:28,353 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-09 19:10:28,354 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-09 19:10:28,355 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-09 19:10:28,356 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-09 19:10:28,356 [INFO] [*] Starting daily technical analysis...
+2026-06-09 19:10:32,931 [INFO] [*] Daily analysis complete.
+2026-06-09 19:10:32,931 [INFO] [*] Checking for live news...
