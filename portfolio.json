@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 386.83001054763736,
+        "cash": 508.2322589492792,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
@@ -14,12 +14,6 @@
                 "high_price": 180.4499969482422,
                 "buy_time": "2026-04-23 17:21"
             },
-            "ERIC-B.ST": {
-                "shares": 9,
-                "buy_price": 109.0999984741211,
-                "high_price": 109.0999984741211,
-                "buy_time": "2026-05-04 16:47"
-            },
             "ABB.ST": {
                 "shares": 1,
                 "buy_price": 964.0,
@@ -31,6 +25,12 @@
                 "buy_price": 178.85000610351562,
                 "high_price": 178.85000610351562,
                 "buy_time": "2026-06-05 14:08"
+            },
+            "NDA-SE.ST": {
+                "shares": 5,
+                "buy_price": 175.3000030517578,
+                "high_price": 175.3000030517578,
+                "buy_time": "2026-06-09 13:59"
             }
         }
     },
@@ -62,13 +62,19 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4633.121747154594,
+        "cash": 3739.6937349170453,
         "positions": {
             "BETCO.ST": {
                 "shares": 7,
                 "buy_price": 133.39999389648438,
                 "high_price": 133.39999389648438,
                 "buy_time": "2026-05-12 10:32"
+            },
+            "ERIC-B.ST": {
+                "shares": 8,
+                "buy_price": 111.4000015258789,
+                "high_price": 111.4000015258789,
+                "buy_time": "2026-06-09 13:59"
             }
         }
     },

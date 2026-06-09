@@ -413,5 +413,20 @@
         "timestamp": "2026-06-08 12:30",
         "strategy": "rsi_reversion",
         "value": 5740.55
+    },
+    {
+        "timestamp": "2026-06-09 13:59",
+        "strategy": "sma_trend",
+        "value": 4982.02
+    },
+    {
+        "timestamp": "2026-06-09 13:59",
+        "strategy": "bollinger_reversion",
+        "value": 5470.89
+    },
+    {
+        "timestamp": "2026-06-09 13:59",
+        "strategy": "sma_trend",
+        "value": 4979.83
     }
 ]

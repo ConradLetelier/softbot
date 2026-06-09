@@ -1795,3 +1795,15 @@
 2026-06-09 11:16:35,706 [INFO] [*] Starting daily technical analysis...
 2026-06-09 11:16:42,993 [INFO] [*] Daily analysis complete.
 2026-06-09 11:16:42,993 [INFO] [*] Checking for live news...
+2026-06-09 13:59:41,694 [INFO] [*] Loaded strategy: sma_trend
+2026-06-09 13:59:41,704 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-09 13:59:41,704 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-09 13:59:41,705 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-09 13:59:41,706 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-09 13:59:41,707 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-09 13:59:41,707 [INFO] [*] Starting daily technical analysis...
+2026-06-09 13:59:44,816 [INFO] [-] [sma_trend] SOLD ERIC-B.ST
+2026-06-09 13:59:45,062 [INFO] [+] [bollinger_reversion] BOUGHT 8 ERIC-B.ST
+2026-06-09 13:59:45,815 [INFO] [+] [sma_trend] BOUGHT 5 NDA-SE.ST
+2026-06-09 13:59:49,004 [INFO] [*] Daily analysis complete.
+2026-06-09 13:59:49,005 [INFO] [*] Checking for live news...
