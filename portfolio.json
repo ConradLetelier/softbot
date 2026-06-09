@@ -79,14 +79,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 0.8744089794158754,
+        "cash": 955.1826407146453,
         "positions": {
-            "VOLV-B.ST": {
-                "shares": 3,
-                "buy_price": 325.20001220703125,
-                "high_price": 325.20001220703125,
-                "buy_time": "2026-05-27 18:27"
-            },
             "ATCO-A.ST": {
                 "shares": 5,
                 "buy_price": 182.0,

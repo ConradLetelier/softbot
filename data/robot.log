@@ -1807,3 +1807,13 @@
 2026-06-09 13:59:45,815 [INFO] [+] [sma_trend] BOUGHT 5 NDA-SE.ST
 2026-06-09 13:59:49,004 [INFO] [*] Daily analysis complete.
 2026-06-09 13:59:49,005 [INFO] [*] Checking for live news...
+2026-06-09 16:36:18,145 [INFO] [*] Loaded strategy: sma_trend
+2026-06-09 16:36:18,155 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-09 16:36:18,156 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-09 16:36:18,157 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-09 16:36:18,158 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-09 16:36:18,159 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-09 16:36:18,159 [INFO] [*] Starting daily technical analysis...
+2026-06-09 16:36:18,888 [INFO] [-] [macd_momentum] SOLD VOLV-B.ST
+2026-06-09 16:36:23,388 [INFO] [*] Daily analysis complete.
+2026-06-09 16:36:23,388 [INFO] [*] Checking for live news...
