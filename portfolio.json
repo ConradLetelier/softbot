@@ -62,7 +62,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3739.6937349170453,
+        "cash": 2819.097966560722,
         "positions": {
             "BETCO.ST": {
                 "shares": 7,
@@ -75,18 +75,18 @@
                 "buy_price": 111.4000015258789,
                 "high_price": 111.4000015258789,
                 "buy_time": "2026-06-09 13:59"
+            },
+            "VOLV-B.ST": {
+                "shares": 3,
+                "buy_price": 306.1000061035156,
+                "high_price": 306.1000061035156,
+                "buy_time": "2026-06-10 11:39"
             }
         }
     },
     "macd_momentum": {
-        "cash": 955.1826407146453,
+        "cash": 1840.9626711559295,
         "positions": {
-            "ATCO-A.ST": {
-                "shares": 5,
-                "buy_price": 182.0,
-                "high_price": 182.0,
-                "buy_time": "2026-06-02 17:02"
-            },
             "FING-B.ST": {
                 "shares": 56,
                 "buy_price": 17.760000228881836,

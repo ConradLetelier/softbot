@@ -1826,3 +1826,14 @@
 2026-06-09 19:10:28,356 [INFO] [*] Starting daily technical analysis...
 2026-06-09 19:10:32,931 [INFO] [*] Daily analysis complete.
 2026-06-09 19:10:32,931 [INFO] [*] Checking for live news...
+2026-06-10 11:39:31,495 [INFO] [*] Loaded strategy: sma_trend
+2026-06-10 11:39:31,509 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-10 11:39:31,510 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-10 11:39:31,511 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-10 11:39:31,512 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-10 11:39:31,513 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-10 11:39:31,514 [INFO] [*] Starting daily technical analysis...
+2026-06-10 11:39:32,182 [INFO] [+] [bollinger_reversion] BOUGHT 3 VOLV-B.ST
+2026-06-10 11:39:35,197 [INFO] [-] [macd_momentum] SOLD ATCO-A.ST
+2026-06-10 11:39:36,388 [INFO] [*] Daily analysis complete.
+2026-06-10 11:39:36,388 [INFO] [*] Checking for live news...
