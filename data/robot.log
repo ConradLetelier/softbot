@@ -1837,3 +1837,13 @@
 2026-06-10 11:39:35,197 [INFO] [-] [macd_momentum] SOLD ATCO-A.ST
 2026-06-10 11:39:36,388 [INFO] [*] Daily analysis complete.
 2026-06-10 11:39:36,388 [INFO] [*] Checking for live news...
+2026-06-10 15:36:54,579 [INFO] [*] Loaded strategy: sma_trend
+2026-06-10 15:36:54,589 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-10 15:36:54,590 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-10 15:36:54,591 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-10 15:36:54,592 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-10 15:36:54,593 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-10 15:36:54,593 [INFO] [*] Starting daily technical analysis...
+2026-06-10 15:36:58,647 [INFO] [-] [bollinger_reversion] SOLD BETCO.ST
+2026-06-10 15:36:58,907 [INFO] [*] Daily analysis complete.
+2026-06-10 15:36:58,907 [INFO] [*] Checking for live news...

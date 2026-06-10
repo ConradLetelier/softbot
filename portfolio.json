@@ -62,14 +62,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2819.097966560722,
+        "cash": 3691.910466560722,
         "positions": {
-            "BETCO.ST": {
-                "shares": 7,
-                "buy_price": 133.39999389648438,
-                "high_price": 133.39999389648438,
-                "buy_time": "2026-05-12 10:32"
-            },
             "ERIC-B.ST": {
                 "shares": 8,
                 "buy_price": 111.4000015258789,
