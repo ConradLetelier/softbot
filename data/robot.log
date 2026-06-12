@@ -1913,3 +1913,14 @@
 2026-06-12 15:17:08,990 [INFO] [*] Starting daily technical analysis...
 2026-06-12 15:17:13,830 [INFO] [*] Daily analysis complete.
 2026-06-12 15:17:13,830 [INFO] [*] Checking for live news...
+2026-06-12 17:53:35,267 [INFO] [*] Loaded strategy: sma_trend
+2026-06-12 17:53:35,278 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-12 17:53:35,279 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-12 17:53:35,280 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-12 17:53:35,281 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-12 17:53:35,282 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-12 17:53:35,282 [INFO] [*] Starting daily technical analysis...
+2026-06-12 17:53:38,006 [INFO] [+] [small_cap_volatility] BOUGHT 5 HM-B.ST
+2026-06-12 17:53:39,373 [INFO] [+] [small_cap_volatility] BOUGHT 19 TELIA.ST
+2026-06-12 17:53:43,344 [INFO] [*] Daily analysis complete.
+2026-06-12 17:53:43,344 [INFO] [*] Checking for live news...
