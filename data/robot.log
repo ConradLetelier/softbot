@@ -1892,3 +1892,15 @@
 2026-06-11 19:31:00,686 [INFO] [*] Starting daily technical analysis...
 2026-06-11 19:31:05,151 [INFO] [*] Daily analysis complete.
 2026-06-11 19:31:05,151 [INFO] [*] Checking for live news...
+2026-06-12 11:44:03,943 [INFO] [*] Loaded strategy: sma_trend
+2026-06-12 11:44:03,952 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-12 11:44:03,952 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-12 11:44:03,953 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-12 11:44:03,954 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-12 11:44:03,955 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-12 11:44:03,955 [INFO] [*] Starting daily technical analysis...
+2026-06-12 11:44:05,739 [INFO] [+] [macd_momentum] BOUGHT 5 SEB-A.ST
+2026-06-12 11:44:08,555 [INFO] [+] [macd_momentum] BOUGHT 2 SWED-A.ST
+2026-06-12 11:44:09,188 [INFO] [-] [rsi_reversion] SOLD BETCO.ST
+2026-06-12 11:44:09,465 [INFO] [*] Daily analysis complete.
+2026-06-12 11:44:09,465 [INFO] [*] Checking for live news...
