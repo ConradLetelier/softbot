@@ -1904,3 +1904,12 @@
 2026-06-12 11:44:09,188 [INFO] [-] [rsi_reversion] SOLD BETCO.ST
 2026-06-12 11:44:09,465 [INFO] [*] Daily analysis complete.
 2026-06-12 11:44:09,465 [INFO] [*] Checking for live news...
+2026-06-12 15:17:08,975 [INFO] [*] Loaded strategy: sma_trend
+2026-06-12 15:17:08,986 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-12 15:17:08,987 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-12 15:17:08,988 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-12 15:17:08,989 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-12 15:17:08,990 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-12 15:17:08,990 [INFO] [*] Starting daily technical analysis...
+2026-06-12 15:17:13,830 [INFO] [*] Daily analysis complete.
+2026-06-12 15:17:13,830 [INFO] [*] Checking for live news...
