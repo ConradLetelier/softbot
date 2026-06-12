@@ -1924,3 +1924,12 @@
 2026-06-12 17:53:39,373 [INFO] [+] [small_cap_volatility] BOUGHT 19 TELIA.ST
 2026-06-12 17:53:43,344 [INFO] [*] Daily analysis complete.
 2026-06-12 17:53:43,344 [INFO] [*] Checking for live news...
+2026-06-12 19:00:51,850 [INFO] [*] Loaded strategy: sma_trend
+2026-06-12 19:00:51,861 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-12 19:00:51,862 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-12 19:00:51,863 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-12 19:00:51,864 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-12 19:00:51,865 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-12 19:00:51,865 [INFO] [*] Starting daily technical analysis...
+2026-06-12 19:00:55,838 [INFO] [*] Daily analysis complete.
+2026-06-12 19:00:55,838 [INFO] [*] Checking for live news...
