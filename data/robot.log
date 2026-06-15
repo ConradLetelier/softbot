@@ -1954,3 +1954,12 @@
 2026-06-15 18:41:19,615 [INFO] [+] [small_cap_volatility] BOUGHT 5 SEB-A.ST
 2026-06-15 18:41:23,143 [INFO] [*] Daily analysis complete.
 2026-06-15 18:41:23,144 [INFO] [*] Checking for live news...
+2026-06-15 20:22:30,455 [INFO] [*] Loaded strategy: sma_trend
+2026-06-15 20:22:30,466 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-15 20:22:30,467 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-15 20:22:30,468 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-15 20:22:30,469 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-15 20:22:30,470 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-15 20:22:30,470 [INFO] [*] Starting daily technical analysis...
+2026-06-15 20:22:34,648 [INFO] [*] Daily analysis complete.
+2026-06-15 20:22:34,648 [INFO] [*] Checking for live news...
