@@ -1933,3 +1933,14 @@
 2026-06-12 19:00:51,865 [INFO] [*] Starting daily technical analysis...
 2026-06-12 19:00:55,838 [INFO] [*] Daily analysis complete.
 2026-06-12 19:00:55,838 [INFO] [*] Checking for live news...
+2026-06-15 13:56:37,255 [INFO] [*] Loaded strategy: sma_trend
+2026-06-15 13:56:37,266 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-15 13:56:37,267 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-15 13:56:37,268 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-15 13:56:37,269 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-15 13:56:37,270 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-15 13:56:37,270 [INFO] [*] Starting daily technical analysis...
+2026-06-15 13:56:38,994 [INFO] [-] [bollinger_reversion] SOLD VOLV-B.ST
+2026-06-15 13:56:49,002 [ERROR] Failed to get ticker 'INVE-B.ST' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-06-15 13:56:55,654 [INFO] [*] Daily analysis complete.
+2026-06-15 13:56:55,654 [INFO] [*] Checking for live news...
