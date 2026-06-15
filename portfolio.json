@@ -102,7 +102,7 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1959.7531175994873,
+        "cash": 993.5937425994873,
         "positions": {
             "SINCH.ST": {
                 "shares": 25,
@@ -121,6 +121,12 @@
                 "buy_price": 51.68000030517578,
                 "high_price": 51.68000030517578,
                 "buy_time": "2026-06-12 17:53"
+            },
+            "SEB-A.ST": {
+                "shares": 5,
+                "buy_price": 192.75,
+                "high_price": 192.75,
+                "buy_time": "2026-06-15 18:41"
             }
         }
     }
