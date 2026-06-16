@@ -102,14 +102,8 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 993.5937425994873,
+        "cash": 1886.1068904304504,
         "positions": {
-            "SINCH.ST": {
-                "shares": 25,
-                "buy_price": 38.529998779296875,
-                "high_price": 38.529998779296875,
-                "buy_time": "2026-05-08 14:23"
-            },
             "HM-B.ST": {
                 "shares": 5,
                 "buy_price": 171.25,
