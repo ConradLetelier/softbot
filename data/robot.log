@@ -1983,3 +1983,12 @@
 2026-06-16 18:05:21,076 [INFO] [-] [small_cap_volatility] SOLD TELIA.ST
 2026-06-16 18:05:23,321 [INFO] [*] Daily analysis complete.
 2026-06-16 18:05:23,321 [INFO] [*] Checking for live news...
+2026-06-16 20:10:53,335 [INFO] [*] Loaded strategy: sma_trend
+2026-06-16 20:10:53,344 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-16 20:10:53,344 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-16 20:10:53,345 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-16 20:10:53,346 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-16 20:10:53,347 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-16 20:10:53,347 [INFO] [*] Starting daily technical analysis...
+2026-06-16 20:10:57,687 [INFO] [*] Daily analysis complete.
+2026-06-16 20:10:57,687 [INFO] [*] Checking for live news...
