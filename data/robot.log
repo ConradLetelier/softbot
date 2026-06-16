@@ -1973,3 +1973,13 @@
 2026-06-16 12:54:42,369 [INFO] [-] [small_cap_volatility] SOLD SINCH.ST
 2026-06-16 12:54:43,028 [INFO] [*] Daily analysis complete.
 2026-06-16 12:54:43,028 [INFO] [*] Checking for live news...
+2026-06-16 18:05:18,614 [INFO] [*] Loaded strategy: sma_trend
+2026-06-16 18:05:18,624 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-16 18:05:18,625 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-16 18:05:18,626 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-16 18:05:18,627 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-16 18:05:18,628 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-16 18:05:18,628 [INFO] [*] Starting daily technical analysis...
+2026-06-16 18:05:21,076 [INFO] [-] [small_cap_volatility] SOLD TELIA.ST
+2026-06-16 18:05:23,321 [INFO] [*] Daily analysis complete.
+2026-06-16 18:05:23,321 [INFO] [*] Checking for live news...

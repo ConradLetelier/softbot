@@ -102,18 +102,12 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1886.1068904304504,
+        "cash": 2815.9165664577486,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
                 "buy_price": 171.25,
                 "high_price": 171.25,
-                "buy_time": "2026-06-12 17:53"
-            },
-            "TELIA.ST": {
-                "shares": 19,
-                "buy_price": 51.68000030517578,
-                "high_price": 51.68000030517578,
                 "buy_time": "2026-06-12 17:53"
             },
             "SEB-A.ST": {
