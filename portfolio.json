@@ -56,13 +56,19 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4658.487966560722,
+        "cash": 3690.3536194461594,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 8,
                 "buy_price": 111.4000015258789,
                 "high_price": 111.4000015258789,
                 "buy_time": "2026-06-09 13:59"
+            },
+            "SINCH.ST": {
+                "shares": 28,
+                "buy_price": 34.4900016784668,
+                "high_price": 34.4900016784668,
+                "buy_time": "2026-06-17 16:12"
             }
         }
     },
