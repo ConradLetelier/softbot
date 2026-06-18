@@ -2029,3 +2029,13 @@
 2026-06-17 19:21:39,730 [INFO] [*] Starting daily technical analysis...
 2026-06-17 19:21:44,221 [INFO] [*] Daily analysis complete.
 2026-06-17 19:21:44,221 [INFO] [*] Checking for live news...
+2026-06-18 11:51:03,153 [INFO] [*] Loaded strategy: sma_trend
+2026-06-18 11:51:03,164 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-18 11:51:03,165 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-18 11:51:03,166 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-18 11:51:03,167 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-18 11:51:03,168 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-18 11:51:03,168 [INFO] [*] Starting daily technical analysis...
+2026-06-18 11:51:07,427 [INFO] [+] [rsi_reversion] BOUGHT 30 SINCH.ST
+2026-06-18 11:51:08,057 [INFO] [*] Daily analysis complete.
+2026-06-18 11:51:08,058 [INFO] [*] Checking for live news...
