@@ -2048,3 +2048,15 @@
 2026-06-18 15:26:44,557 [INFO] [*] Starting daily technical analysis...
 2026-06-18 15:26:48,887 [INFO] [*] Daily analysis complete.
 2026-06-18 15:26:48,887 [INFO] [*] Checking for live news...
+2026-06-18 18:15:59,412 [INFO] [*] Loaded strategy: sma_trend
+2026-06-18 18:15:59,422 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-18 18:15:59,423 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-18 18:15:59,424 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-18 18:15:59,425 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-18 18:15:59,426 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-18 18:15:59,426 [INFO] [*] Starting daily technical analysis...
+2026-06-18 18:16:00,544 [INFO] [+] [small_cap_volatility] BOUGHT 2 INVE-B.ST
+2026-06-18 18:16:03,398 [INFO] [+] [small_cap_volatility] BOUGHT 2 SAND.ST
+2026-06-18 18:16:03,911 [INFO] [+] [small_cap_volatility] BOUGHT 2 SWED-A.ST
+2026-06-18 18:16:05,124 [INFO] [*] Daily analysis complete.
+2026-06-18 18:16:05,125 [INFO] [*] Checking for live news...

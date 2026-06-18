@@ -503,5 +503,20 @@
         "timestamp": "2026-06-18 11:51",
         "strategy": "rsi_reversion",
         "value": 5794.72
+    },
+    {
+        "timestamp": "2026-06-18 18:16",
+        "strategy": "small_cap_volatility",
+        "value": 4615.86
+    },
+    {
+        "timestamp": "2026-06-18 18:16",
+        "strategy": "small_cap_volatility",
+        "value": 4600.23
+    },
+    {
+        "timestamp": "2026-06-18 18:16",
+        "strategy": "small_cap_volatility",
+        "value": 4599.85
     }
 ]
