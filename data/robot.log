@@ -2124,3 +2124,12 @@
 2026-06-22 18:12:34,647 [INFO] [+] [bollinger_reversion] BOUGHT 8 CAST.ST
 2026-06-22 18:12:34,649 [INFO] [*] Daily analysis complete.
 2026-06-22 18:12:34,649 [INFO] [*] Checking for live news...
+2026-06-22 20:07:27,460 [INFO] [*] Loaded strategy: sma_trend
+2026-06-22 20:07:27,470 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-22 20:07:27,471 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-22 20:07:27,472 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-22 20:07:27,473 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-22 20:07:27,474 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-22 20:07:27,474 [INFO] [*] Starting daily technical analysis...
+2026-06-22 20:07:33,249 [INFO] [*] Daily analysis complete.
+2026-06-22 20:07:33,249 [INFO] [*] Checking for live news...
