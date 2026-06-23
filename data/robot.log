@@ -2160,3 +2160,13 @@
 2026-06-23 16:31:22,635 [INFO] [*] Starting daily technical analysis...
 2026-06-23 16:31:29,397 [INFO] [*] Daily analysis complete.
 2026-06-23 16:31:29,397 [INFO] [*] Checking for live news...
+2026-06-23 19:07:23,128 [INFO] [*] Loaded strategy: sma_trend
+2026-06-23 19:07:23,138 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-23 19:07:23,139 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-23 19:07:23,140 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-23 19:07:23,141 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-23 19:07:23,142 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-23 19:07:23,142 [INFO] [*] Starting daily technical analysis...
+2026-06-23 19:07:25,003 [INFO] [+] [rsi_reversion] BOUGHT 8 ERIC-B.ST
+2026-06-23 19:07:28,146 [INFO] [*] Daily analysis complete.
+2026-06-23 19:07:28,146 [INFO] [*] Checking for live news...
