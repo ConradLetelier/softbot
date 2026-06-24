@@ -126,7 +126,7 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 503.2492919826508,
+        "cash": 1271.9227676296234,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
@@ -144,12 +144,6 @@
                 "shares": 2,
                 "buy_price": 391.1499938964844,
                 "high_price": 391.1499938964844,
-                "buy_time": "2026-06-18 18:16"
-            },
-            "SAND.ST": {
-                "shares": 2,
-                "buy_price": 406.70001220703125,
-                "high_price": 406.70001220703125,
                 "buy_time": "2026-06-18 18:16"
             },
             "SWED-A.ST": {
