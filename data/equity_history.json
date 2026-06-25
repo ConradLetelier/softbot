@@ -533,5 +533,10 @@
         "timestamp": "2026-06-24 13:23",
         "strategy": "small_cap_volatility",
         "value": 4546.27
+    },
+    {
+        "timestamp": "2026-06-25 10:42",
+        "strategy": "bollinger_reversion",
+        "value": 5643.55
     }
 ]

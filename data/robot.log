@@ -2216,3 +2216,13 @@
 2026-06-24 18:47:57,778 [INFO] [*] Starting daily technical analysis...
 2026-06-24 18:48:01,976 [INFO] [*] Daily analysis complete.
 2026-06-24 18:48:01,976 [INFO] [*] Checking for live news...
+2026-06-25 10:42:35,939 [INFO] [*] Loaded strategy: sma_trend
+2026-06-25 10:42:35,953 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-25 10:42:35,955 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-25 10:42:35,956 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-25 10:42:35,957 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-25 10:42:35,958 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-25 10:42:35,958 [INFO] [*] Starting daily technical analysis...
+2026-06-25 10:42:41,407 [INFO] [-] [bollinger_reversion] SOLD CAST.ST
+2026-06-25 10:42:41,409 [INFO] [*] Daily analysis complete.
+2026-06-25 10:42:41,409 [INFO] [*] Checking for live news...
