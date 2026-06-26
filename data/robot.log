@@ -2262,3 +2262,14 @@
 2026-06-25 19:03:49,597 [INFO] [*] Starting daily technical analysis...
 2026-06-25 19:03:55,716 [INFO] [*] Daily analysis complete.
 2026-06-25 19:03:55,716 [INFO] [*] Checking for live news...
+2026-06-26 10:52:32,532 [INFO] [*] Loaded strategy: sma_trend
+2026-06-26 10:52:32,541 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-26 10:52:32,542 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-26 10:52:32,543 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-26 10:52:32,544 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-26 10:52:32,544 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-26 10:52:32,544 [INFO] [*] Starting daily technical analysis...
+2026-06-26 10:52:36,560 [INFO] [-] [rsi_reversion] SOLD SBB-B.ST
+2026-06-26 10:52:37,546 [INFO] [+] [bollinger_reversion] BOUGHT 8 BETCO.ST
+2026-06-26 10:52:37,819 [INFO] [*] Daily analysis complete.
+2026-06-26 10:52:37,819 [INFO] [*] Checking for live news...

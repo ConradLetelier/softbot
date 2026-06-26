@@ -39,18 +39,12 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 1904.8657688558103,
+        "cash": 2974.396262012124,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
                 "buy_price": 49.02000045776367,
                 "high_price": 49.02000045776367,
-                "buy_time": "2026-06-08 12:30"
-            },
-            "SBB-B.ST": {
-                "shares": 329,
-                "buy_price": 3.0230000019073486,
-                "high_price": 3.0230000019073486,
                 "buy_time": "2026-06-08 12:30"
             },
             "SINCH.ST": {
@@ -68,7 +62,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3739.033595032097,
+        "cash": 2805.505582794548,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 8,
@@ -81,6 +75,12 @@
                 "buy_price": 34.4900016784668,
                 "high_price": 34.4900016784668,
                 "buy_time": "2026-06-17 16:12"
+            },
+            "BETCO.ST": {
+                "shares": 8,
+                "buy_price": 116.4000015258789,
+                "high_price": 116.4000015258789,
+                "buy_time": "2026-06-26 10:52"
             }
         }
     },
