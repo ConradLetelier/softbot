@@ -62,19 +62,13 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2805.505582794548,
+        "cash": 3897.010033935905,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 8,
                 "buy_price": 111.4000015258789,
                 "high_price": 111.4000015258789,
                 "buy_time": "2026-06-09 13:59"
-            },
-            "SINCH.ST": {
-                "shares": 28,
-                "buy_price": 34.4900016784668,
-                "high_price": 34.4900016784668,
-                "buy_time": "2026-06-17 16:12"
             },
             "BETCO.ST": {
                 "shares": 8,
@@ -85,7 +79,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 199.82008898735035,
+        "cash": 1151.6844944286345,
         "positions": {
             "FING-B.ST": {
                 "shares": 56,
@@ -104,12 +98,6 @@
                 "buy_price": 122.19999694824219,
                 "high_price": 122.19999694824219,
                 "buy_time": "2026-06-05 16:59"
-            },
-            "SEB-A.ST": {
-                "shares": 5,
-                "buy_price": 188.64999389648438,
-                "high_price": 188.64999389648438,
-                "buy_time": "2026-06-12 11:44"
             },
             "SWED-A.ST": {
                 "shares": 2,

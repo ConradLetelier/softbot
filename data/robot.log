@@ -2309,3 +2309,14 @@
 2026-06-26 18:27:03,506 [INFO] [*] Starting daily technical analysis...
 2026-06-26 18:27:08,789 [INFO] [*] Daily analysis complete.
 2026-06-26 18:27:08,789 [INFO] [*] Checking for live news...
+2026-06-29 12:35:56,778 [INFO] [*] Loaded strategy: sma_trend
+2026-06-29 12:35:56,788 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-29 12:35:56,789 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-29 12:35:56,790 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-29 12:35:56,791 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-29 12:35:56,792 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-29 12:35:56,792 [INFO] [*] Starting daily technical analysis...
+2026-06-29 12:35:58,146 [INFO] [-] [macd_momentum] SOLD SEB-A.ST
+2026-06-29 12:36:00,948 [INFO] [-] [bollinger_reversion] SOLD SINCH.ST
+2026-06-29 12:36:01,449 [INFO] [*] Daily analysis complete.
+2026-06-29 12:36:01,449 [INFO] [*] Checking for live news...
