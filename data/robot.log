@@ -2375,3 +2375,13 @@
 2026-06-30 18:19:24,300 [INFO] [*] Starting daily technical analysis...
 2026-06-30 18:19:29,258 [INFO] [*] Daily analysis complete.
 2026-06-30 18:19:29,258 [INFO] [*] Checking for live news...
+2026-06-30 18:53:11,426 [INFO] [*] Loaded strategy: sma_trend
+2026-06-30 18:53:11,435 [INFO] [*] Loaded strategy: news_sentiment
+2026-06-30 18:53:11,435 [INFO] [*] Loaded strategy: rsi_reversion
+2026-06-30 18:53:11,436 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-06-30 18:53:11,437 [INFO] [*] Loaded strategy: macd_momentum
+2026-06-30 18:53:11,438 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-06-30 18:53:11,438 [INFO] [*] Starting daily technical analysis...
+2026-06-30 18:53:23,495 [ERROR] $TELIA.ST: possibly delisted; no price data found  (period=2y)
+2026-06-30 18:53:26,368 [INFO] [*] Daily analysis complete.
+2026-06-30 18:53:26,368 [INFO] [*] Checking for live news...
