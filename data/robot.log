@@ -2385,3 +2385,15 @@
 2026-06-30 18:53:23,495 [ERROR] $TELIA.ST: possibly delisted; no price data found  (period=2y)
 2026-06-30 18:53:26,368 [INFO] [*] Daily analysis complete.
 2026-06-30 18:53:26,368 [INFO] [*] Checking for live news...
+2026-07-01 11:23:57,328 [INFO] [*] Loaded strategy: sma_trend
+2026-07-01 11:23:57,338 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-01 11:23:57,339 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-01 11:23:57,339 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-01 11:23:57,340 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-01 11:23:57,341 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-01 11:23:57,341 [INFO] [*] Starting daily technical analysis...
+2026-07-01 11:24:00,062 [INFO] [+] [bollinger_reversion] BOUGHT 21 TELIA.ST
+2026-07-01 11:24:02,974 [INFO] [+] [rsi_reversion] BOUGHT 8 BETCO.ST
+2026-07-01 11:24:03,247 [INFO] [-] [macd_momentum] SOLD BETCO.ST
+2026-07-01 11:24:03,620 [INFO] [*] Daily analysis complete.
+2026-07-01 11:24:03,620 [INFO] [*] Checking for live news...
