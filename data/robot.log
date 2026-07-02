@@ -2463,3 +2463,12 @@
 2026-07-02 15:24:06,236 [INFO] [+] [small_cap_volatility] BOUGHT 3 SKF-B.ST
 2026-07-02 15:24:07,985 [INFO] [*] Daily analysis complete.
 2026-07-02 15:24:07,985 [INFO] [*] Checking for live news...
+2026-07-02 17:11:24,488 [INFO] [*] Loaded strategy: sma_trend
+2026-07-02 17:11:24,498 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-02 17:11:24,499 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-02 17:11:24,500 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-02 17:11:24,501 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-02 17:11:24,501 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-02 17:11:24,501 [INFO] [*] Starting daily technical analysis...
+2026-07-02 17:11:29,241 [INFO] [*] Daily analysis complete.
+2026-07-02 17:11:29,241 [INFO] [*] Checking for live news...
