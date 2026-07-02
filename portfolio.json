@@ -120,7 +120,7 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1271.9227676296234,
+        "cash": 491.47651762962346,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
@@ -145,6 +145,12 @@
                 "buy_price": 355.6000061035156,
                 "high_price": 355.6000061035156,
                 "buy_time": "2026-06-18 18:16"
+            },
+            "SKF-B.ST": {
+                "shares": 3,
+                "buy_price": 259.5,
+                "high_price": 259.5,
+                "buy_time": "2026-07-02 15:24"
             }
         }
     }
