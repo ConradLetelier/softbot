@@ -68,19 +68,13 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2924.384517874122,
+        "cash": 3894.7525056976083,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 8,
                 "buy_price": 111.4000015258789,
                 "high_price": 111.4000015258789,
                 "buy_time": "2026-06-09 13:59"
-            },
-            "BETCO.ST": {
-                "shares": 8,
-                "buy_price": 116.4000015258789,
-                "high_price": 116.4000015258789,
-                "buy_time": "2026-06-26 10:52"
             },
             "TELIA.ST": {
                 "shares": 21,
