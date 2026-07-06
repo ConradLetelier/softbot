@@ -2536,3 +2536,12 @@
 2026-07-06 12:05:23,560 [INFO] [-] [macd_momentum] SOLD FING-B.ST
 2026-07-06 12:05:24,225 [INFO] [*] Daily analysis complete.
 2026-07-06 12:05:24,225 [INFO] [*] Checking for live news...
+2026-07-06 16:00:18,205 [INFO] [*] Loaded strategy: sma_trend
+2026-07-06 16:00:18,213 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-06 16:00:18,214 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-06 16:00:18,215 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-06 16:00:18,216 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-06 16:00:18,216 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-06 16:00:18,216 [INFO] [*] Starting daily technical analysis...
+2026-07-06 16:00:24,132 [INFO] [*] Daily analysis complete.
+2026-07-06 16:00:24,132 [INFO] [*] Checking for live news...
