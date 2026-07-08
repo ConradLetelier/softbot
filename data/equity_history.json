@@ -598,5 +598,25 @@
         "timestamp": "2026-07-06 12:05",
         "strategy": "macd_momentum",
         "value": 4635.2
+    },
+    {
+        "timestamp": "2026-07-08 10:19",
+        "strategy": "bollinger_reversion",
+        "value": 5671.63
+    },
+    {
+        "timestamp": "2026-07-08 10:19",
+        "strategy": "small_cap_volatility",
+        "value": 4546.41
+    },
+    {
+        "timestamp": "2026-07-08 10:19",
+        "strategy": "sma_trend",
+        "value": 5106.07
+    },
+    {
+        "timestamp": "2026-07-08 10:19",
+        "strategy": "sma_trend",
+        "value": 5104.19
     }
 ]
