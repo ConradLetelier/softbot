@@ -618,5 +618,15 @@
         "timestamp": "2026-07-08 10:19",
         "strategy": "sma_trend",
         "value": 5104.19
+    },
+    {
+        "timestamp": "2026-07-09 10:55",
+        "strategy": "rsi_reversion",
+        "value": 5883.09
+    },
+    {
+        "timestamp": "2026-07-09 10:55",
+        "strategy": "macd_momentum",
+        "value": 4520.56
     }
 ]

@@ -2657,3 +2657,14 @@
 2026-07-08 18:14:32,614 [INFO] [*] Starting daily technical analysis...
 2026-07-08 18:14:36,984 [INFO] [*] Daily analysis complete.
 2026-07-08 18:14:36,984 [INFO] [*] Checking for live news...
+2026-07-09 10:55:09,815 [INFO] [*] Loaded strategy: sma_trend
+2026-07-09 10:55:09,825 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-09 10:55:09,826 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-09 10:55:09,827 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-09 10:55:09,828 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-09 10:55:09,829 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-09 10:55:09,829 [INFO] [*] Starting daily technical analysis...
+2026-07-09 10:55:14,693 [INFO] [-] [rsi_reversion] SOLD SINCH.ST
+2026-07-09 10:55:14,983 [INFO] [-] [macd_momentum] SOLD SINCH.ST
+2026-07-09 10:55:15,961 [INFO] [*] Daily analysis complete.
+2026-07-09 10:55:15,961 [INFO] [*] Checking for live news...
