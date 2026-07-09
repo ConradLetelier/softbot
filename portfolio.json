@@ -62,14 +62,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2925.1345240539313,
+        "cash": 3803.7325118774174,
         "positions": {
-            "ERIC-B.ST": {
-                "shares": 8,
-                "buy_price": 111.4000015258789,
-                "high_price": 111.4000015258789,
-                "buy_time": "2026-06-09 13:59"
-            },
             "TELIA.ST": {
                 "shares": 21,
                 "buy_price": 46.20000076293945,
@@ -85,7 +79,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 1961.91230928421,
+        "cash": 968.5350730514525,
         "positions": {
             "SWED-A.ST": {
                 "shares": 2,
@@ -104,6 +98,12 @@
                 "buy_price": 248.8000030517578,
                 "high_price": 248.8000030517578,
                 "buy_time": "2026-07-01 16:27"
+            },
+            "ERIC-B.ST": {
+                "shares": 9,
+                "buy_price": 110.0999984741211,
+                "high_price": 110.0999984741211,
+                "buy_time": "2026-07-09 13:50"
             }
         }
     },

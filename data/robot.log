@@ -2668,3 +2668,14 @@
 2026-07-09 10:55:14,983 [INFO] [-] [macd_momentum] SOLD SINCH.ST
 2026-07-09 10:55:15,961 [INFO] [*] Daily analysis complete.
 2026-07-09 10:55:15,961 [INFO] [*] Checking for live news...
+2026-07-09 13:50:11,055 [INFO] [*] Loaded strategy: sma_trend
+2026-07-09 13:50:11,065 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-09 13:50:11,066 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-09 13:50:11,067 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-09 13:50:11,068 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-09 13:50:11,069 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-09 13:50:11,069 [INFO] [*] Starting daily technical analysis...
+2026-07-09 13:50:12,932 [INFO] [-] [bollinger_reversion] SOLD ERIC-B.ST
+2026-07-09 13:50:13,308 [INFO] [+] [macd_momentum] BOUGHT 9 ERIC-B.ST
+2026-07-09 13:50:16,838 [INFO] [*] Daily analysis complete.
+2026-07-09 13:50:16,839 [INFO] [*] Checking for live news...
