@@ -2706,3 +2706,13 @@
 2026-07-09 18:47:03,599 [INFO] [*] Starting daily technical analysis...
 2026-07-09 18:47:08,958 [INFO] [*] Daily analysis complete.
 2026-07-09 18:47:08,959 [INFO] [*] Checking for live news...
+2026-07-10 10:54:57,487 [INFO] [*] Loaded strategy: sma_trend
+2026-07-10 10:54:57,495 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-10 10:54:57,496 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-10 10:54:57,496 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-10 10:54:57,497 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-10 10:54:57,498 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-10 10:54:57,498 [INFO] [*] Starting daily technical analysis...
+2026-07-10 10:55:03,689 [INFO] [-] [macd_momentum] SOLD SWED-A.ST
+2026-07-10 10:55:05,360 [INFO] [*] Daily analysis complete.
+2026-07-10 10:55:05,360 [INFO] [*] Checking for live news...

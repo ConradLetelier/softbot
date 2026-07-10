@@ -79,14 +79,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 968.5350730514525,
+        "cash": 1696.5105608749388,
         "positions": {
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 346.8999938964844,
-                "high_price": 346.8999938964844,
-                "buy_time": "2026-06-12 11:44"
-            },
             "HM-B.ST": {
                 "shares": 5,
                 "buy_price": 168.89999389648438,
