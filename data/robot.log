@@ -2716,3 +2716,12 @@
 2026-07-10 10:55:03,689 [INFO] [-] [macd_momentum] SOLD SWED-A.ST
 2026-07-10 10:55:05,360 [INFO] [*] Daily analysis complete.
 2026-07-10 10:55:05,360 [INFO] [*] Checking for live news...
+2026-07-10 13:12:22,202 [INFO] [*] Loaded strategy: sma_trend
+2026-07-10 13:12:22,212 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-10 13:12:22,213 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-10 13:12:22,214 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-10 13:12:22,215 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-10 13:12:22,216 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-10 13:12:22,216 [INFO] [*] Starting daily technical analysis...
+2026-07-10 13:12:26,501 [INFO] [*] Daily analysis complete.
+2026-07-10 13:12:26,501 [INFO] [*] Checking for live news...
