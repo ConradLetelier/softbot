@@ -2762,3 +2762,12 @@
 2026-07-13 11:12:00,024 [INFO] [-] [bollinger_reversion] SOLD HM-B.ST
 2026-07-13 11:12:02,533 [INFO] [*] Daily analysis complete.
 2026-07-13 11:12:02,534 [INFO] [*] Checking for live news...
+2026-07-13 13:34:10,332 [INFO] [*] Loaded strategy: sma_trend
+2026-07-13 13:34:10,343 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-13 13:34:10,345 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-13 13:34:10,346 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-13 13:34:10,347 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-13 13:34:10,348 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-13 13:34:10,348 [INFO] [*] Starting daily technical analysis...
+2026-07-13 13:34:17,888 [INFO] [*] Daily analysis complete.
+2026-07-13 13:34:17,888 [INFO] [*] Checking for live news...
