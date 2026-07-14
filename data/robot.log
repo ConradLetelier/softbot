@@ -2837,3 +2837,12 @@
 2026-07-14 16:45:24,013 [INFO] [-] [macd_momentum] SOLD ERIC-B.ST
 2026-07-14 16:45:27,095 [INFO] [*] Daily analysis complete.
 2026-07-14 16:45:27,096 [INFO] [*] Checking for live news...
+2026-07-14 17:58:21,128 [INFO] [*] Loaded strategy: sma_trend
+2026-07-14 17:58:21,135 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-14 17:58:21,136 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-14 17:58:21,137 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-14 17:58:21,138 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-14 17:58:21,138 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-14 17:58:21,138 [INFO] [*] Starting daily technical analysis...
+2026-07-14 17:58:25,883 [INFO] [*] Daily analysis complete.
+2026-07-14 17:58:25,883 [INFO] [*] Checking for live news...
