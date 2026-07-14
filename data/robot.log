@@ -2809,3 +2809,12 @@
 2026-07-14 11:38:54,477 [INFO] [+] [bollinger_reversion] BOUGHT 9 ERIC-B.ST
 2026-07-14 11:38:56,857 [INFO] [*] Daily analysis complete.
 2026-07-14 11:38:56,857 [INFO] [*] Checking for live news...
+2026-07-14 13:45:13,465 [INFO] [*] Loaded strategy: sma_trend
+2026-07-14 13:45:13,472 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-14 13:45:13,473 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-14 13:45:13,474 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-14 13:45:13,474 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-14 13:45:13,475 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-14 13:45:13,475 [INFO] [*] Starting daily technical analysis...
+2026-07-14 13:45:24,531 [INFO] [*] Daily analysis complete.
+2026-07-14 13:45:24,531 [INFO] [*] Checking for live news...
