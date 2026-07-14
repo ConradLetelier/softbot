@@ -653,5 +653,10 @@
         "timestamp": "2026-07-14 09:58",
         "strategy": "rsi_reversion",
         "value": 5873.01
+    },
+    {
+        "timestamp": "2026-07-14 11:38",
+        "strategy": "bollinger_reversion",
+        "value": 5786.36
     }
 ]
