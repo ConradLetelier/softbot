@@ -2846,3 +2846,13 @@
 2026-07-14 17:58:21,138 [INFO] [*] Starting daily technical analysis...
 2026-07-14 17:58:25,883 [INFO] [*] Daily analysis complete.
 2026-07-14 17:58:25,883 [INFO] [*] Checking for live news...
+2026-07-15 10:03:15,418 [INFO] [*] Loaded strategy: sma_trend
+2026-07-15 10:03:15,428 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-15 10:03:15,429 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-15 10:03:15,430 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-15 10:03:15,431 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-15 10:03:15,432 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-15 10:03:15,432 [INFO] [*] Starting daily technical analysis...
+2026-07-15 10:03:17,554 [INFO] [+] [macd_momentum] BOUGHT 21 TELIA.ST
+2026-07-15 10:03:19,441 [INFO] [*] Daily analysis complete.
+2026-07-15 10:03:19,441 [INFO] [*] Checking for live news...
