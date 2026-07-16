@@ -2932,3 +2932,13 @@
 2026-07-16 14:32:52,558 [INFO] [*] Starting daily technical analysis...
 2026-07-16 14:33:01,766 [INFO] [*] Daily analysis complete.
 2026-07-16 14:33:01,767 [INFO] [*] Checking for live news...
+2026-07-16 16:17:26,937 [INFO] [*] Loaded strategy: sma_trend
+2026-07-16 16:17:26,947 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-16 16:17:26,948 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-16 16:17:26,948 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-16 16:17:26,949 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-16 16:17:26,950 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-16 16:17:26,950 [INFO] [*] Starting daily technical analysis...
+2026-07-16 16:17:34,384 [INFO] [+] [bollinger_reversion] BOUGHT 2 SAND.ST
+2026-07-16 16:17:37,442 [INFO] [*] Daily analysis complete.
+2026-07-16 16:17:37,442 [INFO] [*] Checking for live news...

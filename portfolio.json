@@ -68,7 +68,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2927.7129858726266,
+        "cash": 2180.0484981101754,
         "positions": {
             "TELIA.ST": {
                 "shares": 21,
@@ -87,6 +87,12 @@
                 "buy_price": 952.2000122070312,
                 "high_price": 952.2000122070312,
                 "buy_time": "2026-07-16 10:09"
+            },
+            "SAND.ST": {
+                "shares": 2,
+                "buy_price": 372.8999938964844,
+                "high_price": 372.8999938964844,
+                "buy_time": "2026-07-16 16:17"
             }
         }
     },
