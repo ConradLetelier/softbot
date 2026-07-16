@@ -68,7 +68,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3882.2934981101753,
+        "cash": 2927.7129858726266,
         "positions": {
             "TELIA.ST": {
                 "shares": 21,
@@ -81,11 +81,17 @@
                 "buy_price": 102.9000015258789,
                 "high_price": 102.9000015258789,
                 "buy_time": "2026-07-14 11:38"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 952.2000122070312,
+                "high_price": 952.2000122070312,
+                "buy_time": "2026-07-16 10:09"
             }
         }
     },
     "macd_momentum": {
-        "cash": 681.235484085083,
+        "cash": 2520.705327768326,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
@@ -98,18 +104,6 @@
                 "buy_price": 248.8000030517578,
                 "high_price": 248.8000030517578,
                 "buy_time": "2026-07-01 16:27"
-            },
-            "TELIA.ST": {
-                "shares": 21,
-                "buy_price": 46.43000030517578,
-                "high_price": 46.43000030517578,
-                "buy_time": "2026-07-15 10:03"
-            },
-            "CAST.ST": {
-                "shares": 7,
-                "buy_price": 131.4499969482422,
-                "high_price": 131.4499969482422,
-                "buy_time": "2026-07-15 14:01"
             }
         }
     },
