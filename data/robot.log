@@ -2970,3 +2970,12 @@
 2026-07-17 09:57:51,865 [INFO] [-] [macd_momentum] SOLD SKF-B.ST
 2026-07-17 09:57:55,496 [INFO] [*] Daily analysis complete.
 2026-07-17 09:57:55,496 [INFO] [*] Checking for live news...
+2026-07-17 11:25:28,310 [INFO] [*] Loaded strategy: sma_trend
+2026-07-17 11:25:28,319 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-17 11:25:28,320 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-17 11:25:28,321 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-17 11:25:28,322 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-17 11:25:28,323 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-17 11:25:28,323 [INFO] [*] Starting daily technical analysis...
+2026-07-17 11:25:33,419 [INFO] [*] Daily analysis complete.
+2026-07-17 11:25:33,419 [INFO] [*] Checking for live news...
