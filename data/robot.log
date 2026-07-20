@@ -3024,3 +3024,15 @@
 2026-07-17 17:59:51,471 [INFO] [*] Starting daily technical analysis...
 2026-07-17 17:59:55,843 [INFO] [*] Daily analysis complete.
 2026-07-17 17:59:55,844 [INFO] [*] Checking for live news...
+2026-07-20 10:52:44,456 [INFO] [*] Loaded strategy: sma_trend
+2026-07-20 10:52:44,464 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-20 10:52:44,465 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-20 10:52:44,465 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-20 10:52:44,466 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-20 10:52:44,467 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-20 10:52:44,467 [INFO] [*] Starting daily technical analysis...
+2026-07-20 10:52:51,902 [INFO] [+] [rsi_reversion] BOUGHT 2 SAND.ST
+2026-07-20 10:52:54,217 [INFO] [-] [rsi_reversion] SOLD BETCO.ST
+2026-07-20 10:52:54,665 [INFO] [*] Daily analysis complete.
+2026-07-20 10:52:54,666 [INFO] [*] Checking for live news...
+2026-07-20 10:53:02,122 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)

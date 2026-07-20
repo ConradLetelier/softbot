@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2154.847435384393,
+        "cash": 2460.3014109092956,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
@@ -53,17 +53,17 @@
                 "high_price": 112.0,
                 "buy_time": "2026-06-23 19:07"
             },
-            "BETCO.ST": {
-                "shares": 8,
-                "buy_price": 116.19999694824219,
-                "high_price": 116.19999694824219,
-                "buy_time": "2026-07-01 11:24"
-            },
             "FING-B.ST": {
                 "shares": 68,
                 "buy_price": 14.619999885559082,
                 "high_price": 14.619999885559082,
                 "buy_time": "2026-07-14 09:58"
+            },
+            "SAND.ST": {
+                "shares": 2,
+                "buy_price": 337.20001220703125,
+                "high_price": 337.20001220703125,
+                "buy_time": "2026-07-20 10:52"
             }
         }
     },
