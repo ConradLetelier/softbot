@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 733.1864967727656,
+        "cash": 740.1349876403804,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
@@ -26,11 +26,11 @@
                 "high_price": 175.3000030517578,
                 "buy_time": "2026-06-09 13:59"
             },
-            "SKF-B.ST": {
-                "shares": 3,
-                "buy_price": 251.5,
-                "high_price": 251.5,
-                "buy_time": "2026-07-08 10:19"
+            "SWED-A.ST": {
+                "shares": 2,
+                "buy_price": 362.5,
+                "high_price": 362.5,
+                "buy_time": "2026-07-20 17:01"
             }
         }
     },
