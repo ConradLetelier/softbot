@@ -3079,3 +3079,17 @@
 2026-07-20 18:50:30,696 [INFO] [*] Daily analysis complete.
 2026-07-20 18:50:30,696 [INFO] [*] Checking for live news...
 2026-07-20 18:50:35,576 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-07-21 10:25:48,514 [INFO] [*] Loaded strategy: sma_trend
+2026-07-21 10:25:48,524 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-21 10:25:48,525 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-21 10:25:48,526 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-21 10:25:48,527 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-21 10:25:48,528 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-21 10:25:48,528 [INFO] [*] Starting daily technical analysis...
+2026-07-21 10:25:50,332 [INFO] [+] [macd_momentum] BOUGHT 5 NDA-SE.ST
+2026-07-21 10:25:50,538 [ERROR] $TELIA.ST: possibly delisted; no price data found  (period=2y)
+2026-07-21 10:25:51,117 [ERROR] $ALIV-SDB.ST: possibly delisted; no price data found  (period=2y)
+2026-07-21 10:25:51,459 [INFO] [+] [macd_momentum] BOUGHT 5 ATCO-A.ST
+2026-07-21 10:25:52,654 [INFO] [*] Daily analysis complete.
+2026-07-21 10:25:52,654 [INFO] [*] Checking for live news...
+2026-07-21 10:25:56,199 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
