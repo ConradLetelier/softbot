@@ -3234,3 +3234,18 @@
 2026-07-23 14:41:11,003 [INFO] [*] Daily analysis complete.
 2026-07-23 14:41:11,003 [INFO] [*] Checking for live news...
 2026-07-23 14:41:15,626 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-07-23 16:26:28,249 [INFO] [*] Loaded strategy: sma_trend
+2026-07-23 16:26:28,259 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-23 16:26:28,260 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-23 16:26:28,261 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-23 16:26:28,262 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-23 16:26:28,262 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-23 16:26:28,262 [INFO] [*] Starting daily technical analysis...
+2026-07-23 16:26:31,158 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=5d)
+2026-07-23 16:26:31,379 [ERROR] 
+1 Failed download:
+2026-07-23 16:26:31,380 [ERROR] ['FING-B.ST']: possibly delisted; no price data found  (period=5d)
+2026-07-23 16:26:31,389 [INFO] [+] [rsi_reversion] BOUGHT 1 ABB.ST
+2026-07-23 16:26:34,200 [INFO] [*] Daily analysis complete.
+2026-07-23 16:26:34,200 [INFO] [*] Checking for live news...
+2026-07-23 16:26:38,662 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
