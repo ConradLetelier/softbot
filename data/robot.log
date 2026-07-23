@@ -3203,3 +3203,14 @@
 2026-07-22 18:05:45,055 [INFO] [*] Daily analysis complete.
 2026-07-22 18:05:45,056 [INFO] [*] Checking for live news...
 2026-07-22 18:05:49,323 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-07-23 10:23:15,426 [INFO] [*] Loaded strategy: sma_trend
+2026-07-23 10:23:15,436 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-23 10:23:15,437 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-23 10:23:15,437 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-23 10:23:15,438 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-23 10:23:15,439 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-23 10:23:15,439 [INFO] [*] Starting daily technical analysis...
+2026-07-23 10:23:19,039 [INFO] [+] [bollinger_reversion] BOUGHT 27 SINCH.ST
+2026-07-23 10:23:19,595 [INFO] [*] Daily analysis complete.
+2026-07-23 10:23:19,595 [INFO] [*] Checking for live news...
+2026-07-23 10:23:23,487 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)

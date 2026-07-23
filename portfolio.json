@@ -68,7 +68,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2180.0484981101754,
+        "cash": 1182.8817939800026,
         "positions": {
             "TELIA.ST": {
                 "shares": 21,
@@ -93,6 +93,12 @@
                 "buy_price": 372.8999938964844,
                 "high_price": 372.8999938964844,
                 "buy_time": "2026-07-16 16:17"
+            },
+            "SINCH.ST": {
+                "shares": 27,
+                "buy_price": 36.84000015258789,
+                "high_price": 36.84000015258789,
+                "buy_time": "2026-07-23 10:23"
             }
         }
     },
