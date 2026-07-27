@@ -74,7 +74,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1182.8817939800026,
+        "cash": 2235.942502884269,
         "positions": {
             "TELIA.ST": {
                 "shares": 21,
@@ -99,17 +99,11 @@
                 "buy_price": 372.8999938964844,
                 "high_price": 372.8999938964844,
                 "buy_time": "2026-07-16 16:17"
-            },
-            "SINCH.ST": {
-                "shares": 27,
-                "buy_price": 36.84000015258789,
-                "high_price": 36.84000015258789,
-                "buy_time": "2026-07-23 10:23"
             }
         }
     },
     "macd_momentum": {
-        "cash": 1568.4950075244903,
+        "cash": 745.1417697620392,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
@@ -128,6 +122,12 @@
                 "buy_price": 195.8000030517578,
                 "high_price": 195.8000030517578,
                 "buy_time": "2026-07-21 10:25"
+            },
+            "INVE-B.ST": {
+                "shares": 2,
+                "buy_price": 410.6499938964844,
+                "high_price": 410.6499938964844,
+                "buy_time": "2026-07-27 11:22"
             }
         }
     },

@@ -743,5 +743,15 @@
         "timestamp": "2026-07-23 16:26",
         "strategy": "rsi_reversion",
         "value": 5766.27
+    },
+    {
+        "timestamp": "2026-07-27 11:22",
+        "strategy": "macd_momentum",
+        "value": 4408.44
+    },
+    {
+        "timestamp": "2026-07-27 11:22",
+        "strategy": "bollinger_reversion",
+        "value": 5692.56
     }
 ]
