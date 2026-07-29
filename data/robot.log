@@ -3465,3 +3465,14 @@
 2026-07-29 15:34:46,205 [INFO] [*] Daily analysis complete.
 2026-07-29 15:34:46,206 [INFO] [*] Checking for live news...
 2026-07-29 15:34:52,042 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-07-29 16:51:55,701 [INFO] [*] Loaded strategy: sma_trend
+2026-07-29 16:51:55,711 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-29 16:51:55,712 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-29 16:51:55,713 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-29 16:51:55,714 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-29 16:51:55,715 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-29 16:51:55,715 [INFO] [*] Starting daily technical analysis...
+2026-07-29 16:51:57,744 [INFO] [+] [macd_momentum] BOUGHT 10 ERIC-B.ST
+2026-07-29 16:52:00,258 [INFO] [*] Daily analysis complete.
+2026-07-29 16:52:00,258 [INFO] [*] Checking for live news...
+2026-07-29 16:52:04,841 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
