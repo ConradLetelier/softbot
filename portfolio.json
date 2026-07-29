@@ -97,19 +97,13 @@
         }
     },
     "macd_momentum": {
-        "cash": 710.8869673252105,
+        "cash": 1678.9607477664947,
         "positions": {
             "HM-B.ST": {
                 "shares": 5,
                 "buy_price": 168.89999389648438,
                 "high_price": 168.89999389648438,
                 "buy_time": "2026-06-30 10:57"
-            },
-            "ATCO-A.ST": {
-                "shares": 5,
-                "buy_price": 195.8000030517578,
-                "high_price": 195.8000030517578,
-                "buy_time": "2026-07-21 10:25"
             },
             "INVE-B.ST": {
                 "shares": 2,
