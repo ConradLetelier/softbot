@@ -3506,3 +3506,14 @@
 2026-07-30 12:12:29,438 [INFO] [*] Daily analysis complete.
 2026-07-30 12:12:29,439 [INFO] [*] Checking for live news...
 2026-07-30 12:12:35,038 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-07-30 14:41:55,777 [INFO] [*] Loaded strategy: sma_trend
+2026-07-30 14:41:55,787 [INFO] [*] Loaded strategy: news_sentiment
+2026-07-30 14:41:55,789 [INFO] [*] Loaded strategy: rsi_reversion
+2026-07-30 14:41:55,790 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-07-30 14:41:55,791 [INFO] [*] Loaded strategy: macd_momentum
+2026-07-30 14:41:55,792 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-07-30 14:41:55,792 [INFO] [*] Starting daily technical analysis...
+2026-07-30 14:41:57,852 [INFO] [-] [small_cap_volatility] SOLD SEB-A.ST
+2026-07-30 14:42:02,144 [INFO] [*] Daily analysis complete.
+2026-07-30 14:42:02,144 [INFO] [*] Checking for live news...
+2026-07-30 14:42:07,581 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)

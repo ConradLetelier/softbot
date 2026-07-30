@@ -126,14 +126,8 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 2032.5142615413665,
+        "cash": 3139.7392615413664,
         "positions": {
-            "SEB-A.ST": {
-                "shares": 5,
-                "buy_price": 192.75,
-                "high_price": 192.75,
-                "buy_time": "2026-06-15 18:41"
-            },
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 391.1499938964844,
