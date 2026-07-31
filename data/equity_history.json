@@ -783,5 +783,10 @@
         "timestamp": "2026-07-30 14:41",
         "strategy": "small_cap_volatility",
         "value": 4716.44
+    },
+    {
+        "timestamp": "2026-07-31 17:05",
+        "strategy": "small_cap_volatility",
+        "value": 4721.51
     }
 ]
