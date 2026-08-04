@@ -3670,3 +3670,15 @@
 2026-08-04 13:02:44,665 [INFO] [*] Daily analysis complete.
 2026-08-04 13:02:44,665 [INFO] [*] Checking for live news...
 2026-08-04 13:02:49,918 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-04 15:55:10,966 [INFO] [*] Loaded strategy: sma_trend
+2026-08-04 15:55:10,976 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-04 15:55:10,977 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-04 15:55:10,978 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-04 15:55:10,979 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-04 15:55:10,980 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-04 15:55:10,980 [INFO] [*] Starting daily technical analysis...
+2026-08-04 15:55:12,720 [INFO] [-] [bollinger_reversion] SOLD ERIC-B.ST
+2026-08-04 15:55:13,382 [INFO] [+] [small_cap_volatility] BOUGHT 5 NDA-SE.ST
+2026-08-04 15:55:15,751 [INFO] [*] Daily analysis complete.
+2026-08-04 15:55:15,751 [INFO] [*] Checking for live news...
+2026-08-04 15:55:20,783 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
