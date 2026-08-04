@@ -74,7 +74,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 3193.6622284549476,
+        "cash": 3924.8297284549476,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 9,
@@ -87,12 +87,6 @@
                 "buy_price": 952.2000122070312,
                 "high_price": 952.2000122070312,
                 "buy_time": "2026-07-16 10:09"
-            },
-            "SAND.ST": {
-                "shares": 2,
-                "buy_price": 372.8999938964844,
-                "high_price": 372.8999938964844,
-                "buy_time": "2026-07-16 16:17"
             }
         }
     },
