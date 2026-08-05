@@ -74,8 +74,15 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 5775.092502807975,
-        "positions": {}
+        "cash": 4782.236521143317,
+        "positions": {
+            "TELIA.ST": {
+                "shares": 23,
+                "buy_price": 43.060001373291016,
+                "high_price": 43.060001373291016,
+                "buy_time": "2026-08-05 15:14"
+            }
+        }
     },
     "macd_momentum": {
         "cash": 714.1547691822052,

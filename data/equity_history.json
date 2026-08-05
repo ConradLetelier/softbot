@@ -808,5 +808,10 @@
         "timestamp": "2026-08-04 15:55",
         "strategy": "small_cap_volatility",
         "value": 4772.07
+    },
+    {
+        "timestamp": "2026-08-05 15:14",
+        "strategy": "bollinger_reversion",
+        "value": 5772.62
     }
 ]
