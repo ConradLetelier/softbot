@@ -3773,3 +3773,18 @@
 2026-08-06 12:56:43,761 [INFO] [*] Daily analysis complete.
 2026-08-06 12:56:43,761 [INFO] [*] Checking for live news...
 2026-08-06 12:56:47,954 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-06 15:18:51,983 [INFO] [*] Loaded strategy: sma_trend
+2026-08-06 15:18:51,992 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-06 15:18:51,993 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-06 15:18:51,994 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-06 15:18:51,995 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-06 15:18:51,996 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-06 15:18:51,996 [INFO] [*] Starting daily technical analysis...
+2026-08-06 15:18:59,094 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=5d)
+2026-08-06 15:18:59,149 [ERROR] 
+1 Failed download:
+2026-08-06 15:18:59,149 [ERROR] ['FING-B.ST']: possibly delisted; no price data found  (period=5d)
+2026-08-06 15:18:59,158 [INFO] [-] [rsi_reversion] SOLD SAND.ST
+2026-08-06 15:19:01,739 [INFO] [*] Daily analysis complete.
+2026-08-06 15:19:01,739 [INFO] [*] Checking for live news...
+2026-08-06 15:19:09,125 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
