@@ -3889,3 +3889,13 @@
 2026-08-10 09:21:27,649 [INFO] [*] Daily analysis complete.
 2026-08-10 09:21:27,649 [INFO] [*] Checking for live news...
 2026-08-10 09:21:30,997 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-10 10:43:06,832 [INFO] [*] Loaded strategy: sma_trend
+2026-08-10 10:43:06,838 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-10 10:43:06,838 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-10 10:43:06,839 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-10 10:43:06,839 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-10 10:43:06,840 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-10 10:43:06,840 [INFO] [*] Starting daily technical analysis...
+2026-08-10 10:43:12,569 [INFO] [*] Daily analysis complete.
+2026-08-10 10:43:12,569 [INFO] [*] Checking for live news...
+2026-08-10 10:43:17,576 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
