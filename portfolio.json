@@ -39,19 +39,13 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2238.6709474998715,
+        "cash": 3019.274545064569,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
                 "buy_price": 49.02000045776367,
                 "high_price": 49.02000045776367,
                 "buy_time": "2026-06-08 12:30"
-            },
-            "ERIC-B.ST": {
-                "shares": 8,
-                "buy_price": 112.0,
-                "high_price": 112.0,
-                "buy_time": "2026-06-23 19:07"
             },
             "FING-B.ST": {
                 "shares": 68,
