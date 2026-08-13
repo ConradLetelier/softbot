@@ -4154,3 +4154,14 @@
 2026-08-13 10:36:21,005 [INFO] [*] Daily analysis complete.
 2026-08-13 10:36:21,006 [INFO] [*] Checking for live news...
 2026-08-13 10:36:25,346 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-13 11:46:44,132 [INFO] [*] Loaded strategy: sma_trend
+2026-08-13 11:46:44,142 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-13 11:46:44,143 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-13 11:46:44,144 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-13 11:46:44,145 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-13 11:46:44,146 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-13 11:46:44,146 [INFO] [*] Starting daily technical analysis...
+2026-08-13 11:46:44,895 [INFO] [-] [macd_momentum] SOLD INVE-B.ST
+2026-08-13 11:46:48,124 [INFO] [*] Daily analysis complete.
+2026-08-13 11:46:48,124 [INFO] [*] Checking for live news...
+2026-08-13 11:46:52,494 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
