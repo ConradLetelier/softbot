@@ -833,5 +833,10 @@
         "timestamp": "2026-08-13 11:46",
         "strategy": "macd_momentum",
         "value": 4435.38
+    },
+    {
+        "timestamp": "2026-08-14 09:07",
+        "strategy": "macd_momentum",
+        "value": 4469.3
     }
 ]

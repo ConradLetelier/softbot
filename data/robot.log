@@ -4205,3 +4205,14 @@
 2026-08-13 17:53:11,337 [INFO] [*] Daily analysis complete.
 2026-08-13 17:53:11,337 [INFO] [*] Checking for live news...
 2026-08-13 17:53:16,410 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-14 09:07:14,126 [INFO] [*] Loaded strategy: sma_trend
+2026-08-14 09:07:14,134 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-14 09:07:14,135 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-14 09:07:14,136 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-14 09:07:14,137 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-14 09:07:14,138 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-14 09:07:14,138 [INFO] [*] Starting daily technical analysis...
+2026-08-14 09:07:16,857 [INFO] [+] [macd_momentum] BOUGHT 22 TELIA.ST
+2026-08-14 09:07:19,899 [INFO] [*] Daily analysis complete.
+2026-08-14 09:07:19,899 [INFO] [*] Checking for live news...
+2026-08-14 09:07:24,969 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
