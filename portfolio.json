@@ -73,14 +73,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 577.856227197647,
+        "cash": 1457.6511967563629,
         "positions": {
-            "HM-B.ST": {
-                "shares": 5,
-                "buy_price": 168.89999389648438,
-                "high_price": 168.89999389648438,
-                "buy_time": "2026-06-30 10:57"
-            },
             "SINCH.ST": {
                 "shares": 24,
                 "buy_price": 40.81999969482422,
