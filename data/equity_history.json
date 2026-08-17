@@ -848,5 +848,15 @@
         "timestamp": "2026-08-17 08:43",
         "strategy": "rsi_reversion",
         "value": 5864.25
+    },
+    {
+        "timestamp": "2026-08-17 09:41",
+        "strategy": "rsi_reversion",
+        "value": 5856.34
+    },
+    {
+        "timestamp": "2026-08-17 09:41",
+        "strategy": "rsi_reversion",
+        "value": 5853.9
     }
 ]

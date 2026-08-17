@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2061.68653282702,
+        "cash": 2351.743983998895,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
@@ -53,17 +53,17 @@
                 "high_price": 14.619999885559082,
                 "buy_time": "2026-07-14 09:58"
             },
-            "ABB.ST": {
-                "shares": 1,
-                "buy_price": 954.7999877929688,
-                "high_price": 954.7999877929688,
-                "buy_time": "2026-07-23 16:26"
-            },
             "BETCO.ST": {
                 "shares": 8,
                 "buy_price": 119.4000015258789,
                 "high_price": 119.4000015258789,
                 "buy_time": "2026-08-17 08:43"
+            },
+            "VOLV-B.ST": {
+                "shares": 2,
+                "buy_price": 340.70001220703125,
+                "high_price": 340.70001220703125,
+                "buy_time": "2026-08-17 09:41"
             }
         }
     },

@@ -4302,3 +4302,23 @@
 2026-08-17 08:43:39,254 [INFO] [*] Daily analysis complete.
 2026-08-17 08:43:39,255 [INFO] [*] Checking for live news...
 2026-08-17 08:43:44,819 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-17 09:41:21,573 [INFO] [*] Loaded strategy: sma_trend
+2026-08-17 09:41:21,582 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-17 09:41:21,583 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-17 09:41:21,584 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-17 09:41:21,585 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-17 09:41:21,586 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-17 09:41:21,586 [INFO] [*] Starting daily technical analysis...
+2026-08-17 09:41:22,047 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=5d)
+2026-08-17 09:41:22,502 [ERROR] 
+1 Failed download:
+2026-08-17 09:41:22,502 [ERROR] ['FING-B.ST']: possibly delisted; no price data found  (period=5d)
+2026-08-17 09:41:22,511 [INFO] [+] [rsi_reversion] BOUGHT 2 VOLV-B.ST
+2026-08-17 09:41:24,001 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=5d)
+2026-08-17 09:41:24,122 [ERROR] 
+1 Failed download:
+2026-08-17 09:41:24,122 [ERROR] ['FING-B.ST']: possibly delisted; no price data found  (period=5d)
+2026-08-17 09:41:24,129 [INFO] [-] [rsi_reversion] SOLD ABB.ST
+2026-08-17 09:41:25,830 [INFO] [*] Daily analysis complete.
+2026-08-17 09:41:25,830 [INFO] [*] Checking for live news...
+2026-08-17 09:41:29,784 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
