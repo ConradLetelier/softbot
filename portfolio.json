@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 3019.274545064569,
+        "cash": 2061.68653282702,
         "positions": {
             "TELIA.ST": {
                 "shares": 20,
@@ -58,6 +58,12 @@
                 "buy_price": 954.7999877929688,
                 "high_price": 954.7999877929688,
                 "buy_time": "2026-07-23 16:26"
+            },
+            "BETCO.ST": {
+                "shares": 8,
+                "buy_price": 119.4000015258789,
+                "high_price": 119.4000015258789,
+                "buy_time": "2026-08-17 08:43"
             }
         }
     },
