@@ -4903,3 +4903,20 @@
 2026-08-21 17:22:29,399 [INFO] [*] Daily analysis complete.
 2026-08-21 17:22:29,399 [INFO] [*] Checking for live news...
 2026-08-21 17:22:36,165 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-24 08:48:25,499 [INFO] [*] Loaded strategy: sma_trend
+2026-08-24 08:48:25,507 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-24 08:48:25,507 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-24 08:48:25,508 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-24 08:48:25,509 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-24 08:48:25,509 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-24 08:48:25,509 [INFO] [*] Starting daily technical analysis...
+2026-08-24 08:48:27,476 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=5d)
+2026-08-24 08:48:27,663 [ERROR] 
+1 Failed download:
+2026-08-24 08:48:27,663 [ERROR] ['FING-B.ST']: possibly delisted; no price data found  (period=5d)
+2026-08-24 08:48:27,670 [INFO] [+] [rsi_reversion] BOUGHT 2 INVE-B.ST
+2026-08-24 08:48:31,201 [INFO] [-] [sma_trend] SOLD SWED-A.ST
+2026-08-24 08:48:32,144 [INFO] [+] [sma_trend] BOUGHT 22 SINCH.ST
+2026-08-24 08:48:32,775 [INFO] [*] Daily analysis complete.
+2026-08-24 08:48:32,775 [INFO] [*] Checking for live news...
+2026-08-24 08:48:37,874 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
