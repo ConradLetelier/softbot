@@ -4950,3 +4950,14 @@
 2026-08-24 11:28:52,171 [INFO] [*] Daily analysis complete.
 2026-08-24 11:28:52,171 [INFO] [*] Checking for live news...
 2026-08-24 11:28:55,651 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-08-24 11:56:42,653 [INFO] [*] Loaded strategy: sma_trend
+2026-08-24 11:56:42,663 [INFO] [*] Loaded strategy: news_sentiment
+2026-08-24 11:56:42,664 [INFO] [*] Loaded strategy: rsi_reversion
+2026-08-24 11:56:42,665 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-08-24 11:56:42,666 [INFO] [*] Loaded strategy: macd_momentum
+2026-08-24 11:56:42,666 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-08-24 11:56:42,667 [INFO] [*] Starting daily technical analysis...
+2026-08-24 11:56:45,984 [INFO] [+] [bollinger_reversion] BOUGHT 2 SWED-A.ST
+2026-08-24 11:56:47,012 [INFO] [*] Daily analysis complete.
+2026-08-24 11:56:47,012 [INFO] [*] Checking for live news...
+2026-08-24 11:56:50,859 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
