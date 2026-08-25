@@ -74,14 +74,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4044.9979966682195,
+        "cash": 5054.238610176444,
         "positions": {
-            "TELIA.ST": {
-                "shares": 23,
-                "buy_price": 43.060001373291016,
-                "high_price": 43.060001373291016,
-                "buy_time": "2026-08-05 15:14"
-            },
             "SWED-A.ST": {
                 "shares": 2,
                 "buy_price": 367.70001220703125,
