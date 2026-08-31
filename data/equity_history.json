@@ -898,5 +898,10 @@
         "timestamp": "2026-08-27 18:54",
         "strategy": "macd_momentum",
         "value": 4483.24
+    },
+    {
+        "timestamp": "2026-08-31 15:54",
+        "strategy": "bollinger_reversion",
+        "value": 5804.34
     }
 ]
