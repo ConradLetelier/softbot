@@ -74,14 +74,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4133.191735176444,
+        "cash": 4886.902710823417,
         "positions": {
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 367.70001220703125,
-                "high_price": 367.70001220703125,
-                "buy_time": "2026-08-24 11:56"
-            },
             "CAST.ST": {
                 "shares": 7,
                 "buy_price": 131.25,
