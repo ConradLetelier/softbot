@@ -1,13 +1,7 @@
 {
     "sma_trend": {
-        "cash": 722.4619885063166,
+        "cash": 713.7194579124446,
         "positions": {
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 381.04998779296875,
-                "high_price": 381.04998779296875,
-                "buy_time": "2026-04-23 17:21"
-            },
             "SEB-A.ST": {
                 "shares": 5,
                 "buy_price": 180.4499969482422,
@@ -26,11 +20,17 @@
                 "high_price": 45.2400016784668,
                 "buy_time": "2026-08-24 08:48"
             },
-            "SAND.ST": {
+            "SKF-B.ST": {
+                "shares": 3,
+                "buy_price": 264.6000061035156,
+                "high_price": 264.6000061035156,
+                "buy_time": "2026-09-02 12:36"
+            },
+            "SWED-A.ST": {
                 "shares": 2,
-                "buy_price": 373.8999938964844,
-                "high_price": 373.8999938964844,
-                "buy_time": "2026-09-01 17:22"
+                "buy_price": 377.6000061035156,
+                "high_price": 377.6000061035156,
+                "buy_time": "2026-09-02 12:36"
             }
         }
     },
@@ -74,25 +74,25 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4886.902710823417,
+        "cash": 4075.8802108234167,
         "positions": {
             "CAST.ST": {
                 "shares": 7,
                 "buy_price": 131.25,
                 "high_price": 131.25,
                 "buy_time": "2026-08-31 15:54"
+            },
+            "INVE-B.ST": {
+                "shares": 2,
+                "buy_price": 404.5,
+                "high_price": 404.5,
+                "buy_time": "2026-09-02 12:36"
             }
         }
     },
     "macd_momentum": {
-        "cash": 456.7974314594268,
+        "cash": 1520.9304497241974,
         "positions": {
-            "SINCH.ST": {
-                "shares": 24,
-                "buy_price": 40.81999969482422,
-                "high_price": 40.81999969482422,
-                "buy_time": "2026-07-29 13:00"
-            },
             "ERIC-B.ST": {
                 "shares": 10,
                 "buy_price": 96.23999786376953,

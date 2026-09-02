@@ -5338,3 +5338,19 @@
 2026-09-01 19:43:30,006 [INFO] [*] Daily analysis complete.
 2026-09-01 19:43:30,006 [INFO] [*] Checking for live news...
 2026-09-01 19:43:34,078 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-09-02 12:36:11,488 [INFO] [*] Loaded strategy: sma_trend
+2026-09-02 12:36:11,497 [INFO] [*] Loaded strategy: news_sentiment
+2026-09-02 12:36:11,498 [INFO] [*] Loaded strategy: rsi_reversion
+2026-09-02 12:36:11,499 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-09-02 12:36:11,500 [INFO] [*] Loaded strategy: macd_momentum
+2026-09-02 12:36:11,501 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-09-02 12:36:11,501 [INFO] [*] Starting daily technical analysis...
+2026-09-02 12:36:12,621 [INFO] [-] [sma_trend] SOLD INVE-B.ST
+2026-09-02 12:36:12,896 [INFO] [+] [bollinger_reversion] BOUGHT 2 INVE-B.ST
+2026-09-02 12:36:15,827 [INFO] [+] [sma_trend] BOUGHT 3 SKF-B.ST
+2026-09-02 12:36:16,588 [INFO] [-] [sma_trend] SOLD SAND.ST
+2026-09-02 12:36:17,178 [INFO] [+] [sma_trend] BOUGHT 2 SWED-A.ST
+2026-09-02 12:36:17,725 [INFO] [-] [macd_momentum] SOLD SINCH.ST
+2026-09-02 12:36:18,204 [INFO] [*] Daily analysis complete.
+2026-09-02 12:36:18,205 [INFO] [*] Checking for live news...
+2026-09-02 12:36:23,429 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
