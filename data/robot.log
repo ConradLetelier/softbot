@@ -5374,3 +5374,14 @@
 2026-09-02 19:36:16,281 [INFO] [*] Daily analysis complete.
 2026-09-02 19:36:16,281 [INFO] [*] Checking for live news...
 2026-09-02 19:36:22,479 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-09-03 12:38:43,052 [INFO] [*] Loaded strategy: sma_trend
+2026-09-03 12:38:43,062 [INFO] [*] Loaded strategy: news_sentiment
+2026-09-03 12:38:43,063 [INFO] [*] Loaded strategy: rsi_reversion
+2026-09-03 12:38:43,064 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-09-03 12:38:43,065 [INFO] [*] Loaded strategy: macd_momentum
+2026-09-03 12:38:43,066 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-09-03 12:38:43,066 [INFO] [*] Starting daily technical analysis...
+2026-09-03 12:38:46,745 [INFO] [+] [macd_momentum] BOUGHT 8 BETCO.ST
+2026-09-03 12:38:46,913 [INFO] [*] Daily analysis complete.
+2026-09-03 12:38:46,913 [INFO] [*] Checking for live news...
+2026-09-03 12:38:51,214 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
