@@ -91,7 +91,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 1490.602413072586,
+        "cash": 665.0436630725859,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 10,
@@ -110,6 +110,12 @@
                 "buy_price": 193.8000030517578,
                 "high_price": 193.8000030517578,
                 "buy_time": "2026-08-27 18:54"
+            },
+            "SKF-B.ST": {
+                "shares": 3,
+                "buy_price": 274.5,
+                "high_price": 274.5,
+                "buy_time": "2026-09-04 19:15"
             }
         }
     },
