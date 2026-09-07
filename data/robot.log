@@ -5452,3 +5452,14 @@
 2026-09-07 14:01:48,135 [INFO] [*] Daily analysis complete.
 2026-09-07 14:01:48,135 [INFO] [*] Checking for live news...
 2026-09-07 14:01:52,461 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
+2026-09-07 18:48:46,348 [INFO] [*] Loaded strategy: sma_trend
+2026-09-07 18:48:46,357 [INFO] [*] Loaded strategy: news_sentiment
+2026-09-07 18:48:46,358 [INFO] [*] Loaded strategy: rsi_reversion
+2026-09-07 18:48:46,359 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-09-07 18:48:46,360 [INFO] [*] Loaded strategy: macd_momentum
+2026-09-07 18:48:46,361 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-09-07 18:48:46,361 [INFO] [*] Starting daily technical analysis...
+2026-09-07 18:48:49,165 [INFO] [-] [macd_momentum] SOLD SKF-B.ST
+2026-09-07 18:48:50,695 [INFO] [*] Daily analysis complete.
+2026-09-07 18:48:50,695 [INFO] [*] Checking for live news...
+2026-09-07 18:48:54,190 [ERROR] $FING-B.ST: possibly delisted; no price data found  (period=1d)
