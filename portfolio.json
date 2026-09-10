@@ -74,7 +74,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 4075.8802108234167,
+        "cash": 3087.3149241107703,
         "positions": {
             "CAST.ST": {
                 "shares": 7,
@@ -87,6 +87,12 @@
                 "buy_price": 404.5,
                 "high_price": 404.5,
                 "buy_time": "2026-09-02 12:36"
+            },
+            "HM-B.ST": {
+                "shares": 6,
+                "buy_price": 164.35000610351562,
+                "high_price": 164.35000610351562,
+                "buy_time": "2026-09-10 16:54"
             }
         }
     },
