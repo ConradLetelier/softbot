@@ -988,5 +988,15 @@
         "timestamp": "2026-09-10 16:54",
         "strategy": "bollinger_reversion",
         "value": 5787.87
+    },
+    {
+        "timestamp": "2026-09-14 14:47",
+        "strategy": "bollinger_reversion",
+        "value": 5780.4
+    },
+    {
+        "timestamp": "2026-09-14 14:47",
+        "strategy": "bollinger_reversion",
+        "value": 5778.01
     }
 ]
