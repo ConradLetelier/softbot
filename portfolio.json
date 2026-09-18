@@ -109,7 +109,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 781.6526265430449,
+        "cash": 1771.920766763687,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 10,
@@ -122,12 +122,6 @@
                 "buy_price": 43.709999084472656,
                 "high_price": 43.709999084472656,
                 "buy_time": "2026-08-14 09:07"
-            },
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 193.8000030517578,
-                "high_price": 193.8000030517578,
-                "buy_time": "2026-08-27 18:54"
             },
             "VOLV-B.ST": {
                 "shares": 2,
