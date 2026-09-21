@@ -5768,3 +5768,18 @@
 2026-09-21 14:53:53,823 [INFO] [*] Checking for live news...
 2026-09-21 14:53:58,456 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-09-21 14:53:58,685 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-09-21 19:52:57,707 [INFO] [*] Loaded strategy: sma_trend
+2026-09-21 19:52:57,714 [INFO] [*] Loaded strategy: news_sentiment
+2026-09-21 19:52:57,715 [INFO] [*] Loaded strategy: rsi_reversion
+2026-09-21 19:52:57,716 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-09-21 19:52:57,716 [INFO] [*] Loaded strategy: macd_momentum
+2026-09-21 19:52:57,717 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-09-21 19:52:57,717 [INFO] [*] Starting daily technical analysis...
+2026-09-21 19:53:01,532 [INFO] [-] [bollinger_reversion] SOLD ATCO-A.ST
+2026-09-21 19:53:02,880 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-09-21 19:53:03,247 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-09-21 19:53:03,933 [INFO] [+] [bollinger_reversion] BOUGHT 8 BETCO.ST
+2026-09-21 19:53:04,134 [INFO] [*] Daily analysis complete.
+2026-09-21 19:53:04,134 [INFO] [*] Checking for live news...
+2026-09-21 19:53:10,367 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-09-21 19:53:10,626 [ERROR] $FING-B.ST: No data found, symbol may be delisted
