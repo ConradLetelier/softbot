@@ -109,7 +109,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 1771.920766763687,
+        "cash": 958.2917912387846,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 10,
@@ -128,22 +128,22 @@
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
+            },
+            "NDA-SE.ST": {
+                "shares": 4,
+                "buy_price": 202.89999389648438,
+                "high_price": 202.89999389648438,
+                "buy_time": "2026-09-21 14:53"
             }
         }
     },
     "small_cap_volatility": {
-        "cash": 302.93485669136055,
+        "cash": 1126.8698566913604,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 391.1499938964844,
                 "high_price": 391.1499938964844,
-                "buy_time": "2026-06-18 18:16"
-            },
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 355.6000061035156,
-                "high_price": 355.6000061035156,
                 "buy_time": "2026-06-18 18:16"
             },
             "SEB-A.ST": {
