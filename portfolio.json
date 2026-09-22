@@ -74,19 +74,13 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1214.311640165448,
+        "cash": 2029.7180273419617,
         "positions": {
             "CAST.ST": {
                 "shares": 7,
                 "buy_price": 131.25,
                 "high_price": 131.25,
                 "buy_time": "2026-08-31 15:54"
-            },
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 404.5,
-                "high_price": 404.5,
-                "buy_time": "2026-09-02 12:36"
             },
             "HM-B.ST": {
                 "shares": 6,
@@ -109,7 +103,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 958.2917912387846,
+        "cash": 138.79815400123584,
         "positions": {
             "ERIC-B.ST": {
                 "shares": 10,
@@ -134,6 +128,12 @@
                 "buy_price": 202.89999389648438,
                 "high_price": 202.89999389648438,
                 "buy_time": "2026-09-21 14:53"
+            },
+            "INVE-B.ST": {
+                "shares": 2,
+                "buy_price": 408.7250061035156,
+                "high_price": 408.7250061035156,
+                "buy_time": "2026-09-22 13:09"
             }
         }
     },
