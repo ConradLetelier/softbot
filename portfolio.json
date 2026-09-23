@@ -103,42 +103,30 @@
         }
     },
     "macd_momentum": {
-        "cash": 138.79815400123584,
+        "cash": 1915.0397517108918,
         "positions": {
-            "ERIC-B.ST": {
-                "shares": 10,
-                "buy_price": 96.23999786376953,
-                "high_price": 96.23999786376953,
-                "buy_time": "2026-07-29 16:51"
-            },
-            "TELIA.ST": {
-                "shares": 22,
-                "buy_price": 43.709999084472656,
-                "high_price": 43.709999084472656,
-                "buy_time": "2026-08-14 09:07"
-            },
             "VOLV-B.ST": {
                 "shares": 2,
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
             },
-            "NDA-SE.ST": {
-                "shares": 4,
-                "buy_price": 202.89999389648438,
-                "high_price": 202.89999389648438,
-                "buy_time": "2026-09-21 14:53"
-            },
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 408.7250061035156,
                 "high_price": 408.7250061035156,
                 "buy_time": "2026-09-22 13:09"
+            },
+            "SINCH.ST": {
+                "shares": 19,
+                "buy_price": 51.099998474121094,
+                "high_price": 51.099998474121094,
+                "buy_time": "2026-09-23 13:24"
             }
         }
     },
     "small_cap_volatility": {
-        "cash": 1126.8698566913604,
+        "cash": 2248.259323205948,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
@@ -157,12 +145,6 @@
                 "buy_price": 194.85000610351562,
                 "high_price": 194.85000610351562,
                 "buy_time": "2026-08-04 15:55"
-            },
-            "SINCH.ST": {
-                "shares": 22,
-                "buy_price": 43.7400016784668,
-                "high_price": 43.7400016784668,
-                "buy_time": "2026-08-07 13:49"
             }
         }
     }
