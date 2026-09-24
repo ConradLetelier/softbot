@@ -132,7 +132,7 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1272.6463499546053,
+        "cash": 287.69009995460533,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
@@ -157,6 +157,12 @@
                 "buy_price": 51.220001220703125,
                 "high_price": 51.220001220703125,
                 "buy_time": "2026-09-23 17:54"
+            },
+            "G5EN.ST": {
+                "shares": 15,
+                "buy_price": 65.5,
+                "high_price": 65.5,
+                "buy_time": "2026-09-24 17:54"
             }
         }
     }
