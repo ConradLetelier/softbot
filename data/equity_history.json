@@ -1083,5 +1083,20 @@
         "timestamp": "2026-09-28 16:31",
         "strategy": "small_cap_volatility",
         "value": 4922.99
+    },
+    {
+        "timestamp": "2026-10-01 15:09",
+        "strategy": "macd_momentum",
+        "value": 4285.74
+    },
+    {
+        "timestamp": "2026-10-01 15:09",
+        "strategy": "sma_trend",
+        "value": 5434.58
+    },
+    {
+        "timestamp": "2026-10-01 15:09",
+        "strategy": "sma_trend",
+        "value": 5432.17
     }
 ]

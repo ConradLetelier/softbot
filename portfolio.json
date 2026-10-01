@@ -1,18 +1,12 @@
 {
     "sma_trend": {
-        "cash": 713.7194579124446,
+        "cash": 709.8142476081841,
         "positions": {
             "SEB-A.ST": {
                 "shares": 5,
                 "buy_price": 180.4499969482422,
                 "high_price": 180.4499969482422,
                 "buy_time": "2026-04-23 17:21"
-            },
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 175.3000030517578,
-                "high_price": 175.3000030517578,
-                "buy_time": "2026-06-09 13:59"
             },
             "SINCH.ST": {
                 "shares": 22,
@@ -31,6 +25,12 @@
                 "buy_price": 377.6000061035156,
                 "high_price": 377.6000061035156,
                 "buy_time": "2026-09-02 12:36"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 960.5999755859375,
+                "high_price": 960.5999755859375,
+                "buy_time": "2026-10-01 15:09"
             }
         }
     },
@@ -109,19 +109,13 @@
         }
     },
     "macd_momentum": {
-        "cash": 2788.9395382785797,
+        "cash": 3587.737526102066,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 2,
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
-            },
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 408.7250061035156,
-                "high_price": 408.7250061035156,
-                "buy_time": "2026-09-22 13:09"
             }
         }
     },
