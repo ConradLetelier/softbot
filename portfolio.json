@@ -109,13 +109,19 @@
         }
     },
     "macd_momentum": {
-        "cash": 3587.737526102066,
+        "cash": 2760.374257745743,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 2,
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
+            },
+            "SKF-B.ST": {
+                "shares": 3,
+                "buy_price": 275.1000061035156,
+                "high_price": 275.1000061035156,
+                "buy_time": "2026-10-05 16:51"
             }
         }
     },

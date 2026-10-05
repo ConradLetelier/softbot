@@ -1098,5 +1098,10 @@
         "timestamp": "2026-10-01 15:09",
         "strategy": "sma_trend",
         "value": 5432.17
+    },
+    {
+        "timestamp": "2026-10-05 16:51",
+        "strategy": "macd_momentum",
+        "value": 4210.87
     }
 ]
