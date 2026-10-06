@@ -6176,3 +6176,17 @@
 2026-10-05 23:02:39,866 [INFO] [*] Checking for live news...
 2026-10-05 23:02:45,491 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-10-05 23:02:45,792 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-06 14:47:20,615 [INFO] [*] Loaded strategy: sma_trend
+2026-10-06 14:47:20,622 [INFO] [*] Loaded strategy: news_sentiment
+2026-10-06 14:47:20,623 [INFO] [*] Loaded strategy: rsi_reversion
+2026-10-06 14:47:20,624 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-10-06 14:47:20,624 [INFO] [*] Loaded strategy: macd_momentum
+2026-10-06 14:47:20,625 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-10-06 14:47:20,625 [INFO] [*] Starting daily technical analysis...
+2026-10-06 14:47:21,721 [INFO] [+] [macd_momentum] BOUGHT 2 INVE-B.ST
+2026-10-06 14:47:25,443 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-06 14:47:25,741 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-06 14:47:26,337 [INFO] [*] Daily analysis complete.
+2026-10-06 14:47:26,337 [INFO] [*] Checking for live news...
+2026-10-06 14:47:33,044 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-06 14:47:33,235 [ERROR] [!] Error on FING-B.ST (Live News): Too Many Requests. Rate limited. Try after a while.
