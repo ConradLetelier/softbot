@@ -1,24 +1,12 @@
 {
     "sma_trend": {
-        "cash": 1631.7592415809627,
+        "cash": 3692.594256801605,
         "positions": {
-            "SEB-A.ST": {
-                "shares": 5,
-                "buy_price": 180.4499969482422,
-                "high_price": 180.4499969482422,
-                "buy_time": "2026-04-23 17:21"
-            },
             "SWED-A.ST": {
                 "shares": 2,
                 "buy_price": 377.6000061035156,
                 "high_price": 377.6000061035156,
                 "buy_time": "2026-09-02 12:36"
-            },
-            "ABB.ST": {
-                "shares": 1,
-                "buy_price": 960.5999755859375,
-                "high_price": 960.5999755859375,
-                "buy_time": "2026-10-01 15:09"
             },
             "ATCO-A.ST": {
                 "shares": 4,
@@ -68,19 +56,13 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1084.7615059262512,
+        "cash": 1118.927877958417,
         "positions": {
             "CAST.ST": {
                 "shares": 7,
                 "buy_price": 131.25,
                 "high_price": 131.25,
                 "buy_time": "2026-08-31 15:54"
-            },
-            "HM-B.ST": {
-                "shares": 6,
-                "buy_price": 164.35000610351562,
-                "high_price": 164.35000610351562,
-                "buy_time": "2026-09-10 16:54"
             },
             "SBB-B.ST": {
                 "shares": 349,
@@ -99,23 +81,23 @@
                 "buy_price": 94.26000213623047,
                 "high_price": 94.26000213623047,
                 "buy_time": "2026-09-24 13:18"
+            },
+            "NDA-SE.ST": {
+                "shares": 5,
+                "buy_price": 187.4499969482422,
+                "high_price": 187.4499969482422,
+                "buy_time": "2026-10-08 15:16"
             }
         }
     },
     "macd_momentum": {
-        "cash": 962.7915016269684,
+        "cash": 801.9507212162018,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 2,
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
-            },
-            "SKF-B.ST": {
-                "shares": 3,
-                "buy_price": 275.1000061035156,
-                "high_price": 275.1000061035156,
-                "buy_time": "2026-10-05 16:51"
             },
             "INVE-B.ST": {
                 "shares": 2,
@@ -128,6 +110,12 @@
                 "buy_price": 162.1999969482422,
                 "high_price": 162.1999969482422,
                 "buy_time": "2026-10-07 20:42"
+            },
+            "ERIC-B.ST": {
+                "shares": 10,
+                "buy_price": 94.63999938964844,
+                "high_price": 94.63999938964844,
+                "buy_time": "2026-10-08 15:16"
             }
         }
     },

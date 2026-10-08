@@ -1128,5 +1128,35 @@
         "timestamp": "2026-10-07 20:42",
         "strategy": "sma_trend",
         "value": 5349.56
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "sma_trend",
+        "value": 5312.56
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "bollinger_reversion",
+        "value": 5304.7
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "macd_momentum",
+        "value": 4158.13
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "bollinger_reversion",
+        "value": 5302.36
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "sma_trend",
+        "value": 5310.19
+    },
+    {
+        "timestamp": "2026-10-08 15:16",
+        "strategy": "macd_momentum",
+        "value": 4156.05
     }
 ]
