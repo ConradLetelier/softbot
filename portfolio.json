@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 3692.594256801605,
+        "cash": 997.2727812767024,
         "positions": {
             "SWED-A.ST": {
                 "shares": 2,
@@ -13,6 +13,24 @@
                 "buy_price": 206.6999969482422,
                 "high_price": 206.6999969482422,
                 "buy_time": "2026-10-07 20:42"
+            },
+            "INVE-B.ST": {
+                "shares": 2,
+                "buy_price": 411.8999938964844,
+                "high_price": 411.8999938964844,
+                "buy_time": "2026-10-09 15:01"
+            },
+            "SEB-A.ST": {
+                "shares": 4,
+                "buy_price": 227.1999969482422,
+                "high_price": 227.1999969482422,
+                "buy_time": "2026-10-09 15:01"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 956.0,
+                "high_price": 956.0,
+                "buy_time": "2026-10-09 15:01"
             }
         }
     },
@@ -56,7 +74,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1118.927877958417,
+        "cash": 2076.3284114438293,
         "positions": {
             "CAST.ST": {
                 "shares": 7,
@@ -75,12 +93,6 @@
                 "buy_price": 113.80000305175781,
                 "high_price": 113.80000305175781,
                 "buy_time": "2026-09-21 19:53"
-            },
-            "ERIC-B.ST": {
-                "shares": 10,
-                "buy_price": 94.26000213623047,
-                "high_price": 94.26000213623047,
-                "buy_time": "2026-09-24 13:18"
             },
             "NDA-SE.ST": {
                 "shares": 5,
