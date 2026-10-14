@@ -1193,5 +1193,15 @@
         "timestamp": "2026-10-14 13:22",
         "strategy": "sma_trend",
         "value": 5310.56
+    },
+    {
+        "timestamp": "2026-10-14 18:06",
+        "strategy": "sma_trend",
+        "value": 5291.39
+    },
+    {
+        "timestamp": "2026-10-14 18:06",
+        "strategy": "sma_trend",
+        "value": 5288.92
     }
 ]
