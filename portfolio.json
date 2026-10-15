@@ -1,18 +1,12 @@
 {
     "sma_trend": {
-        "cash": 1003.3736541652675,
+        "cash": 1800.1766419887538,
         "positions": {
             "SWED-A.ST": {
                 "shares": 2,
                 "buy_price": 377.6000061035156,
                 "high_price": 377.6000061035156,
                 "buy_time": "2026-09-02 12:36"
-            },
-            "ATCO-A.ST": {
-                "shares": 4,
-                "buy_price": 206.6999969482422,
-                "high_price": 206.6999969482422,
-                "buy_time": "2026-10-07 20:42"
             },
             "INVE-B.ST": {
                 "shares": 2,
@@ -39,7 +33,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 1583.3469076973206,
+        "cash": 1541.0031271797425,
         "positions": {
             "FING-B.ST": {
                 "shares": 68,
@@ -65,23 +59,17 @@
                 "high_price": 411.95001220703125,
                 "buy_time": "2026-08-24 08:48"
             },
-            "HM-B.ST": {
+            "NDA-SE.ST": {
                 "shares": 5,
-                "buy_price": 167.3000030517578,
-                "high_price": 167.3000030517578,
-                "buy_time": "2026-09-09 12:46"
+                "buy_price": 177.5500030517578,
+                "high_price": 177.5500030517578,
+                "buy_time": "2026-10-15 13:07"
             }
         }
     },
     "bollinger_reversion": {
-        "cash": 1203.551935918927,
+        "cash": 2073.222332227826,
         "positions": {
-            "CAST.ST": {
-                "shares": 7,
-                "buy_price": 131.25,
-                "high_price": 131.25,
-                "buy_time": "2026-08-31 15:54"
-            },
             "SBB-B.ST": {
                 "shares": 349,
                 "buy_price": 2.8550000190734863,
@@ -138,7 +126,7 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1161.5898865222935,
+        "cash": 1084.8708879756932,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
@@ -152,17 +140,17 @@
                 "high_price": 223.3000030517578,
                 "buy_time": "2026-07-31 17:05"
             },
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 194.85000610351562,
-                "high_price": 194.85000610351562,
-                "buy_time": "2026-08-04 15:55"
-            },
             "G5EN.ST": {
                 "shares": 15,
                 "buy_price": 65.5,
                 "high_price": 65.5,
                 "buy_time": "2026-09-24 17:54"
+            },
+            "ERIC-B.ST": {
+                "shares": 9,
+                "buy_price": 106.6500015258789,
+                "high_price": 106.6500015258789,
+                "buy_time": "2026-10-15 13:07"
             }
         }
     }

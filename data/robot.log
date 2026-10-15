@@ -6443,3 +6443,30 @@
 2026-10-14 20:23:39,008 [INFO] [*] Checking for live news...
 2026-10-14 20:23:45,000 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-10-14 20:23:45,205 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-15 13:07:21,389 [INFO] [*] Loaded strategy: sma_trend
+2026-10-15 13:07:21,395 [INFO] [*] Loaded strategy: news_sentiment
+2026-10-15 13:07:21,396 [INFO] [*] Loaded strategy: rsi_reversion
+2026-10-15 13:07:21,397 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-10-15 13:07:21,398 [INFO] [*] Loaded strategy: macd_momentum
+2026-10-15 13:07:21,398 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-10-15 13:07:21,398 [INFO] [*] Starting daily technical analysis...
+2026-10-15 13:07:24,318 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-15 13:07:24,795 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-15 13:07:24,803 [ERROR] 
+1 Failed download:
+2026-10-15 13:07:24,803 [ERROR] ['FING-B.ST']: No data found, symbol may be delisted
+2026-10-15 13:07:24,809 [INFO] [-] [rsi_reversion] SOLD HM-B.ST
+2026-10-15 13:07:25,622 [INFO] [+] [small_cap_volatility] BOUGHT 9 ERIC-B.ST
+2026-10-15 13:07:26,271 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-15 13:07:26,901 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-15 13:07:26,909 [ERROR] 
+1 Failed download:
+2026-10-15 13:07:26,910 [ERROR] ['FING-B.ST']: No data found, symbol may be delisted
+2026-10-15 13:07:26,916 [INFO] [+] [rsi_reversion] BOUGHT 5 NDA-SE.ST
+2026-10-15 13:07:27,272 [INFO] [-] [small_cap_volatility] SOLD NDA-SE.ST
+2026-10-15 13:07:29,103 [INFO] [-] [sma_trend] SOLD ATCO-A.ST
+2026-10-15 13:07:30,181 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-15 13:07:30,995 [INFO] [-] [bollinger_reversion] SOLD CAST.ST
+2026-10-15 13:07:30,996 [INFO] [*] Daily analysis complete.
+2026-10-15 13:07:30,996 [INFO] [*] Checking for live news...
+2026-10-15 13:07:39,281 [ERROR] $FING-B.ST: No data found, symbol may be delisted
