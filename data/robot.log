@@ -6536,3 +6536,17 @@
 2026-10-16 19:47:05,819 [INFO] [*] Checking for live news...
 2026-10-16 19:47:11,695 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-10-16 19:47:11,951 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-19 15:19:14,968 [INFO] [*] Loaded strategy: sma_trend
+2026-10-19 15:19:14,978 [INFO] [*] Loaded strategy: news_sentiment
+2026-10-19 15:19:14,980 [INFO] [*] Loaded strategy: rsi_reversion
+2026-10-19 15:19:14,981 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-10-19 15:19:14,982 [INFO] [*] Loaded strategy: macd_momentum
+2026-10-19 15:19:14,982 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-10-19 15:19:14,983 [INFO] [*] Starting daily technical analysis...
+2026-10-19 15:19:19,031 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-19 15:19:19,341 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-19 15:19:19,892 [INFO] [+] [sma_trend] BOUGHT 15 G5EN.ST
+2026-10-19 15:19:20,333 [INFO] [*] Daily analysis complete.
+2026-10-19 15:19:20,334 [INFO] [*] Checking for live news...
+2026-10-19 15:19:25,789 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-19 15:19:26,022 [ERROR] $FING-B.ST: No data found, symbol may be delisted
