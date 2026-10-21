@@ -1243,5 +1243,15 @@
         "timestamp": "2026-10-19 15:19",
         "strategy": "sma_trend",
         "value": 5214.33
+    },
+    {
+        "timestamp": "2026-10-21 13:30",
+        "strategy": "rsi_reversion",
+        "value": 5467.47
+    },
+    {
+        "timestamp": "2026-10-21 13:30",
+        "strategy": "rsi_reversion",
+        "value": 5465.32
     }
 ]

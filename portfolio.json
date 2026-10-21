@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 1541.0031271797425,
+        "cash": 1514.3601637703186,
         "positions": {
             "FING-B.ST": {
                 "shares": 68,
@@ -59,17 +59,17 @@
                 "high_price": 340.70001220703125,
                 "buy_time": "2026-08-17 09:41"
             },
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 411.95001220703125,
-                "high_price": 411.95001220703125,
-                "buy_time": "2026-08-24 08:48"
-            },
             "NDA-SE.ST": {
                 "shares": 5,
                 "buy_price": 177.5500030517578,
                 "high_price": 177.5500030517578,
                 "buy_time": "2026-10-15 13:07"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 859.7999877929688,
+                "high_price": 859.7999877929688,
+                "buy_time": "2026-10-21 13:30"
             }
         }
     },
