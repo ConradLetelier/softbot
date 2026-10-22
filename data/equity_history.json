@@ -1278,5 +1278,20 @@
         "timestamp": "2026-10-22 13:32",
         "strategy": "small_cap_volatility",
         "value": 4621.65
+    },
+    {
+        "timestamp": "2026-10-22 18:21",
+        "strategy": "sma_trend",
+        "value": 5128.39
+    },
+    {
+        "timestamp": "2026-10-22 18:21",
+        "strategy": "small_cap_volatility",
+        "value": 4627.54
+    },
+    {
+        "timestamp": "2026-10-22 18:21",
+        "strategy": "bollinger_reversion",
+        "value": 5138.11
     }
 ]
