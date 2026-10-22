@@ -1253,5 +1253,30 @@
         "timestamp": "2026-10-21 13:30",
         "strategy": "rsi_reversion",
         "value": 5465.32
+    },
+    {
+        "timestamp": "2026-10-22 13:31",
+        "strategy": "small_cap_volatility",
+        "value": 4623.05
+    },
+    {
+        "timestamp": "2026-10-22 13:32",
+        "strategy": "sma_trend",
+        "value": 5135.78
+    },
+    {
+        "timestamp": "2026-10-22 13:32",
+        "strategy": "sma_trend",
+        "value": 5133.86
+    },
+    {
+        "timestamp": "2026-10-22 13:32",
+        "strategy": "sma_trend",
+        "value": 5132.18
+    },
+    {
+        "timestamp": "2026-10-22 13:32",
+        "strategy": "small_cap_volatility",
+        "value": 4621.65
     }
 ]

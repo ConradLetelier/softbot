@@ -1,24 +1,12 @@
 {
     "sma_trend": {
-        "cash": 800.1828919887538,
+        "cash": 1430.8811512279503,
         "positions": {
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 377.6000061035156,
-                "high_price": 377.6000061035156,
-                "buy_time": "2026-09-02 12:36"
-            },
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 411.8999938964844,
                 "high_price": 411.8999938964844,
                 "buy_time": "2026-10-09 15:01"
-            },
-            "SKF-B.ST": {
-                "shares": 3,
-                "buy_price": 271.3999938964844,
-                "high_price": 271.3999938964844,
-                "buy_time": "2026-10-14 13:22"
             },
             "SINCH.ST": {
                 "shares": 21,
@@ -31,6 +19,12 @@
                 "buy_price": 66.5,
                 "high_price": 66.5,
                 "buy_time": "2026-10-19 15:19"
+            },
+            "CAST.ST": {
+                "shares": 7,
+                "buy_price": 131.6999969482422,
+                "high_price": 131.6999969482422,
+                "buy_time": "2026-10-22 13:32"
             }
         }
     },
@@ -138,19 +132,13 @@
         }
     },
     "small_cap_volatility": {
-        "cash": 1084.8708879756932,
+        "cash": 985.0001837444311,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 391.1499938964844,
                 "high_price": 391.1499938964844,
                 "buy_time": "2026-06-18 18:16"
-            },
-            "SEB-A.ST": {
-                "shares": 4,
-                "buy_price": 223.3000030517578,
-                "high_price": 223.3000030517578,
-                "buy_time": "2026-07-31 17:05"
             },
             "G5EN.ST": {
                 "shares": 15,
@@ -163,6 +151,12 @@
                 "buy_price": 106.6500015258789,
                 "high_price": 106.6500015258789,
                 "buy_time": "2026-10-15 13:07"
+            },
+            "CAST.ST": {
+                "shares": 7,
+                "buy_price": 131.6999969482422,
+                "high_price": 131.6999969482422,
+                "buy_time": "2026-10-22 13:32"
             }
         }
     }

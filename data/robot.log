@@ -6664,3 +6664,21 @@
 2026-10-21 20:25:44,336 [INFO] [*] Checking for live news...
 2026-10-21 20:25:54,372 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-10-21 20:25:54,597 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-22 13:31:56,540 [INFO] [*] Loaded strategy: sma_trend
+2026-10-22 13:31:56,552 [INFO] [*] Loaded strategy: news_sentiment
+2026-10-22 13:31:56,553 [INFO] [*] Loaded strategy: rsi_reversion
+2026-10-22 13:31:56,554 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-10-22 13:31:56,555 [INFO] [*] Loaded strategy: macd_momentum
+2026-10-22 13:31:56,556 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-10-22 13:31:56,556 [INFO] [*] Starting daily technical analysis...
+2026-10-22 13:31:58,123 [INFO] [-] [small_cap_volatility] SOLD SEB-A.ST
+2026-10-22 13:32:00,063 [INFO] [-] [sma_trend] SOLD SKF-B.ST
+2026-10-22 13:32:01,483 [INFO] [-] [sma_trend] SOLD SWED-A.ST
+2026-10-22 13:32:02,457 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-22 13:32:02,832 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-10-22 13:32:03,725 [INFO] [+] [sma_trend] BOUGHT 7 CAST.ST
+2026-10-22 13:32:04,342 [INFO] [+] [small_cap_volatility] BOUGHT 7 CAST.ST
+2026-10-22 13:32:04,343 [INFO] [*] Daily analysis complete.
+2026-10-22 13:32:04,343 [INFO] [*] Checking for live news...
+2026-10-22 13:32:11,535 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-10-22 13:32:11,823 [ERROR] $FING-B.ST: No data found, symbol may be delisted
