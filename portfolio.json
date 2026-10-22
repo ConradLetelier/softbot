@@ -62,7 +62,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 2062.4059518927334,
+        "cash": 1170.1809518927334,
         "positions": {
             "BETCO.ST": {
                 "shares": 8,
@@ -87,6 +87,12 @@
                 "buy_price": 915.4000244140625,
                 "high_price": 915.4000244140625,
                 "buy_time": "2026-10-15 17:50"
+            },
+            "ATCO-A.ST": {
+                "shares": 5,
+                "buy_price": 178.0,
+                "high_price": 178.0,
+                "buy_time": "2026-10-22 20:22"
             }
         }
     },
