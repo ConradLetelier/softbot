@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 3209.263998107909,
+        "cash": 595.0046770191183,
         "positions": {
             "G5EN.ST": {
                 "shares": 15,
@@ -13,6 +13,24 @@
                 "buy_price": 131.6999969482422,
                 "high_price": 131.6999969482422,
                 "buy_time": "2026-10-22 13:32"
+            },
+            "INVE-B.ST": {
+                "shares": 2,
+                "buy_price": 412.0,
+                "high_price": 412.0,
+                "buy_time": "2026-10-23 17:56"
+            },
+            "SKF-B.ST": {
+                "shares": 3,
+                "buy_price": 269.5,
+                "high_price": 269.5,
+                "buy_time": "2026-10-23 17:56"
+            },
+            "SINCH.ST": {
+                "shares": 21,
+                "buy_price": 46.439998626708984,
+                "high_price": 46.439998626708984,
+                "buy_time": "2026-10-23 17:56"
             }
         }
     },
@@ -56,7 +74,7 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1771.0749762457608,
+        "cash": 1011.1799762457608,
         "positions": {
             "NDA-SE.ST": {
                 "shares": 5,
@@ -81,6 +99,12 @@
                 "buy_price": 178.0,
                 "high_price": 178.0,
                 "buy_time": "2026-10-22 20:22"
+            },
+            "SWED-A.ST": {
+                "shares": 2,
+                "buy_price": 379.0,
+                "high_price": 379.0,
+                "buy_time": "2026-10-23 17:56"
             }
         }
     },
