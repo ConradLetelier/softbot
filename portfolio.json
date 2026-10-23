@@ -1,13 +1,7 @@
 {
     "sma_trend": {
-        "cash": 2246.935876874923,
+        "cash": 3209.263998107909,
         "positions": {
-            "SINCH.ST": {
-                "shares": 21,
-                "buy_price": 47.04999923706055,
-                "high_price": 47.04999923706055,
-                "buy_time": "2026-10-14 18:06"
-            },
             "G5EN.ST": {
                 "shares": 15,
                 "buy_price": 66.5,
@@ -62,14 +56,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1170.1809518927334,
+        "cash": 1771.0749762457608,
         "positions": {
-            "BETCO.ST": {
-                "shares": 8,
-                "buy_price": 113.80000305175781,
-                "high_price": 113.80000305175781,
-                "buy_time": "2026-09-21 19:53"
-            },
             "NDA-SE.ST": {
                 "shares": 5,
                 "buy_price": 187.4499969482422,
@@ -97,19 +85,13 @@
         }
     },
     "macd_momentum": {
-        "cash": 801.9507212162018,
+        "cash": 1617.5066968631745,
         "positions": {
             "VOLV-B.ST": {
                 "shares": 2,
                 "buy_price": 349.0,
                 "high_price": 349.0,
                 "buy_time": "2026-09-07 20:20"
-            },
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 409.95001220703125,
-                "high_price": 409.95001220703125,
-                "buy_time": "2026-10-06 14:47"
             },
             "HM-B.ST": {
                 "shares": 6,
