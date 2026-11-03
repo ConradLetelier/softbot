@@ -7002,3 +7002,36 @@
 2026-11-02 23:46:08,238 [ERROR] [!] Error on G5EN.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
 2026-11-02 23:46:08,630 [ERROR] [!] Error on BETCO.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
 2026-11-02 23:46:08,967 [ERROR] [!] Error on CAST.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:26,855 [INFO] [*] Loaded strategy: sma_trend
+2026-11-03 15:53:26,866 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-03 15:53:26,867 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-03 15:53:26,867 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-03 15:53:26,868 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-03 15:53:26,869 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-03 15:53:26,869 [INFO] [*] Starting daily technical analysis...
+2026-11-03 15:53:29,353 [INFO] [+] [sma_trend] BOUGHT 20 TELIA.ST
+2026-11-03 15:53:31,270 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-03 15:53:31,580 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-03 15:53:31,908 [INFO] [*] Daily analysis complete.
+2026-11-03 15:53:31,908 [INFO] [*] Checking for live news...
+2026-11-03 15:53:32,196 [ERROR] [!] Error on VOLV-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:32,410 [ERROR] [!] Error on INVE-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:32,664 [ERROR] [!] Error on SEB-A.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:32,871 [ERROR] [!] Error on AZN.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:33,146 [ERROR] [!] Error on HM-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:33,432 [ERROR] [!] Error on ERIC-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:33,692 [ERROR] [!] Error on NDA-SE.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:34,004 [ERROR] [!] Error on TELIA.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:34,260 [ERROR] [!] Error on ABB.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:34,512 [ERROR] [!] Error on SKF-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:34,770 [ERROR] [!] Error on ALIV-SDB.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:35,075 [ERROR] [!] Error on ATCO-A.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:35,337 [ERROR] [!] Error on SAND.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:35,663 [ERROR] [!] Error on SWED-A.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:35,898 [ERROR] [!] Error on SBB-B.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:36,166 [ERROR] [!] Error on SINCH.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:36,381 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-03 15:53:36,608 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-03 15:53:36,805 [ERROR] [!] Error on G5EN.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:36,986 [ERROR] [!] Error on BETCO.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 15:53:37,236 [ERROR] [!] Error on CAST.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***

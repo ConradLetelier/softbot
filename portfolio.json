@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 1551.4675238227833,
+        "cash": 571.0224932289112,
         "positions": {
             "G5EN.ST": {
                 "shares": 15,
@@ -25,6 +25,12 @@
                 "buy_price": 269.5,
                 "high_price": 269.5,
                 "buy_time": "2026-10-23 17:56"
+            },
+            "TELIA.ST": {
+                "shares": 20,
+                "buy_price": 48.900001525878906,
+                "high_price": 48.900001525878906,
+                "buy_time": "2026-11-03 15:53"
             }
         }
     },
