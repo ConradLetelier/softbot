@@ -7035,3 +7035,16 @@
 2026-11-03 15:53:36,805 [ERROR] [!] Error on G5EN.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
 2026-11-03 15:53:36,986 [ERROR] [!] Error on BETCO.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
 2026-11-03 15:53:37,236 [ERROR] [!] Error on CAST.ST (Live News): *** YAHOO! FINANCE IS CURRENTLY DOWN! ***
+2026-11-03 21:32:49,176 [INFO] [*] Loaded strategy: sma_trend
+2026-11-03 21:32:49,185 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-03 21:32:49,186 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-03 21:32:49,187 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-03 21:32:49,188 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-03 21:32:49,189 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-03 21:32:49,189 [INFO] [*] Starting daily technical analysis...
+2026-11-03 21:32:53,453 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-03 21:32:53,813 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-03 21:32:54,374 [INFO] [*] Daily analysis complete.
+2026-11-03 21:32:54,375 [INFO] [*] Checking for live news...
+2026-11-03 21:33:00,324 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-03 21:33:00,588 [ERROR] $FING-B.ST: No data found, symbol may be delisted
