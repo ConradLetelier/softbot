@@ -74,20 +74,8 @@
         }
     },
     "bollinger_reversion": {
-        "cash": 1011.1799762457608,
+        "cash": 3567.024336025119,
         "positions": {
-            "NDA-SE.ST": {
-                "shares": 5,
-                "buy_price": 187.4499969482422,
-                "high_price": 187.4499969482422,
-                "buy_time": "2026-10-08 15:16"
-            },
-            "SEB-A.ST": {
-                "shares": 4,
-                "buy_price": 217.64999389648438,
-                "high_price": 217.64999389648438,
-                "buy_time": "2026-10-14 13:22"
-            },
             "ABB.ST": {
                 "shares": 1,
                 "buy_price": 915.4000244140625,
@@ -99,12 +87,6 @@
                 "buy_price": 178.0,
                 "high_price": 178.0,
                 "buy_time": "2026-10-22 20:22"
-            },
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 379.0,
-                "high_price": 379.0,
-                "buy_time": "2026-10-23 17:56"
             }
         }
     },
