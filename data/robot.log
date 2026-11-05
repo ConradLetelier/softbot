@@ -7103,3 +7103,18 @@
 2026-11-04 22:20:58,237 [INFO] [*] Checking for live news...
 2026-11-04 22:21:03,802 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-11-04 22:21:04,002 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-05 22:11:05,713 [INFO] [*] Loaded strategy: sma_trend
+2026-11-05 22:11:05,723 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-05 22:11:05,724 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-05 22:11:05,725 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-05 22:11:05,726 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-05 22:11:05,727 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-05 22:11:05,727 [INFO] [*] Starting daily technical analysis...
+2026-11-05 22:11:07,159 [INFO] [-] [macd_momentum] SOLD ERIC-B.ST
+2026-11-05 22:11:08,773 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-05 22:11:08,971 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-05 22:11:09,353 [INFO] [+] [macd_momentum] BOUGHT 14 G5EN.ST
+2026-11-05 22:11:09,669 [INFO] [*] Daily analysis complete.
+2026-11-05 22:11:09,669 [INFO] [*] Checking for live news...
+2026-11-05 22:11:14,673 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-05 22:11:14,816 [ERROR] $FING-B.ST: No data found, symbol may be delisted
