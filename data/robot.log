@@ -7175,3 +7175,16 @@
 2026-11-06 21:54:31,977 [INFO] [*] Checking for live news...
 2026-11-06 21:54:37,243 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-11-06 21:54:37,439 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-10 00:30:50,203 [INFO] [*] Loaded strategy: sma_trend
+2026-11-10 00:30:50,212 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-10 00:30:50,213 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-10 00:30:50,214 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-10 00:30:50,215 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-10 00:30:50,216 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-10 00:30:50,216 [INFO] [*] Starting daily technical analysis...
+2026-11-10 00:30:53,812 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-10 00:30:54,067 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-10 00:30:54,528 [INFO] [*] Daily analysis complete.
+2026-11-10 00:30:54,528 [INFO] [*] Checking for live news...
+2026-11-10 00:30:59,372 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-10 00:30:59,565 [ERROR] $FING-B.ST: No data found, symbol may be delisted
