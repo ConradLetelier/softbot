@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 2413.606428990961,
+        "cash": 1414.875869374872,
         "positions": {
             "FING-B.ST": {
                 "shares": 68,
@@ -64,23 +64,23 @@
                 "buy_price": 859.7999877929688,
                 "high_price": 859.7999877929688,
                 "buy_time": "2026-10-21 13:30"
+            },
+            "SINCH.ST": {
+                "shares": 24,
+                "buy_price": 41.5099983215332,
+                "high_price": 41.5099983215332,
+                "buy_time": "2026-11-10 16:09"
             }
         }
     },
     "bollinger_reversion": {
-        "cash": 3567.024336025119,
+        "cash": 4515.148116466403,
         "positions": {
             "ABB.ST": {
                 "shares": 1,
                 "buy_price": 915.4000244140625,
                 "high_price": 915.4000244140625,
                 "buy_time": "2026-10-15 17:50"
-            },
-            "ATCO-A.ST": {
-                "shares": 5,
-                "buy_price": 178.0,
-                "high_price": 178.0,
-                "buy_time": "2026-10-22 20:22"
             }
         }
     },
