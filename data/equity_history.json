@@ -1398,5 +1398,10 @@
         "timestamp": "2026-11-10 16:09",
         "strategy": "rsi_reversion",
         "value": 5408.68
+    },
+    {
+        "timestamp": "2026-11-11 15:54",
+        "strategy": "rsi_reversion",
+        "value": 5462.1
     }
 ]

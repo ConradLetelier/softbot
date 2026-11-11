@@ -39,7 +39,7 @@
         "positions": {}
     },
     "rsi_reversion": {
-        "cash": 1414.875869374872,
+        "cash": 2059.859345021845,
         "positions": {
             "FING-B.ST": {
                 "shares": 68,
@@ -52,12 +52,6 @@
                 "buy_price": 119.4000015258789,
                 "high_price": 119.4000015258789,
                 "buy_time": "2026-08-17 08:43"
-            },
-            "VOLV-B.ST": {
-                "shares": 2,
-                "buy_price": 340.70001220703125,
-                "high_price": 340.70001220703125,
-                "buy_time": "2026-08-17 09:41"
             },
             "ABB.ST": {
                 "shares": 1,
