@@ -79,26 +79,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 738.5012365436554,
+        "cash": 3348.6594987201693,
         "positions": {
-            "HM-B.ST": {
-                "shares": 6,
-                "buy_price": 162.1999969482422,
-                "high_price": 162.1999969482422,
-                "buy_time": "2026-10-07 20:42"
-            },
-            "INVE-B.ST": {
-                "shares": 2,
-                "buy_price": 417.29998779296875,
-                "high_price": 417.29998779296875,
-                "buy_time": "2026-10-26 14:53"
-            },
-            "SAND.ST": {
-                "shares": 2,
-                "buy_price": 360.20001220703125,
-                "high_price": 360.20001220703125,
-                "buy_time": "2026-10-28 14:53"
-            },
             "G5EN.ST": {
                 "shares": 14,
                 "buy_price": 68.5999984741211,
