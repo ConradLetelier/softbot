@@ -7397,3 +7397,22 @@
 2026-11-17 23:42:53,652 [INFO] [*] Checking for live news...
 2026-11-17 23:42:58,042 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-11-17 23:42:58,229 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-18 16:58:42,380 [INFO] [*] Loaded strategy: sma_trend
+2026-11-18 16:58:42,385 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-18 16:58:42,386 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-18 16:58:42,386 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-18 16:58:42,387 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-18 16:58:42,388 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-18 16:58:42,388 [INFO] [*] Starting daily technical analysis...
+2026-11-18 16:58:46,736 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-18 16:58:47,323 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-18 16:58:47,324 [ERROR] 
+1 Failed download:
+2026-11-18 16:58:47,324 [ERROR] ['FING-B.ST']: No data found, symbol may be delisted
+2026-11-18 16:58:47,330 [INFO] [+] [rsi_reversion] BOUGHT 2 SAND.ST
+2026-11-18 16:58:47,513 [INFO] [+] [bollinger_reversion] BOUGHT 2 SAND.ST
+2026-11-18 16:58:48,529 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-18 16:58:48,799 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-18 16:58:49,326 [INFO] [*] Daily analysis complete.
+2026-11-18 16:58:49,326 [INFO] [*] Checking for live news...
+2026-11-18 16:58:53,826 [ERROR] $FING-B.ST: No data found, symbol may be delisted

@@ -1418,5 +1418,15 @@
         "timestamp": "2026-11-17 17:25",
         "strategy": "macd_momentum",
         "value": 4309.06
+    },
+    {
+        "timestamp": "2026-11-18 16:58",
+        "strategy": "rsi_reversion",
+        "value": 5356.83
+    },
+    {
+        "timestamp": "2026-11-18 16:58",
+        "strategy": "bollinger_reversion",
+        "value": 5336.68
     }
 ]
