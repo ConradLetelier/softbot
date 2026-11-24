@@ -109,14 +109,8 @@
         }
     },
     "macd_momentum": {
-        "cash": 2350.4782573354246,
+        "cash": 3361.5442786443236,
         "positions": {
-            "G5EN.ST": {
-                "shares": 14,
-                "buy_price": 68.5999984741211,
-                "high_price": 68.5999984741211,
-                "buy_time": "2026-11-05 22:11"
-            },
             "SBB-B.ST": {
                 "shares": 458,
                 "buy_price": 2.1740000247955322,
