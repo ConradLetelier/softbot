@@ -1,6 +1,6 @@
 {
     "sma_trend": {
-        "cash": 465.37849916458015,
+        "cash": 1257.5930113410939,
         "positions": {
             "G5EN.ST": {
                 "shares": 15,
@@ -24,12 +24,6 @@
                 "shares": 5,
                 "buy_price": 178.10000610351562,
                 "high_price": 178.10000610351562,
-                "buy_time": "2026-11-20 16:45"
-            },
-            "SWED-A.ST": {
-                "shares": 2,
-                "buy_price": 403.5,
-                "high_price": 403.5,
                 "buy_time": "2026-11-20 16:45"
             }
         }
