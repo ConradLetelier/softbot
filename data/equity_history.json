@@ -1478,5 +1478,20 @@
         "timestamp": "2026-11-25 18:28",
         "strategy": "sma_trend",
         "value": 5198.99
+    },
+    {
+        "timestamp": "2026-11-26 18:10",
+        "strategy": "macd_momentum",
+        "value": 4486.24
+    },
+    {
+        "timestamp": "2026-11-26 18:10",
+        "strategy": "sma_trend",
+        "value": 5221.11
+    },
+    {
+        "timestamp": "2026-11-26 18:10",
+        "strategy": "macd_momentum",
+        "value": 4483.94
     }
 ]
