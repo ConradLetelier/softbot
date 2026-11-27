@@ -109,7 +109,7 @@
         }
     },
     "macd_momentum": {
-        "cash": 1458.9496475255494,
+        "cash": 648.5286230504518,
         "positions": {
             "SBB-B.ST": {
                 "shares": 458,
@@ -128,23 +128,23 @@
                 "buy_price": 184.14999389648438,
                 "high_price": 184.14999389648438,
                 "buy_time": "2026-11-26 18:10"
+            },
+            "ABB.ST": {
+                "shares": 1,
+                "buy_price": 808.4000244140625,
+                "high_price": 808.4000244140625,
+                "buy_time": "2026-11-27 17:53"
             }
         }
     },
     "small_cap_volatility": {
-        "cash": 17.387217397690392,
+        "cash": 1181.4697630596168,
         "positions": {
             "INVE-B.ST": {
                 "shares": 2,
                 "buy_price": 391.1499938964844,
                 "high_price": 391.1499938964844,
                 "buy_time": "2026-06-18 18:16"
-            },
-            "G5EN.ST": {
-                "shares": 15,
-                "buy_price": 65.5,
-                "high_price": 65.5,
-                "buy_time": "2026-09-24 17:54"
             },
             "ERIC-B.ST": {
                 "shares": 9,

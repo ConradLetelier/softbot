@@ -7598,3 +7598,18 @@
 2026-11-27 00:55:00,771 [INFO] [*] Checking for live news...
 2026-11-27 00:55:04,785 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
 2026-11-27 00:55:04,929 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-27 17:53:10,459 [INFO] [*] Loaded strategy: sma_trend
+2026-11-27 17:53:10,469 [INFO] [*] Loaded strategy: news_sentiment
+2026-11-27 17:53:10,470 [INFO] [*] Loaded strategy: rsi_reversion
+2026-11-27 17:53:10,471 [INFO] [*] Loaded strategy: bollinger_reversion
+2026-11-27 17:53:10,472 [INFO] [*] Loaded strategy: macd_momentum
+2026-11-27 17:53:10,473 [INFO] [*] Loaded strategy: small_cap_volatility
+2026-11-27 17:53:10,473 [INFO] [*] Starting daily technical analysis...
+2026-11-27 17:53:12,843 [INFO] [+] [macd_momentum] BOUGHT 1 ABB.ST
+2026-11-27 17:53:14,482 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-27 17:53:14,823 [ERROR] $FING-B.ST: No data found, symbol may be delisted
+2026-11-27 17:53:15,225 [INFO] [-] [small_cap_volatility] SOLD G5EN.ST
+2026-11-27 17:53:15,516 [INFO] [*] Daily analysis complete.
+2026-11-27 17:53:15,517 [INFO] [*] Checking for live news...
+2026-11-27 17:53:20,577 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FING-B.ST"}}}
+2026-11-27 17:53:20,818 [ERROR] $FING-B.ST: No data found, symbol may be delisted

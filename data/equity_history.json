@@ -1493,5 +1493,15 @@
         "timestamp": "2026-11-26 18:10",
         "strategy": "macd_momentum",
         "value": 4483.94
+    },
+    {
+        "timestamp": "2026-11-27 17:53",
+        "strategy": "macd_momentum",
+        "value": 4531.5
+    },
+    {
+        "timestamp": "2026-11-27 17:53",
+        "strategy": "small_cap_volatility",
+        "value": 4969.32
     }
 ]
